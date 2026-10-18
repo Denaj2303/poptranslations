@@ -2,11 +2,31 @@
 
 `subtitles/<game>/<language>.json` beside `openjade.exe`, where `<game>` is
 `sot`, `ww` or `t2t`. The game lists every `.json` file in its folder under
-**Game Options → Subtitle Language**, showing the file's `language` name; the
-same page sets Subtitles, Show Subtitles (Full or Cutscenes Only), Speaker
-Names and Subtitle Size. Edit
-the files with any text editor and save them as UTF-8; the game reads them at
-startup, so restart it after a change.
+**Options → Language → Subtitle Language**, showing the file's `language`
+name; the same page sets Subtitles, Show Subtitles (Full or Cutscenes Only),
+Speaker Names and Subtitle Size. Edit the files with any text editor and save
+them as UTF-8; the game reads them at startup, so restart it after a change.
+
+Without a chosen subtitle language the subtitles follow the text language.
+Retail WW subtitles its cinematics, movies and some level one-liners itself;
+`ww/en.json` covers the gameplay dialogue it leaves unsubtitled.
+
+## Text, voices and movies
+
+The Language page also chooses:
+
+- **Text Language** (front end only): the languages the game's data holds.
+  SoT and WW keep in-game text for every Retail language in `prince.bf`, but
+  their menus in one `POPData.bf`; a translated `POPData_<name>.bf` beside it
+  supplies another language's menus (its `[General] Language` names it). T2T
+  reads both from `Menu/<LANGUAGE>/`, e.g. `Menu/FRENCH/`.
+- **Voice Language**: every `sound/<language>/` folder of `Sound/SoundLocal.FAT`
+  and of further `Sound/SoundLocal_<name>.FAT`/`.BIG` pairs. Without a choice,
+  voices follow the text language.
+- Movies follow the voice pack: `SoundLocal_<name>` plays the files of
+  `Video_<name>/` first (same layout as `Video/`) and the rest from `Video/`.
+  CGI cinematics play the Bink audio track of the voice language when the movie
+  has one.
 
 ## Adding a language
 
