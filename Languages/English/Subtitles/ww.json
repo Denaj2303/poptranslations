@@ -43,6 +43,7 @@
     "Video.Borderless": "Borderless",
     "Video.Windowed": "Windowed",
     "Video.FOV": "FOV",
+    "Video.ApplyFOVToCutscenes": "Apply FOV to cutscenes",
     "Video.SpeedKillBlur": "Speed kill blur",
     "Video.Letterboxing": "Letterboxing",
     "Video.Brightness": "Brightness",
