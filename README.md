@@ -283,19 +283,6 @@ Install them like an edition: copy only the files the translation changes.
 A translation that patches your game folder in place becomes your Retail
 language. A pack keeps the original language available as well.
 
-#### Upgrading from older builds
-
-Older builds used different locations. Move the files as follows, then
-delete the old ones:
-
-| Older location | New location |
-| --- | --- |
-| `Sound/soundlocal_<Name>.FAT` and `.BIG` | `Languages/<Name>/Sound/SoundLocal.FAT` and `.BIG` |
-| `subtitles/<game>/<code>.json` | `Languages/<Name>/Subtitles/<game>.json` |
-
-Remove the `"language"` field from moved subtitle files. The folder name now
-names the language.
-
 ### Letters and fonts
 
 - **SoT and WW** use 8-bit fonts in their edition's code page. The Polish
