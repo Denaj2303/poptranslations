@@ -3,7 +3,9 @@
 Everything that makes up a language lives in one folder per language:
 `Languages/<Name>/` beside `openjade.exe`. This covers translated text, voices,
 movies and subtitles. The folder's name is the name the menus show.
-`Languages/English/` ships with the game and holds the English subtitles.
+`Languages/English/`, `Languages/Deutsch/`, `Languages/Français/` and
+`Languages/Русский/` hold subtitles for all three games. `Languages/Polski/`
+holds subtitles for SoT and T2T.
 
 **Options → Language** chooses every language the game uses. It saves the
 choices in `settings.ini` beside `openjade.exe`. A row appears only when there
@@ -64,9 +66,10 @@ folder's own language is the default language:
 - Some editions name English even though they are translated, such as the
   Polish WW and T2T editions. Those show as "English".
 
-The shipped subtitles are English. On a non-English installation, none show
-until its language has a subtitle file. Add one in the folder named after the
-language, in its own name or in English, such as
+This repository includes English, German, French and Russian subtitles for
+all three games, plus Polish subtitles for SoT and T2T. Other languages need
+a subtitle file in the folder named after the language, in its own name or
+in English, such as
 `Languages/Polski/Subtitles/sot.json`.
 
 To add English, or any other language, install that edition as a pack. For
