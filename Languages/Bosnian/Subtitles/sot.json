@@ -410,7 +410,7 @@
       "speaker": "Prince",
       "type": "narration",
       "trigger": ["MenuInGame: MenuInGameAI (AI script, event 0B0017)"],
-      "text": "Ne ne, ne, tNi to se nije desilo. Daj da počnem ispočetka."
+      "text": "Ne ne, ne, Ni to se nije desilo. Daj da počnem ispočetka."
     },
     {
       "sound": "0B0023",
@@ -6118,8 +6118,8 @@
         {"start": 41.7, "end": 46.52, "speaker": "Farah", "text": "Rekla sam da ti dugujem zahvalnost. Previše trčim pred."},
         {"start": 50.3, "end": 56.45, "speaker": "Farah", "text": "Da li stvarno mislis da sam dijete, i da ću vjerovati u takve besmislice??"},
         {"start": 57.5, "end": 61.53, "speaker": "Princ", "text": "U pravu si. To je bila samo priča."},
-        {"start": 65.8, "end": 69.51, "speaker": "Farah", "text": "Wait! I don't even know your name."},
-        {"start": 70.4, "end": 74.48, "speaker": "Princ", "text": "Just call me... Kakolookiyam."}
+        {"start": 65.8, "end": 69.51, "speaker": "Farah", "text": "Stani! Ne znam ti ni ime."},
+        {"start": 70.4, "end": 74.48, "speaker": "Princ", "text": "Zovem se... Kakolookiyam."}
       ]
     }
   ]
