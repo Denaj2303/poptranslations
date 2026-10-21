@@ -3682,6 +3682,994 @@
       "type": "dialogue",
       "trigger": ["No static reference in the game data; started by engine or script code (events 350006)"],
       "text": "Tu ne peux changer ton destin. Nul ne le peut."
+    },
+    {
+      "table": "2F008F11",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 101"],
+      "cues": [
+        {"start": 5.0, "duration": 3.0, "text": "Tu n'atteindras jamais nos rivages vivant !"},
+        {"start": 8.0, "duration": 3.0, "text": "Tu crois ça ! Tu ferais mieux de fuir."}
+      ]
+    },
+    {
+      "table": "2F008F14",
+      "type": "cutscene",
+      "trigger": [],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Il semble que l'Impératrice ait\n surestimé tes pouvoirs !"},
+        {"start": 4.0, "duration": 1.0, "text": "L'Impératrice ?"}
+      ]
+    },
+    {
+      "table": "2F008F17",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 103"],
+      "cues": [
+        {"start": 2.5, "duration": 1.0, "text": "Espèce de garce !"}
+      ]
+    },
+    {
+      "table": "2F00A53D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1"],
+      "cues": [
+        {"start": 1.0, "duration": 10.0, "text": "Je dois faire vite et confronter\n l'Impératrice. Espérons qu'elle n'a pas\n encore achevé son œuvre."}
+      ]
+    },
+    {
+      "table": "2F00A552",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 201"],
+      "cues": [
+        {"start": 21.5, "duration": 2.5, "text": "Mes épées !... Disparues."}
+      ]
+    },
+    {
+      "table": "2F00A553",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 202"],
+      "cues": [
+        {"start": 5.0, "duration": 4.0, "text": "Malgré toutes les prédictions,\n j'ai vaincu l'Impératrice et"},
+        {"start": 9.0, "duration": 2.0, "text": "empêché la création des\n Sables du Temps."},
+        {"start": 11.5, "duration": 2.5, "text": "J'ai vaincu le Dahaka ainsi que le destin !"},
+        {"start": 18.5, "duration": 3.0, "text": "Il est temps de quitter ce maudit rocher."},
+        {"start": 26.5, "duration": 2.0, "text": "Non, non, non !"}
+      ]
+    },
+    {
+      "table": "2F00A554",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 401"],
+      "cues": [
+        {"start": 8.5, "duration": 3.5, "text": "Allez, je sais que tu te caches."},
+        {"start": 13.0, "duration": 2.0, "text": "Montre-toi !"},
+        {"start": 16.0, "duration": 2.0, "text": "Dans mon pays,\n on fait face à l'ennemi…"},
+        {"start": 21.0, "duration": 3.0, "text": "Et si notre ennemi est sans arme,\n on lui en amène une."},
+        {"start": 30.0, "duration": 1.5, "text": "Tuez-le !"}
+      ]
+    },
+    {
+      "table": "2F00A555",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 402"],
+      "cues": [
+        {"start": 7.5, "duration": 4.5, "text": "Qu'est-ce que c'est ?\n Impossible de traverser avec ça.\n Mais ça peut être utile."}
+      ]
+    },
+    {
+      "table": "2F00A556",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 452"],
+      "cues": [
+        {"start": 0.1, "duration": 3.0, "text": "On dirait que j'ai découvert l'une\n des chambres à voyager dans le\n temps dont le vieil homme a parlé."}
+      ]
+    },
+    {
+      "table": "2F00A557",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 453"],
+      "cues": [
+        {"start": 0.1, "duration": 2.9, "text": "J'ai réussi à semer\n le Dahaka… pour le moment."},
+        {"start": 3.0, "duration": 5.0, "text": "Je ferais mieux d'être sur mes gardes.\n Il va revenir. Il revient toujours."}
+      ]
+    },
+    {
+      "table": "2F00A558",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 4541"],
+      "cues": [
+        {"start": 8.5, "duration": 2.0, "text": "Quel genre de créature\n est-ce donc ?"}
+      ]
+    },
+    {
+      "table": "2F00A559",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 4542"],
+      "cues": [
+        {"start": 13.5, "duration": 4.0, "text": "J'ai sauvé ma propre vie\n sans le savoir !"}
+      ]
+    },
+    {
+      "table": "2F00A55A",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 455"],
+      "cues": [
+        {"start": 0.1, "duration": 3.4, "text": "C'est comme si le château tout\n entier tremblait sous la peine causée\n par la perte de sa maîtresse."},
+        {"start": 3.5, "duration": 5.0, "text": "Qu'il la pleure !\n Je serai bientôt loin de\n ce maudit endroit."}
+      ]
+    },
+    {
+      "table": "2F00A55B",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 551"],
+      "cues": [
+        {"start": 0.1, "duration": 3.0, "text": "Je ferais mieux de trouver cette femme…\n Elle a probablement été\n chercher des renforts !"}
+      ]
+    },
+    {
+      "table": "2F00A55C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 552"],
+      "cues": [
+        {"start": 0.1, "duration": 0.0, "text": "Un instant !"}
+      ]
+    },
+    {
+      "table": "2F00A55D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 5541"],
+      "cues": [
+        {"start": 1.5, "duration": 1.5, "text": "Oh… C'est vous."},
+        {"start": 5.0, "duration": 2.0, "text": "Vous paraissez surprise\n de me voir…"},
+        {"start": 8.0, "duration": 3.5, "text": "Je m'étonne seulement que vous\n persistiez à prolonger l'inévitable."},
+        {"start": 11.5, "duration": 1.5, "text": "Pourquoi m'avez-vous aidé ?"},
+        {"start": 13.5, "duration": 4.5, "text": "Je… je ne sais pas.\n En partie parce que vous me\n rappelez l'Impératrice…"},
+        {"start": 18.0, "duration": 2.0, "text": "ou plutôt ce qu'elle devrait être…"},
+        {"start": 20.5, "duration": 1.5, "text": "Que voulez-vous dire ?"},
+        {"start": 22.0, "duration": 4.0, "text": "Comme vous, elle connaît son destin.\n Elle l'a vu dans la Ligne du Temps."},
+        {"start": 26.0, "duration": 5.0, "text": "Mais vous vous battez alors\n qu'elle s'est soumise. Elle l'accepte."},
+        {"start": 31.0, "duration": 4.0, "text": "Le savoir est source de pouvoir…\n mais pour moi, ce n'est qu'un poison."},
+        {"start": 35.0, "duration": 3.0, "text": "Connaître la date et les\n circonstances de sa mort la tourmente."},
+        {"start": 39.0, "duration": 3.0, "text": "Plus elle s'en approche,\n plus elle souffre."},
+        {"start": 42.0, "duration": 3.0, "text": "Vous voudriez qu'elle lutte\n contre le destin tout comme moi ?"},
+        {"start": 45.0, "duration": 3.0, "text": "Au moins ça lui donnerait\n une raison d'espérer."},
+        {"start": 48.0, "duration": 5.0, "text": "Mais ce n'est\n qu'une partie de la raison, voyons.\n Quelle est l'autre partie ?"},
+        {"start": 54.0, "duration": 4.0, "text": "J'ai toujours su que la\n Ligne du Temps ne pouvait\n être altérée…"},
+        {"start": 59.0, "duration": 2.0, "text": "Et pourtant, quelque chose\n en moi souhaite que vous réussissiez."},
+        {"start": 61.0, "duration": 1.0, "text": "Vous pensez que j'ai une chance ?"},
+        {"start": 63.0, "duration": 3.0, "text": "Non. Mais je vous admire d'essayer."},
+        {"start": 67.0, "duration": 7.0, "text": "Merci… Votre nom…\n Je ne connais pas votre nom…\n Je suis si…"},
+        {"start": 74.0, "duration": 5.0, "text": "C'est Kaileena. Allez-y…"}
+      ]
+    },
+    {
+      "table": "2F00A55E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 5551"],
+      "cues": [
+        {"start": 0.1, "duration": 1.9, "text": "Le Dahaka !\n Il m'a retrouvé dans le passé !"},
+        {"start": 2.0, "duration": 2.0, "text": "Je n'ai pas le temps pour ça !"}
+      ]
+    },
+    {
+      "table": "2F00A55F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 5552"],
+      "cues": [
+        {"start": 1.5, "duration": 1.5, "text": "Dis-moi que ce n'est pas trop tard."},
+        {"start": 4.0, "duration": 2.0, "text": "Tout se passe comme dans le passé."},
+        {"start": 7.0, "duration": 2.0, "text": "Non ! Je ne dois pas le\n laisser passer !"},
+        {"start": 15.0, "duration": 1.0, "text": "Pardonne-moi…"},
+        {"start": 19.0, "duration": 2.0, "text": "Le Masque. Il se détache!"}
+      ]
+    },
+    {
+      "table": "2F00A560",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 556"],
+      "cues": [
+        {"start": 18.0, "duration": 1.0, "text": "… trop tôt…"},
+        {"start": 26.5, "duration": 3.5, "text": "Son navire approche.\n Juste comme l'avait prédit\n la Ligne du Temps."},
+        {"start": 30.5, "duration": 1.5, "text": "Toutes mes excuses,\n Impératrice."},
+        {"start": 32.5, "duration": 1.5, "text": "Tu as suivi mes ordres ?"},
+        {"start": 34.0, "duration": 2.0, "text": "L'équipage est au complet\n et le navire est prêt."},
+        {"start": 37.0, "duration": 5.0, "text": "Prenez la mer.\n J'ai activé les portails de l'île.\n Rejoignez son espace temps."},
+        {"start": 42.0, "duration": 4.0, "text": "Et arraisonnez leur navire.\n Et tuez-le, tuez-les tous !"},
+        {"start": 47.0, "duration": 1.0, "text": "À vos ordres."},
+        {"start": 48.0, "duration": 2.0, "text": "Je n'apprécie guère ce ton."},
+        {"start": 50.0, "duration": 2.0, "text": "Vous savez qu'on ne peut\n changer la Ligne du Temps"},
+        {"start": 52.0, "duration": 3.0, "text": "ou échapper à son destin,"},
+        {"start": 55.0, "duration": 2.0, "text": "mais vous m'envoyez remplir\n une mission perdue d'avance."},
+        {"start": 57.0, "duration": 6.0, "text": "Si tu échoues et qu'il atteint l'île,\n je te tuerai…de mes propres mains…\n Entends-tu !"},
+        {"start": 63.0, "duration": 1.5, "text": "Disparais !"},
+        {"start": 66.0, "duration": 6.8, "text": "C'est étrange, Kaileena et moi\n ne sommes pas si différents. Chacun\n espère pouvoir changer son destin."},
+        {"start": 72.9, "duration": 0.1, "text": ""},
+        {"start": 73.0, "duration": 3.0, "text": "Dommage que l'un de nous\n doive mourir."}
+      ]
+    },
+    {
+      "table": "2F00A561",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 651"],
+      "cues": [
+        {"start": 1.0, "duration": 1.0, "text": "Est-ce possible ?"},
+        {"start": 5.0, "duration": 3.0, "text": "Je pensais ne jamais revoir\n ce Sablier…"},
+        {"start": 9.5, "duration": 7.5, "text": "Ce ne sont pas les Sables du Temps.\n C'est ce que j'espérais ! J'ai remonté le temps\n jusqu'avant la création des Sables."},
+        {"start": 17.0, "duration": 0.1, "text": ""},
+        {"start": 18.5, "duration": 0.1, "text": ""}
+      ]
+    },
+    {
+      "table": "2F00A562",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6521"],
+      "cues": [
+        {"start": 2.0, "duration": 3.0, "text": "C'est un endroit dangereux.\n Vous n'auriez pas dû revenir."},
+        {"start": 5.0, "duration": 4.5, "text": "Je n'ai pas de…  temps à perdre.\n Je dois voir l'Impératrice."},
+        {"start": 11.5, "duration": 1.5, "text": "C'est impossible."},
+        {"start": 13.0, "duration": 5.0, "text": "Ma mission… C'est très important.\n Je dois la voir."},
+        {"start": 18.0, "duration": 4.0, "text": "Vous ne comprenez pas.\n Quand le dernier grain\n tombera du sablier…"},
+        {"start": 22.0, "duration": 2.0, "text": "… l'Impératrice aura créé\n les Sables du Temps."},
+        {"start": 24.0, "duration": 3.0, "text": "Il n'y a rien qui puisse être\n plus important que ça."},
+        {"start": 28.0, "duration": 3.0, "text": "Je suis venu empêcher\n l'Impératrice de créer les Sables."},
+        {"start": 31.0, "duration": 2.0, "text": "Votre mission est pure folie."},
+        {"start": 33.0, "duration": 5.0, "text": "La création des Sables est inscrite\n sur la Ligne du Temps,\n elle ne peut être stoppée."},
+        {"start": 38.0, "duration": 8.0, "text": "J'ai sauvé votre vie. Deux fois.\n Je demande simplement une information.\n Dites-moi où les Sables seront créés."},
+        {"start": 44.0, "duration": 0.1, "text": ""},
+        {"start": 47.0, "duration": 3.5, "text": "Là-bas…\n Mais la pièce a été scellée.\n Vous ne pourrez pas entrer."},
+        {"start": 51.0, "duration": 1.0, "text": "Il doit bien y avoir un moyen."},
+        {"start": 52.0, "duration": 5.5, "text": "Hah ! Il faudrait défaire chacune\n des fortifications de ce château,\n c'est impossible à faire."},
+        {"start": 58.0, "duration": 4.0, "text": "Quand un homme fait face à\n sa propre mort,\n il n'y a rien d'impossible à réaliser."},
+        {"start": 63.0, "duration": 1.5, "text": "Que faut-il faire."},
+        {"start": 65.5, "duration": 1.0, "text": "Très bien."}
+      ]
+    },
+    {
+      "table": "2F00A563",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6531"],
+      "cues": [
+        {"start": 7.0, "duration": 2.0, "text": "Il reste peu de temps. Vous êtes prête ?"},
+        {"start": 12.5, "duration": 4.5, "text": "J'ai réfléchi, Kaileena…\n Peu de choses vous\n rattachent à cette île et"},
+        {"start": 17.0, "duration": 3.0, "text": "il y en aura encore moins\n quand j'aurai affronté votre maîtresse."},
+        {"start": 21.0, "duration": 5.0, "text": "Venez à Babylone avec moi !\n Vous pourrez commencer une nouvelle vie,\n loin de cet endroit maléfique."},
+        {"start": 27.0, "duration": 3.0, "text": "Je ne peux pas Prince,\n il m'est impossible d'accepter votre offre."}
+      ]
+    },
+    {
+      "table": "2F00A564",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6532"],
+      "cues": [
+        {"start": 7.0, "duration": 2.0, "text": "Il reste peu de temps. Vous êtes prête ?"},
+        {"start": 12.5, "duration": 4.5, "text": "J'ai réfléchi, Kaileena…\n Peu de choses vous\n rattachent à cette île et"},
+        {"start": 17.0, "duration": 3.0, "text": "il y en aura encore moins\n quand j'aurai affronté votre maîtresse."},
+        {"start": 21.0, "duration": 5.0, "text": "Venez à Babylone avec moi !\n Vous pourrez commencer une nouvelle vie,\n loin de cet endroit maléfique."},
+        {"start": 27.0, "duration": 3.0, "text": "Je ne peux pas Prince,\n il m'est impossible d'accepter votre offre."}
+      ]
+    },
+    {
+      "table": "2F00A565",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6541"],
+      "cues": [
+        {"start": 3.0, "duration": 2.0, "text": "Où est l'Impératrice ?\n Où sont les Sables ?"},
+        {"start": 16.0, "duration": 3.0, "text": "Qu'est-ce que vous faites?\n Nous sommes enfermés !"},
+        {"start": 22.0, "duration": 3.5, "text": "Je suis désolée Prince,\n seul l'un d'entre nous peut\n tromper le destin."},
+        {"start": 32.5, "duration": 3.0, "text": "Vous…\n vous êtes l'Impératrice !"},
+        {"start": 38.0, "duration": 4.5, "text": "Je t'ai dit de partir.\n Mais tu es revenu et\n là j'ai pensé que"},
+        {"start": 43.0, "duration": 3.5, "text": "si tu pouvais changer ton destin,\n je le pouvais moi aussi !"}
+      ]
+    },
+    {
+      "table": "2F00A566",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6542"],
+      "cues": [
+        {"start": 19.0, "duration": 2.0, "text": "Je ne me résigne pas à cette fin !"},
+        {"start": 29.0, "duration": 2.5, "text": "Viens avec moi, dans le présent."},
+        {"start": 32.0, "duration": 3.0, "text": "Pour que tu me tues\n dans ton temps,\n plutôt que dans le mien ?"},
+        {"start": 39.0, "duration": 5.0, "text": "Désolée, prince.\n Seul l'un de nous peut tromper\n son destin aujourd'hui."},
+        {"start": 55.0, "duration": 3.0, "text": "Kaileena…Impératrice…\n écoutez-moi !"},
+        {"start": 59.0, "duration": 4.0, "text": "Non ! Toi, écoute:\n la Ligne du Temps a prédit\n que tu me tuerais"},
+        {"start": 63.0, "duration": 2.0, "text": "mais je vais changer la\n Ligne du Temps !"}
+      ]
+    },
+    {
+      "table": "2F00A567",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 655"],
+      "cues": [
+        {"start": 1.0, "duration": 2.0, "text": "J'espérais que le Dahaka te tue."},
+        {"start": 3.0, "duration": 3.0, "text": "Ou que Shahdee te tienne à\n distance de l'île…"},
+        {"start": 6.0, "duration": 2.0, "text": "Ou que les tours t'achèvent…"},
+        {"start": 8.0, "duration": 4.0, "text": "J'ai même jeté un sort à l'épée\n que je t'ai donnée!\nEt tu es encore en vie !"},
+        {"start": 18.0, "duration": 2.0, "text": "Pourquoi faire tout ça ?"},
+        {"start": 20.0, "duration": 5.0, "text": "Je te l'ai déjà dit :\n j'ai vu mon avenir.\n Mourir de ta main…"},
+        {"start": 25.0, "duration": 3.0, "text": "Mais comme toi,\n j'ai décidé de changer ça !"}
+      ]
+    },
+    {
+      "table": "2F00A568",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6561"],
+      "cues": [
+        {"start": 0.1, "duration": 2.9, "text": "Je ne te veux aucun mal,\n Kaileena…"},
+        {"start": 5.0, "duration": 2.0, "text": "… mais tout ça doit finir."},
+        {"start": 9.5, "duration": 5.5, "text": "Tu n'es qu'un pauvre fou !\n Quoi que tu fasses, tu échoueras."},
+        {"start": 17.0, "duration": 5.0, "text": "Comme j'ai essayé et\n échoué avant toi."},
+        {"start": 24.0, "duration": 2.0, "text": "Pardonne-moi, Kaileena."}
+      ]
+    },
+    {
+      "table": "2F00A569",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 657"],
+      "cues": [
+        {"start": 0.1, "duration": 6.8, "text": "Les Sables du Temps.\n Malgré mes efforts pour les détruire,\n ils me hantent toujours…"},
+        {"start": 7.0, "duration": 6.0, "text": "Même si je m'empare du Masque,\n le Destin réclamera ma vie !"},
+        {"start": 13.0, "duration": 5.0, "text": "Ce n'est qu'une\n seconde chance… d'échouer !"},
+        {"start": 22.0, "duration": 4.0, "text": "Quelque chose m'échappe.\n Je dois bien réfléchir…"},
+        {"start": 27.0, "duration": 4.0, "text": "Ce mur…\n Il ressemble à celui dans la prison."},
+        {"start": 39.0, "duration": 2.0, "text": "Ça a déjà marché…"}
+      ]
+    },
+    {
+      "table": "2F00A56A",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6581"],
+      "cues": [
+        {"start": 9.0, "duration": 1.0, "text": "Et si…"}
+      ]
+    },
+    {
+      "table": "2F00A56B",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 701"],
+      "cues": [
+        {"start": 0.1, "duration": 2.9, "text": "Bien. On dirait que\n je suis à nouveau dans le présent."},
+        {"start": 3.0, "duration": 5.9, "text": "Au moins, je sais\n comment fonctionnent ces portails."}
+      ]
+    },
+    {
+      "table": "2F00A56C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 702"],
+      "cues": [
+        {"start": 3.0, "duration": 2.0, "text": "Le Dahaka ! Il m'a retrouvé ici."}
+      ]
+    },
+    {
+      "table": "2F00A56D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 8511"],
+      "cues": [
+        {"start": 24.0, "duration": 2.0, "text": "Vous… Aidez-moi !"},
+        {"start": 27.0, "duration": 4.0, "text": "Comme le dit l'adage :\n \"les ennemis de mes ennemis\n sont mes amis.\""},
+        {"start": 35.0, "duration": 4.0, "text": "Laisse-la tranquille !\n Toi et moi avons des\n comptes à régler."}
+      ]
+    },
+    {
+      "table": "2F00A56E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 8512"],
+      "cues": [
+        {"start": 4.0, "duration": 4.0, "text": "J'ai fait de mon mieux, impératrice…\n Mais c'est un redoutable guerrier."},
+        {"start": 8.0, "duration": 2.0, "text": "Il a atteint l'île ?"},
+        {"start": 12.0, "duration": 5.0, "text": "Pire. Il m'a suivie par un des portails.\n Il est là, ici, dans notre temps."},
+        {"start": 17.0, "duration": 6.0, "text": "Tu oses paraître devant moi\n après cet échec ! Ta mission \n est de me protéger."},
+        {"start": 23.0, "duration": 5.0, "text": "Je ne sacrifierai pas ma vie\n à cette folie. Si vous voulez\n changer la Ligne du Temps,"},
+        {"start": 28.0, "duration": 2.0, "text": "chargez-vous en vous même !"},
+        {"start": 30.0, "duration": 5.0, "text": "Après tout ce que j'ai fait…\n Comment osez-vous ?"},
+        {"start": 41.0, "duration": 2.0, "text": "Je sais déjà comment\n tout ça va finir."}
+      ]
+    },
+    {
+      "table": "2F00A56F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 852"],
+      "cues": [
+        {"start": 21.0, "duration": 3.0, "text": "Attendez ! Je vous en prie…\n je dois vous parler."},
+        {"start": 24.0, "duration": 2.0, "text": "Que voulez-vous de moi ?"},
+        {"start": 26.0, "duration": 2.0, "text": "Une audience avec l'Impératrice."},
+        {"start": 29.0, "duration": 4.0, "text": "L'Impératrice ne voit personne.\n Pour qui vous prenez-vous ?"},
+        {"start": 34.0, "duration": 5.0, "text": "Je suis le Prince de Perse !"},
+        {"start": 36.0, "duration": 5.0, "text": "Je vois.\n Aujourd'hui est un jour très important…\n Elle ne peut être dérangée."},
+        {"start": 41.0, "duration": 2.0, "text": "Vous ne réalisez pas\n l'importance de ma visite."},
+        {"start": 46.0, "duration": 3.0, "text": "Pauvre fou, comprends-tu…"},
+        {"start": 51.0, "duration": 2.0, "text": "… nul n'échappe à son destin !"},
+        {"start": 59.0, "duration": 5.0, "text": "\"Nul n'échappe à son destin !\".\n Elle s'adressait à moi ?\n Comment connaît-elle ma mission ?"},
+        {"start": 78.0, "duration": 1.0, "text": "ATTENTION !"},
+        {"start": 85.0, "duration": 3.0, "text": "Restez là !\n Je vais venir vous rejoindre."},
+        {"start": 89.0, "duration": 6.0, "text": "Non, prince. Partez d'ici\n sans vous retourner. L'Impératrice\n méprise le monde des humains."},
+        {"start": 95.0, "duration": 3.0, "text": "Elle vous tuera si\n elle apprend votre présence."}
+      ]
+    },
+    {
+      "table": "2F00A570",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1001"],
+      "cues": [
+        {"start": 0.1, "duration": 4.9, "text": "Hmm…\n On dirait que ce balcon mène plus\n loin dans les jardins."},
+        {"start": 5.0, "duration": 5.0, "text": "Je vais devoir y monter à un\n moment ou à un autre mais pour\n l'instant, ce n'est pas utile."}
+      ]
+    },
+    {
+      "table": "2F00A571",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1002"],
+      "cues": [
+        {"start": 1.0, "duration": 5.0, "text": "Quel cris terribles!\n J'espère que je n'arrive pas trop tard."},
+        {"start": 6.0, "duration": 5.0, "text": "Faarzad, mon second !\n Je croyais que vous aviez\n tous péri en mer…"},
+        {"start": 11.0, "duration": 3.0, "text": "Faarzad,\n qu'est-ce qui t'arrive ?"},
+        {"start": 14.0, "duration": 3.0, "text": "La bête… elle…"},
+        {"start": 17.0, "duration": 3.0, "text": "vous devez…vous devez…"},
+        {"start": 20.0, "duration": 3.0, "text": "Qu'y a-t-il mon ami?\n Que dois-je faire ?"},
+        {"start": 23.0, "duration": 3.0, "text": "Sauvez-vous !"}
+      ]
+    },
+    {
+      "table": "2F00A572",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1003"],
+      "cues": [
+        {"start": 0.1, "duration": 6.0, "text": "Cette île est pleine de surprises.\n Des surprises désagréables\n et douloureuses…"}
+      ]
+    },
+    {
+      "table": "2F00A573",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1004"],
+      "cues": [
+        {"start": 0.1, "duration": 2.0, "text": "Je dois retrouver le chemin\n vers la salle du trône."}
+      ]
+    },
+    {
+      "table": "2F00A574",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 10511"],
+      "cues": [
+        {"start": 2.5, "duration": 3.0, "text": "Il semble qu'on ait découvert\n les merveilles des jardins\n suspendus ailleurs qu'à Babylone."},
+        {"start": 5.5, "duration": 4.0, "text": "Mais les nôtres, cependant,\n n'abritent pas de monstres !"}
+      ]
+    },
+    {
+      "table": "2F00A575",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1101"],
+      "cues": [
+        {"start": 1.0, "duration": 5.0, "text": "Quel cris terribles!\n J'espère que je n'arrive pas trop tard."}
+      ]
+    },
+    {
+      "table": "2F00A576",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1102"],
+      "cues": [
+        {"start": 1.0, "duration": 5.0, "text": "Quel cris terribles!\n J'espère que je n'arrive pas trop tard."},
+        {"start": 6.0, "duration": 5.0, "text": "Faarzad, mon second !\n Je croyais que vous aviez\n tous péri en mer…"},
+        {"start": 11.0, "duration": 3.0, "text": "Faarzad,\n qu'est-ce qui t'arrive ?"},
+        {"start": 14.0, "duration": 3.0, "text": "La bête… elle…"},
+        {"start": 17.0, "duration": 3.0, "text": "vous devez…vous devez…"},
+        {"start": 20.0, "duration": 3.0, "text": "Qu'y a-t-il mon ami?\n Que dois-je faire ?"},
+        {"start": 23.0, "duration": 3.0, "text": "Sauvez-vous !"}
+      ]
+    },
+    {
+      "table": "2F00A577",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1151"],
+      "cues": [
+        {"start": 0.1, "duration": 4.9, "text": "Hmm…\n On dirait que ce balcon mène plus\n loin dans les jardins."},
+        {"start": 5.0, "duration": 5.0, "text": "Je vais devoir y monter à un\n moment ou à un autre mais pour\n l'instant, ce n'est pas utile."}
+      ]
+    },
+    {
+      "table": "2F00A578",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1201"],
+      "cues": [
+        {"start": 2.0, "duration": 3.0, "text": "J'ai trouvé le bon endroit…\n mais pas au bon moment."},
+        {"start": 6.0, "duration": 3.5, "text": "Je dois retourner dans le passé\n si je veux activer cette tour !"}
+      ]
+    },
+    {
+      "table": "2F00A579",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1252"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Le Dahaka !"},
+        {"start": 4.0, "duration": 3.0, "text": "C'est seulement un entrelacement\n de vignes.Cette île me porte sur les nerfs"}
+      ]
+    },
+    {
+      "table": "2F00A57A",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 21511"],
+      "cues": [
+        {"start": 6.5, "duration": 1.5, "text": "Qu'est-ce que vous me voulez ? !"}
+      ]
+    },
+    {
+      "table": "2F00A57B",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 21512"],
+      "cues": [
+        {"start": 2.0, "duration": 1.5, "text": "Qu'est-ce que vous me voulez ? !"},
+        {"start": 9.5, "duration": 2.5, "text": "Mon double peut activer les tours."},
+        {"start": 12.5, "duration": 3.5, "text": "J'ai assez de temps pour retourner\n à la salle du trône et attendre\n que la porte s'ouvre !"},
+        {"start": 29.5, "duration": 5.5, "text": "Les tours!\n Il les a activées.\n Est-ce trop tard?"},
+        {"start": 37.5, "duration": 2.5, "text": "Pas question d'échouer maintenant !"}
+      ]
+    },
+    {
+      "table": "2F00A57C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 2301"],
+      "cues": [
+        {"start": 0.1, "duration": 3.9, "text": "Cette machine…\n Elle doit activer la Tour mécanique."},
+        {"start": 4.0, "duration": 4.0, "text": "Je dois trouver un portail…\n J'espère que quelque que soit le\n désastre qui doit s'abattre ici,"},
+        {"start": 8.0, "duration": 2.0, "text": "il n'est pas encore arrivé."}
+      ]
+    },
+    {
+      "table": "2F00A57D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 2351"],
+      "cues": [
+        {"start": 4.0, "duration": 5.0, "text": "Excellent. On dirait que c'est en\n bien meilleur état cette fois ci…\n Bon... comment le faire fonctionner ?"}
+      ]
+    },
+    {
+      "table": "2F00A57E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 4001"],
+      "cues": [
+        {"start": 2.0, "duration": 4.0, "text": "Que se passe-t-il ?\n L'Impératrice est morte !\n Elle n'a jamais créé les Sables !"},
+        {"start": 6.0, "duration": 3.0, "text": "Le Dahaka ne devrait plus se manifester."},
+        {"start": 26.0, "duration": 4.0, "text": "… mais il me poursuit toujours.\n Qu'est-ce qui n'a pas marché ?"}
+      ]
+    },
+    {
+      "table": "2F00A57F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 4251"],
+      "cues": [
+        {"start": 1.0, "duration": 4.0, "text": "La bibliothèque de\n l'Impératrice Kaileena…\n Quel formidable savoir elle doit abriter !"},
+        {"start": 5.0, "duration": 5.0, "text": "Elle aurait pu m'apprendre beaucoup\n si le cours des choses avait été différent."},
+        {"start": 10.0, "duration": 9.0, "text": "Mais inutile de rêver,\n je n'ai pas le temps !"}
+      ]
+    },
+    {
+      "table": "2F00A581",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 4253"],
+      "cues": [
+        {"start": 11.0, "duration": 2.0, "text": "Meurs, bâtard !"}
+      ]
+    },
+    {
+      "table": "2F00A582",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6151"],
+      "cues": [
+        {"start": 0.1, "duration": 5.0, "text": "Si je ne peux pas atteindre\n la plateforme… peut être que je peux\n amener la plateforme à moi !"}
+      ]
+    },
+    {
+      "table": "2F00A583",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6152"],
+      "cues": [
+        {"start": 0.1, "duration": 4.0, "text": "Voyons… Voyons...,\n l'un de ces leviers devrait le faire…"}
+      ]
+    },
+    {
+      "table": "2F00A584",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 7101"],
+      "cues": [
+        {"start": 0.1, "duration": 9.9, "text": "Jusqu'à présent, j'ai laissé le Dahaka\n me contrôler, me terroriser.\n Redouter ma capture, ma destruction…"},
+        {"start": 10.0, "duration": 5.0, "text": "La perte des miens,\n famille et amis. Mais maintenant,\n la bête me remplit de rage."},
+        {"start": 15.0, "duration": 5.0, "text": "Je détruirai l'impératrice\n Kaileena dans le présent.\n Et je serai libre."}
+      ]
+    },
+    {
+      "table": "2F00A585",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 71021"],
+      "cues": [
+        {"start": 0.1, "duration": 4.9, "text": "Il ne voulait pas me tuer\n mais me prévenir ! Me prévenir\n de la traîtrise de Kaileena,"},
+        {"start": 5.0, "duration": 2.0, "text": "de mon rôle dans la\n création des Sables…"}
+      ]
+    },
+    {
+      "table": "2F00A586",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 71031"],
+      "cues": [
+        {"start": 2.0, "duration": 4.0, "text": "Je sais ce que tu as vu,\n ce que tu penses avoir vu\n dans la Ligne du Temps."},
+        {"start": 7.0, "duration": 2.0, "text": "Alors, tu sais que\n je n'ai pas le choix."},
+        {"start": 9.0, "duration": 2.0, "text": "Voyons, on a toujours le\n choix, Kaileena."},
+        {"start": 11.0, "duration": 4.0, "text": "Pour moi je choisis la vie…\n et pour toi la mort !"}
+      ]
+    },
+    {
+      "table": "2F00A587",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 7104"],
+      "cues": [
+        {"start": 5.5, "duration": 4.5, "text": "Pardonne-moi…\n Si seulement les choses\n pouvaient être différentes…"},
+        {"start": 12.0, "duration": 10.0, "text": "Il semble… que tu aies sauvé ta vie,\n mon prince. Pourtant, je me transforme\n en Sables. D'autres, comme le Maharajah,"},
+        {"start": 22.0, "duration": 13.0, "text": "des fous à l'égo démesuré,\n se mettront en quête des\n Sables et les trouveront."},
+        {"start": 28.0, "duration": 7.0, "text": "Et ma vengeance,\n mon Prince... s'abattra de\n nouveau sur ton monde"},
+        {"start": 35.1, "duration": 0.1, "text": ""}
+      ]
+    },
+    {
+      "table": "2F00A588",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 7105"],
+      "cues": [
+        {"start": 0.1, "duration": 2.9, "text": "ARRÊTE!\n JE NE VEUX PAS TE TUER !"},
+        {"start": 3.0, "duration": 5.0, "text": "Même si tu ne veux pas me tuer,\n tu le feras…\n La Ligne du Temps l'exige !"},
+        {"start": 8.0, "duration": 4.0, "text": "Non, Kaileena.\n Tu peux changer ton destin.\n Je l'ai fait moi !"},
+        {"start": 12.0, "duration": 4.0, "text": "Il était écrit qu'une créature\n terrible m'enlèverait la vie.\n Je me suis libéré de..."},
+        {"start": 17.0, "duration": 1.0, "text": "mais qu'est-ce que c'est ?"},
+        {"start": 18.0, "duration": 4.0, "text": "Non ! NON ! Comment est-ce\n possible ? J'ai empêché\n Kaileena de mourir dans le passé."},
+        {"start": 22.0, "duration": 2.0, "text": "Il n'y a pas de Sable dans le Sablier !"},
+        {"start": 30.0, "duration": 5.0, "text": "C'est Kaileena qui n'appartient\n pas à cette Ligne de Temps.\n La bête est après elle maintenant."},
+        {"start": 36.0, "duration": 3.0, "text": "En l'amenant ici,\n je l'ai condamnée à mort."},
+        {"start": 40.0, "duration": 2.0, "text": "Tout est de ta faute !"},
+        {"start": 45.0, "duration": 5.0, "text": "Est-ce possible ? Cette épée…\n on dirait qu'elle me protège du Dakaha…"},
+        {"start": 50.0, "duration": 3.0, "text": "Cette créature n'est peut-être\n pas invincible après tout…"}
+      ]
+    },
+    {
+      "table": "2F00B71C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6522"],
+      "cues": [
+        {"start": 1.0, "duration": 1.0, "text": "Vous aurez besoin de ça."},
+        {"start": 4.0, "duration": 2.0, "text": "C'est plus qu'une simple arme…"}
+      ]
+    },
+    {
+      "table": "2F00B71D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6523"],
+      "cues": [
+        {"start": 0.1, "duration": 0.0, "text": "Que voulez-vous dire ?"},
+        {"start": 2.0, "duration": 7.0, "text": "De toute façon, le résultat sera le même.\n Vous ne pouvez stopper\n la création des Sables."},
+        {"start": 7.0, "duration": 2.0, "text": "L'équilibre du temps\n ne peut pas être altéré…"},
+        {"start": 10.0, "duration": 2.0, "text": "Merci du… conseil."}
+      ]
+    },
+    {
+      "table": "2F00B73C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 5542"],
+      "cues": [
+        {"start": 0.5, "duration": 1.0, "text": "Vous avez peu de temps."}
+      ]
+    },
+    {
+      "table": "2F00B747",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 10512"],
+      "cues": [
+        {"start": 0.1, "duration": 4.9, "text": "C'est trop haut… Je n'y arriverai pas.\n Je dois trouver un moyen d'arriver là-haut."}
+      ]
+    },
+    {
+      "table": "2F00B752",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6562"],
+      "cues": [
+        {"start": 9.0, "duration": 2.0, "text": "Je dois rejoindre le présent !"}
+      ]
+    },
+    {
+      "table": "2F00B75D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6582"],
+      "cues": [
+        {"start": 0.1, "duration": 3.9, "text": "Mon objectif est simple:\n utiliser le Masque pour forcer\n Kaileena à venir dans le présent,"},
+        {"start": 4.0, "duration": 5.0, "text": "où je peux la tuer.\n C'est si simple…Ça semble si simple…"}
+      ]
+    },
+    {
+      "table": "2F00B768",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 71022"],
+      "cues": [
+        {"start": 0.1, "duration": 3.9, "text": "… mais finalement,\n il est mort ! Je suis mort !"},
+        {"start": 8.0, "duration": 5.0, "text": "Le Masque est en moi à présent.\n Et d'après le récit du Maharajah,"},
+        {"start": 13.0, "duration": 3.0, "text": "il le restera jusqu'à la mort\n de mon double."},
+        {"start": 16.0, "duration": 3.0, "text": "Alors seulement,\n je pourrai retirer le masque."}
+      ]
+    },
+    {
+      "table": "2F00B773",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 42522"],
+      "cues": [
+        {"start": 2.0, "duration": 2.0, "text": "Essaye de m'attraper !"}
+      ]
+    },
+    {
+      "table": "2F00B77E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 71032"],
+      "cues": [
+        {"start": 1.0, "duration": 2.0, "text": "Tu ne comprends pas ?\n On peut changer notre destin !"},
+        {"start": 4.0, "duration": 2.0, "text": "Ça n'était pas comme\n ça la première fois..."},
+        {"start": 6.0, "duration": 2.0, "text": "La première fois…?"},
+        {"start": 8.0, "duration": 4.0, "text": "C'est ce que j'essaye de\n te dire… Si seulement tu…\n Laisse-moi te parler !"},
+        {"start": 12.0, "duration": 4.5, "text": "Plus de MOTS, prince!\n Si tu n'as que des mots à offrir et"},
+        {"start": 16.5, "duration": 2.5, "text": "rien à prouver,\n alors finissons-en!"},
+        {"start": 19.0, "duration": 1.0, "text": "Pardonne-moi…"}
+      ]
+    },
+    {
+      "table": "2F00B77F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 71033"],
+      "cues": [
+        {"start": 1.0, "duration": 2.0, "text": "JE VAIS TE TUER !"},
+        {"start": 3.0, "duration": 4.0, "text": "Je ne veux pas te faire de mal,\n Kaileena…Mais je ne\n permettrai pas que cela arrive !"}
+      ]
+    },
+    {
+      "table": "2F00B856",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9003"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Je ferais mieux de trouver cette femme…\n Elle a probablement été\n chercher des renforts !"}
+      ]
+    },
+    {
+      "table": "2F00B85A",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9007"],
+      "cues": [
+        {"start": 0.1, "duration": 5.9, "text": "Excellent. On dirait que c'est en\n bien meilleur état cette fois ci…\n Bon... comment le faire fonctionner ?"}
+      ]
+    },
+    {
+      "table": "2F00B85B",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9008"],
+      "cues": [
+        {"start": 10.0, "duration": 3.9, "text": "Je vais manquer de temps. \n Tandis que j'essaye d'activer les tours,"},
+        {"start": 14.0, "duration": 2.0, "text": "l'Impératrice travaille à la\n création des Sables !"}
+      ]
+    },
+    {
+      "table": "2F00B85F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9012"],
+      "cues": [
+        {"start": 10.0, "duration": 3.0, "text": "Je crains de n'avoir plus\n beaucoup de temps. Tandis que\n j'essaye d'activer les tours,"},
+        {"start": 13.5, "duration": 3.5, "text": "l'Impératrice est, sans doute,\n occupée à créer les sables."}
+      ]
+    },
+    {
+      "table": "2F00B860",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9013"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Le Dahaka ! Mais il est très loin\n  Poursuit-il quelqu'un d'autre \n sur cette île ?"}
+      ]
+    },
+    {
+      "table": "2F00B866",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9019"],
+      "cues": [
+        {"start": 0.1, "duration": 3.9, "text": "La bibliothèque de\n l'Impératrice Kaileena…\n Quel formidable savoir elle doit abriter!"},
+        {"start": 5.0, "duration": 5.0, "text": "Elle aurait pu m'apprendre beaucoup\n si le cours des choses avait été différent."}
+      ]
+    },
+    {
+      "table": "2F00B872",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9031"],
+      "cues": [
+        {"start": 0.1, "duration": 5.0, "text": "Si je ne peux pas atteindre\n la plateforme… peut être que je peux\n amener la plateforme à moi !"}
+      ]
+    },
+    {
+      "table": "2F00B87D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9042"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Une épée… Bon, comment l'atteindre ?"}
+      ]
+    },
+    {
+      "table": "2F00B87E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9043"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Bien.\n Ça devrait simplifier les choses."}
+      ]
+    },
+    {
+      "table": "2F00B87F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9044"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "J'y vois à peine! Je ferais bien de\n surveiller mes arrières. Qui sait ce que\n cette brume peut cacher…"}
+      ]
+    },
+    {
+      "table": "2F00B882",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9047"],
+      "cues": [
+        {"start": 4.1, "duration": 3.4, "text": "Cette porte ! L'interrupteur qui commande\n l'ouverture ne doit pas être loin."},
+        {"start": 7.5, "duration": 1.5, "text": "Si seulement je voyais\n quelque chose dans ce brouillard."}
+      ]
+    },
+    {
+      "movie": "cine0004",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF97"],
+      "cues": [
+        {"start": 7.0, "end": 10.0, "text": "Non ! NON !\n Comment est-ce possible ?"},
+        {"start": 15.0, "end": 17.9, "text": "Les Sables sont là dans\n le présent,\n pas dans le Sablier !"},
+        {"start": 25.0, "end": 32.0, "text": "Ce sont les Sables qui devraient\n disparaître de la Ligne du Temps.\n Le Dahaka s'acquitte de sa tâche !"},
+        {"start": 32.0, "end": 32.1, "text": ""},
+        {"start": 34.0, "end": 39.0, "text": "Non seulement j'ai sauvé ma vie et\n j'ai éliminé les Sables du Temps !"},
+        {"start": 43.0, "end": 46.0, "text": "Quoi ?\n Qu'est-ce que tu veux ?"},
+        {"start": 54.0, "end": 55.0, "text": "L'Amulette !"},
+        {"start": 57.0, "end": 59.5, "text": "La dernière relique\n des Sables des Temps."},
+        {"start": 65.0, "end": 66.5, "text": "Est-ce possible ?"},
+        {"start": 68.0, "end": 70.5, "text": "J'ai changé mon destin."},
+        {"start": 92.0, "end": 93.5, "text": "Je rentre chez moi…"},
+        {"start": 96.0, "end": 101.0, "text": "Ton destin est scellé…\n Tu ne peux le changer…"},
+        {"start": 102.0, "end": 103.5, "text": "Qu'ai-je fait ?"}
+      ]
+    },
+    {
+      "movie": "cine0005",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF98"],
+      "cues": [
+        {"start": 54.0, "end": 60.0, "text": "Ensemble,\n nous avons construit ce vaisseau…\n Ensemble, nous avons quitté l'île…"},
+        {"start": 60.0, "end": 62.0, "text": "Et ensemble,\n nous sommes retournés à Babylone !"},
+        {"start": 126.0, "end": 129.0, "text": "Ce qui t'appartient\n me revient de droit."},
+        {"start": 147.0, "end": 150.0, "text": "À moi, et à moi seul !"},
+        {"start": 152.0, "end": 158.0, "text": "L'issue de ton voyage est sombre…\n Ton destin est scellé…"},
+        {"start": 158.0, "end": 159.5, "text": "Tu ne peux le changer…\n personne ne le peut."}
+      ]
+    },
+    {
+      "movie": "cine0100",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF99"],
+      "cues": [
+        {"start": 98.0, "end": 100.0, "text": "Cette tempête est sans pitié!"},
+        {"start": 101.0, "end": 103.0, "text": "Il nous faut agir vite !"},
+        {"start": 104.5, "end": 106.0, "text": "Hisser la grande voile !"},
+        {"start": 107.0, "end": 108.5, "text": "Rapprochez-nous du vent !"},
+        {"start": 129.0, "end": 131.0, "text": "Sortez vos armes !"},
+        {"start": 197.0, "end": 198.0, "text": "Tuez-le !"}
+      ]
+    },
+    {
+      "movie": "cine0102",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF9A"],
+      "cues": [
+        {"start": 2.0, "end": 3.0, "text": "l'Île du temps…"},
+        {"start": 6.0, "end": 13.0, "text": "L'endroit où les Sables ont été créés.\n C'est là que le Maharajah\n a volé le Sablier."},
+        {"start": 14.0, "end": 16.0, "text": "Et si je pouvais trouver cette île ?"},
+        {"start": 17.5, "end": 22.0, "text": "Le Maharajah aurait découvert\n des portails permettant\n de remonter dans le temps…"},
+        {"start": 24.0, "end": 25.0, "text": "Remonter…"},
+        {"start": 26.0, "end": 28.0, "text": "jusqu'à l'origine des Sables…"},
+        {"start": 30.0, "end": 35.0, "text": "Quelque chose d'horrible arriva\n alors que nous traversions\n le palais du Maharajah."},
+        {"start": 36.0, "end": 38.0, "text": "Vous avez trouvé les Sables du Temps…"},
+        {"start": 39.0, "end": 42.0, "text": "Pire ! Je les ai ouverts…"},
+        {"start": 45.0, "text": "Quiconque libére les Sables\n doit mourir…"},
+        {"start": 50.0, "end": 54.0, "text": "J'ai été forcé de tuer\n mes compagnons d'arme,\n ceux que j'aimais."},
+        {"start": 54.0, "end": 57.0, "text": "Mais à présent,\n cette invincible bête te traque…"},
+        {"start": 60.0, "end": 64.0, "text": "Pour la première fois de ma vie…\n J'ai vraiment peur."},
+        {"start": 64.5, "end": 67.0, "text": "Et tu vas mourir…"},
+        {"start": 68.0, "end": 73.0, "text": "À l'aide des Sables j'ai inversé le cours\n du temps, j'ai fait en sorte que le\n Sablier n'ait jamais été ouvert."},
+        {"start": 73.0, "end": 73.1, "text": ""},
+        {"start": 75.0, "end": 79.0, "text": "La bête, le Dahaka,\n assure l'équilibre du Temps."},
+        {"start": 80.0, "end": 84.0, "text": "Or, tu devais mourir…"},
+        {"start": 84.0, "end": 87.0, "text": "Il te rattrapera et fera en sorte\n que ta destinée s'accomplisse."},
+        {"start": 89.0, "end": 92.0, "text": "Je préfère essayer\n qu'attendre la mort ici."},
+        {"start": 92.0, "end": 99.9, "text": "Folie ! Même si tu réussis à\n atteindre l'île, tu devras affronter\n l'Impératrice du Temps…"},
+        {"start": 99.9, "end": 100.0, "text": ""},
+        {"start": 100.0, "end": 105.0, "text": "Je remonterai le temps,\n j'empêcherai les Sables\n d'être jamais créés."},
+        {"start": 105.0, "end": 109.0, "text": "S'il n'y a plus de Sables,\n le Dahaka cessera de me\n traquer sans relâche !"},
+        {"start": 111.0, "end": 113.0, "text": "Pars, va ! Mon prince."},
+        {"start": 113.0, "end": 121.0, "text": "Mais saches que l'issue de\n ton voyage est sombre…\n Ton destin est scellé…"},
+        {"start": 122.0, "end": 124.0, "text": "Tu ne peux le changer…\n personne ne le peut."}
+      ]
+    },
+    {
+      "movie": "cine0400",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF9B"],
+      "cues": [
+        {"start": 9.5, "end": 11.5, "text": "Mon dieu!\n Quel type de magie est-ce donc ?"}
+      ]
+    },
+    {
+      "movie": "cine0550",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00BC13"],
+      "cues": [
+        {"start": 0.1, "end": 4.0, "text": "…Cela sert aussi à activer un\n système de ponts qui vous\n donnera accès aux autres tours."},
+        {"start": 5.5, "end": 7.5, "text": "Mais ça ne changera rien…"}
+      ]
+    },
+    {
+      "movie": "cine0650",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00BC14"],
+      "cues": [
+        {"start": 1.0, "end": 6.0, "text": "La porte est controllée par un\n système élaboré d'horloge situé\n à l'intérieur de la Tour Mécanique."},
+        {"start": 6.9, "end": 7.0, "text": ""},
+        {"start": 7.0, "end": 12.0, "text": "Bien que vous puissiez vous rendre\n au système et l'activer, la machine\n aura encore besoin d'énergie."},
+        {"start": 12.0, "end": 16.0, "text": "Lorsque l'eau coulera dans la fosse,\n la machine recevra de l'énergie."},
+        {"start": 17.0, "end": 20.0, "text": "Mais tout d'abord, vous\n devez remplir la fosse avec la\n réserve de la Tour du Jardin."},
+        {"start": 21.0, "end": 25.0, "text": "Activez les deux tours et\n la porte s'ouvrira..."}
+      ]
+    },
+    {
+      "movie": "cine0651",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00BC15"],
+      "cues": [
+        {"start": 0.1, "end": 10.1, "text": "… Le Sablier est plus qu'à moitié vide…"}
+      ]
+    },
+    {
+      "movie": "cine0654",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00BC16"],
+      "cues": [
+        {"start": 0.1, "end": 3.0, "text": "Si Kaileena ne mourait pas dans\n le passé mais dans le présent ?"},
+        {"start": 3.0, "end": 7.0, "text": "Les Sables seraient créés…\n Mais le Maharajah ne\n les trouverait pas."},
+        {"start": 8.0, "end": 11.0, "text": "Ils n'auraient jamais été amenés\n au palais et je ne les\n aurais jamais libérés."},
+        {"start": 11.0, "end": 14.0, "text": "Le Dahaka ne se\n soucierait plus de moi !"}
+      ]
+    },
+    {
+      "movie": "cine4000",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF9C"],
+      "cues": [
+        {"start": 8.0, "end": 13.0, "text": "Je… suis l'architecte de\n ma propre destruction…"},
+        {"start": 24.0, "end": 25.5, "text": "C'est donc ça."},
+        {"start": 27.0, "end": 32.0, "text": "L'équilibre du temps\n ne peut pas être altéré…"},
+        {"start": 39.0, "end": 41.0, "text": "Aller approche donc !"},
+        {"start": 50.0, "end": 56.0, "text": "Dans ma quête pour détruire\n les Sables du Temps, j'ai été l'artisan\n de leur création."},
+        {"start": 68.0, "end": 72.0, "text": "Afin que ceux qui lisent ceci\n connaissent la bravoure des hommes"},
+        {"start": 72.0, "end": 76.0, "text": "qui ont combattu et\n sont morts pour le Maharajah."},
+        {"start": 78.0, "end": 86.0, "text": "Nous cherchions le pouvoir\n des Sables… Presque tous ont\n péri…Moi parmi eux…"},
+        {"start": 92.0, "end": 96.0, "text": "Mais le Masque des Revenants\n m'a offert une seconde chance…"},
+        {"start": 97.0, "end": 100.0, "text": "de remonter le temps et\n de changer mon destin."},
+        {"start": 103.0, "end": 106.0, "text": "Cette fresque illustre l'impossible…"},
+        {"start": 110.0, "end": 113.0, "text": "Mais le Masque des Revenants\n m'a offert une seconde chance."},
+        {"start": 115.0, "end": 117.0, "text": "Il me reste un espoir."},
+        {"start": 121.0, "end": 125.0, "text": "Tu as eu ta chance d'en finir.\n Tu n'en auras pas d'autre."}
+      ]
+    },
+    {
+      "movie": "cine7100",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF9D"],
+      "cues": [
+        {"start": 55.0, "end": 58.0, "text": "Je…Je suis devenu cette CHOSE !"}
+      ]
     }
   ]
 }

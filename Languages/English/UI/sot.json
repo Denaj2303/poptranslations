@@ -1,0 +1,12 @@
+{
+  "Controls.Select": "Select",
+  "Controls.Start": "Start",
+  "Controls.MenuUp": "Menu Up",
+  "Controls.MenuDown": "Menu Down",
+  "Controls.MenuLeft": "Menu Left",
+  "Controls.MenuRight": "Menu Right",
+  "Game.PrinceCombatEndCutscene": "Prince combat end cutscene",
+  "Video.Letterboxing": "Letterboxing",
+  "Video.Brightness": "Brightness",
+  "Video.Contrast": "Contrast"
+}

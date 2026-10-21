@@ -1,124 +1,5 @@
 {
   "game": "ww",
-  "menu": {
-    "Common.Auto": "Auto",
-    "Common.Discard": "Discard",
-    "Sound.Reverberation": "Reverberation",
-    "Sound.VoiceLanguage": "Voice Language",
-    "Options.Language": "Language",
-    "Language.Title": "Language",
-    "Language.Text": "Text Language",
-    "Language.TextBackdrop": "Text Background Opacity",
-    "Language.TextSize": "Text Size",
-    "Controls.HorizontalAxis": "Horizontal",
-    "Controls.VerticalAxis": "Vertical",
-    "Controls.ControlIcons": "Control icons",
-    "Controls.Xbox": "Xbox",
-    "Controls.PlayStation": "PlayStation",
-    "Controls.Switch": "Switch",
-    "Controls.Vibration": "Vibration",
-    "Controls.GamepadSensitivity": "Gamepad sensitivity",
-    "Controls.Select": "Select",
-    "Controls.Start": "Start",
-    "Controls.MenuUp": "Menu Up",
-    "Controls.MenuDown": "Menu Down",
-    "Controls.MenuLeft": "Menu Left",
-    "Controls.MenuRight": "Menu Right",
-    "SettingsSaveFailed.Text": "Unable to save settings.",
-    "SettingsRestoreFailed.Text": "Unable to restore settings.",
-    "Game.HudLayout": "HUD Layout",
-    "Game.HudLayoutPC": "PC",
-    "Game.HudLayoutConsole": "Console",
-    "Game.PrinceCombatEndCutscene": "Prince combat end cutscene",
-    "Game.SubtitleDisplay": "Show Subtitles",
-    "Game.SubtitleFull": "Full",
-    "Game.SubtitleCutscenes": "Cutscenes Only",
-    "Game.SubtitleSpeakers": "Speaker Names",
-    "Video.Display": "Display",
-    "Video.Renderer": "Renderer",
-    "Video.Vulkan": "Vulkan",
-    "Video.DirectX9": "DirectX9",
-    "Video.Mode": "Mode",
-    "Video.Fullscreen": "Fullscreen",
-    "Video.Borderless": "Borderless",
-    "Video.Windowed": "Windowed",
-    "Video.FOV": "FOV",
-    "Video.ApplyFOVToCutscenes": "Apply FOV to cutscenes",
-    "Video.SpeedKillBlur": "Speed kill blur",
-    "Video.Letterboxing": "Letterboxing",
-    "Video.Brightness": "Brightness",
-    "Video.BrightnessEffect": "Brightness effect",
-    "Video.Contrast": "Contrast",
-    "Video.NotSet": "Not Set",
-    "ProfileUnavailable": "Select a player profile first.",
-    "NoSavedGames": "No saved games found.",
-    "Movie.HoldToSkip": "Hold {button} to skip",
-    "Loading": "LOADING",
-    "Discord": "Discord",
-    "Multiplayer.Title": "Multiplayer Maps",
-    "Multiplayer.Solo": "Solo",
-    "Multiplayer.Host": "Host game",
-    "Multiplayer.Join": "Join game",
-    "Multiplayer.LAN": "LAN",
-    "Multiplayer.Internet": "Internet",
-    "Multiplayer.EnterCode": "Enter the five-character invite code",
-    "Multiplayer.InviteCode": "Invite code:",
-    "Multiplayer.CopyCode": "Click to copy",
-    "Multiplayer.CodeCopied": "Copied",
-    "Multiplayer.Connecting": "Connecting...",
-    "Multiplayer.You": "You",
-    "Multiplayer.Opponent": "Opponent",
-    "Multiplayer.NotConnected": "Not connected",
-    "Multiplayer.ChooseSameCourse": "Choose the same map to start",
-    "Multiplayer.ChoosingCourse": "Choosing a map...",
-    "Multiplayer.Waiting": "Waiting for another player...",
-    "Multiplayer.Searching": "Searching LAN...",
-    "Multiplayer.NoRooms": "No LAN games found",
-    "Multiplayer.SelectRoom": "Select a game",
-    "Multiplayer.Previous": "Previous",
-    "Multiplayer.Next": "Next",
-    "Multiplayer.Refresh": "Refresh",
-    "Multiplayer.Unconfigured": "Internet play is not configured.",
-    "Multiplayer.ConnectionFailed": "Unable to connect. Check your connection or invite code.",
-    "Multiplayer.ServerUnavailable": "Cannot connect to the game server",
-    "Multiplayer.RoomNotFound": "Room not found. Check the invite code.",
-    "Multiplayer.RoomFull": "This room is full.",
-    "Multiplayer.HostLeft": "The host has left the room.",
-    "Multiplayer.CoursesUnavailable": "Install the Rival Swords multiplayer courses to play.",
-    "Multiplayer.Sprint1": "Cavern - Cathedral",
-    "Multiplayer.Sprint2": "Jungle - Gearshaft",
-    "Multiplayer.Sprint3": "Cavern - Cathedral (Dark Prince)",
-    "Multiplayer.Sprint4": "Jungle - Gearshaft (Dark Prince)",
-    "Multiplayer.Marathon1": "Marathon: Prince",
-    "Multiplayer.Marathon2": "Marathon: Dark Prince",
-    "Multiplayer.LobbyTitle": "Lobby",
-    "Multiplayer.Starting": "Starting in",
-    "Multiplayer.CancelSelection": "Cancel selection",
-    "Multiplayer.LoadingOpponent": "Waiting for the other player to load...",
-    "Multiplayer.TrapReceived": "Your opponent sent you a trap!",
-    "Multiplayer.CameraHint": "Press {B6} to show the exit.",
-    "Multiplayer.Won": "Victory",
-    "Multiplayer.Completed": "Course complete!",
-    "Multiplayer.Lost": "Defeat",
-    "Multiplayer.Aborted": "Opponent left",
-    "Multiplayer.TimedOut": "Race timed out",
-    "Multiplayer.Lobby": "Return to lobby",
-    "Multiplayer.ReturnToMaps": "Return to map selection",
-    "Multiplayer.Wins": "Wins",
-    "Multiplayer.Losses": "Losses",
-    "ChariotRaces.Title": "Chariot races",
-    "ChariotRaces.Time": "Time:",
-    "ChariotRaces.Finished": "Race Finished",
-    "ChariotRaces.NewRecord": "New Record!",
-    "ChariotRaces.Mode": "Mode:",
-    "ChariotRaces.Exit": "Exit to menu",
-    "ChariotRaces.Normal": "Normal",
-    "ChariotRaces.Hardcore": "Hardcore",
-    "Campaign.Revelations": "Revelations",
-    "Campaign.WarriorWithin": "Warrior Within",
-    "Campaign.RivalSwords": "Rival Swords",
-    "Campaign.TwoThrones": "The Two Thrones"
-  },
   "lines": [
     {
       "sound": "220014",
@@ -3892,6 +3773,994 @@
       "type": "dialogue",
       "trigger": ["No static reference in the game data; started by engine or script code (events 350006)"],
       "text": "You cannot change your fate. No man can."
+    },
+    {
+      "table": "2F008F11",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 101"],
+      "cues": [
+        {"start": 5.0, "duration": 3.0, "text": "You will never reach our shores alive!"},
+        {"start": 8.0, "duration": 3.0, "text": "For your sake, you'd better hope I don't."}
+      ]
+    },
+    {
+      "table": "2F008F14",
+      "type": "cutscene",
+      "trigger": [],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "It seems The Empress overestimated\n your abilities!"},
+        {"start": 4.0, "duration": 1.0, "text": "The Empress?"}
+      ]
+    },
+    {
+      "table": "2F008F17",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 103"],
+      "cues": [
+        {"start": 2.5, "duration": 1.0, "text": "You BITCH!"}
+      ]
+    },
+    {
+      "table": "2F00A53D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1"],
+      "cues": [
+        {"start": 1.0, "duration": 10.0, "text": "I must hurry and confront The\n Empress Let us hope she has\n not completed her task!"}
+      ]
+    },
+    {
+      "table": "2F00A552",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 201"],
+      "cues": [
+        {"start": 21.5, "duration": 2.5, "text": "My swords! ...Gone."}
+      ]
+    },
+    {
+      "table": "2F00A553",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 202"],
+      "cues": [
+        {"start": 5.0, "duration": 4.0, "text": "Despite all the warnings that\n I would fail, I have vanquished\n the Empress and"},
+        {"start": 9.0, "duration": 2.0, "text": "prevented the creation of the\n Sands of Time."},
+        {"start": 11.5, "duration": 2.5, "text": "I have defeated the Dahaka,\n and Fate itself!"},
+        {"start": 18.5, "duration": 3.0, "text": "It's time to find a\n way off this rock."},
+        {"start": 26.5, "duration": 2.0, "text": "No! No no no!"}
+      ]
+    },
+    {
+      "table": "2F00A554",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 401"],
+      "cues": [
+        {"start": 8.5, "duration": 3.5, "text": "Come on, I know you're out there…"},
+        {"start": 13.0, "duration": 2.0, "text": "Show yourself!"},
+        {"start": 16.0, "duration": 2.0, "text": "Where I come from\n we FACE our opponents..."},
+        {"start": 21.0, "duration": 3.0, "text": "And if our enemy is unarmed,\n we offer them a sword."},
+        {"start": 30.0, "duration": 1.5, "text": "KILL HIM!"}
+      ]
+    },
+    {
+      "table": "2F00A555",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 402"],
+      "cues": [
+        {"start": 7.5, "duration": 4.5, "text": "What's this?\n It cannot cross the water…\n This is certain to come in handy."}
+      ]
+    },
+    {
+      "table": "2F00A556",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 452"],
+      "cues": [
+        {"start": 0.1, "duration": 3.0, "text": "It seems I've discovered one of the\n time-traveling portals the\n Old Man spoke of..."}
+      ]
+    },
+    {
+      "table": "2F00A557",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 453"],
+      "cues": [
+        {"start": 0.1, "duration": 2.9, "text": "I have managed to lose\n the Dahaka...for now."},
+        {"start": 3.0, "duration": 5.0, "text": "Best I stay alert.\n It will return.  It always does."}
+      ]
+    },
+    {
+      "table": "2F00A558",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 4541"],
+      "cues": [
+        {"start": 8.5, "duration": 2.0, "text": "What Kind of beast is this?"}
+      ]
+    },
+    {
+      "table": "2F00A559",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 4542"],
+      "cues": [
+        {"start": 13.5, "duration": 4.0, "text": "I had saved my own life…\n And I did not even know it!"}
+      ]
+    },
+    {
+      "table": "2F00A55A",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 455"],
+      "cues": [
+        {"start": 0.1, "duration": 3.4, "text": "It is as if the entire Castle trembles\n with grief at the loss of its Mistress."},
+        {"start": 3.5, "duration": 5.0, "text": "Let it weep!\n I will soon be away from\n this accursed place."}
+      ]
+    },
+    {
+      "table": "2F00A55B",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 551"],
+      "cues": [
+        {"start": 0.1, "duration": 3.0, "text": "I'd best find that woman…\n she's probably gone for reinforcements!"}
+      ]
+    },
+    {
+      "table": "2F00A55C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 552"],
+      "cues": [
+        {"start": 0.1, "duration": 0.0, "text": "Wait!"}
+      ]
+    },
+    {
+      "table": "2F00A55D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 5541"],
+      "cues": [
+        {"start": 1.5, "duration": 1.5, "text": "Oh... it's you."},
+        {"start": 5.0, "duration": 2.0, "text": "You seem surprised to see me..."},
+        {"start": 8.0, "duration": 3.5, "text": "Surprised only that you insist on\n prolonging the inevitable."},
+        {"start": 11.5, "duration": 1.5, "text": "Why... did you help me?"},
+        {"start": 13.5, "duration": 4.5, "text": "I... don't know. I guess HALF\n because you remind me\n of the Empress,"},
+        {"start": 18.0, "duration": 2.0, "text": "or who I wish she could be..."},
+        {"start": 20.5, "duration": 1.5, "text": "What do you mean?"},
+        {"start": 22.0, "duration": 4.0, "text": "Like you, she knows her own fate\n she's seen it in the TIMELINE."},
+        {"start": 26.0, "duration": 5.0, "text": "But where you fight it,\n she has submitted.\n She accepts it."},
+        {"start": 31.0, "duration": 4.0, "text": "They say knowledge is power…\n but I say it is a poison."},
+        {"start": 35.0, "duration": 3.0, "text": "Knowing the date and\n manner of her own death\n torments her."},
+        {"start": 39.0, "duration": 3.0, "text": "The closer it draws,\n the greater her pain."},
+        {"start": 42.0, "duration": 3.0, "text": "And you wish she would\n fight her fate, like me?"},
+        {"start": 45.0, "duration": 3.0, "text": "Maybe it would give her\n something to live for."},
+        {"start": 48.0, "duration": 5.0, "text": "You said that was\n only half the reason.\n What is the other half?"},
+        {"start": 54.0, "duration": 4.0, "text": "I have known my whole life\n that what is written in the Timeline\n cannot be changed."},
+        {"start": 59.0, "duration": 2.0, "text": "Yet something inside me\n wants you to succeed."},
+        {"start": 61.0, "duration": 1.0, "text": "And do you think I will?"},
+        {"start": 63.0, "duration": 3.0, "text": "No.  But I admire you for trying."},
+        {"start": 67.0, "duration": 7.0, "text": "Thank you…Your name…\n I haven't even asked your name.\n I've been so…"},
+        {"start": 74.0, "duration": 5.0, "text": "It's Kaileena. You should go…"}
+      ]
+    },
+    {
+      "table": "2F00A55E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 5551"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "The Dahaka!\n It has learned to find me in the past!"},
+        {"start": 6.5, "duration": 1.5, "text": "I don't have time for this!!"}
+      ]
+    },
+    {
+      "table": "2F00A55F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 5552"],
+      "cues": [
+        {"start": 1.5, "duration": 1.5, "text": "Tell me I am not too late."},
+        {"start": 4.0, "duration": 2.0, "text": "All is happening as before."},
+        {"start": 7.0, "duration": 2.0, "text": "NO! I must not let him pass!!"},
+        {"start": 15.0, "duration": 1.0, "text": "I'm sorry…"},
+        {"start": 19.0, "duration": 2.0, "text": "The Mask. It's loose!"}
+      ]
+    },
+    {
+      "table": "2F00A560",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 556"],
+      "cues": [
+        {"start": 18.0, "duration": 1.0, "text": "...too soon..."},
+        {"start": 26.5, "duration": 3.5, "text": "His ship approaches.\n It is just as the Timeline foretold."},
+        {"start": 30.5, "duration": 1.5, "text": "I am sorry, Empress."},
+        {"start": 32.5, "duration": 1.5, "text": "You have done as I said?"},
+        {"start": 34.0, "duration": 2.0, "text": "The crew is assembled\n and the ship is ready."},
+        {"start": 37.0, "duration": 5.0, "text": "Then go now.\n I have activated the Island's portals.\n You will travel to his time."},
+        {"start": 42.0, "duration": 4.0, "text": "Engage him at sea.\n And kill him. Kill them all!"},
+        {"start": 47.0, "duration": 1.0, "text": "As you wish."},
+        {"start": 48.0, "duration": 2.0, "text": "I do not appreciate your tone."},
+        {"start": 50.0, "duration": 2.0, "text": "You know you cannot\n change the Timeline."},
+        {"start": 52.0, "duration": 3.0, "text": "You cannot escape your fate."},
+        {"start": 55.0, "duration": 2.0, "text": "Yet you send me on\n this doomed mission."},
+        {"start": 57.0, "duration": 6.0, "text": "If you fail and HE reaches the island,\n you WILL find death…at MY hands."},
+        {"start": 63.0, "duration": 1.5, "text": "Now GO!!"},
+        {"start": 66.0, "duration": 6.8, "text": "It is odd... Kaileena\n and I are not so different.\n Each hoping to change our fate."},
+        {"start": 72.9, "duration": 0.1, "text": ""},
+        {"start": 73.0, "duration": 3.0, "text": "A shame that one of us\n will have to die."}
+      ]
+    },
+    {
+      "table": "2F00A561",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 651"],
+      "cues": [
+        {"start": 1.0, "duration": 1.0, "text": "Could it be?"},
+        {"start": 5.0, "duration": 3.0, "text": "I never thought I'd see\n this hourglass again..."},
+        {"start": 9.5, "duration": 7.5, "text": "...But these are not the Sands Of Time.\n It is as I hoped! I have traveled back to\n before the Sands were created."},
+        {"start": 17.0, "duration": 0.1, "text": ""},
+        {"start": 18.5, "duration": 3.5, "text": "This hourglass was just filled…\n What could it be counting down?"}
+      ]
+    },
+    {
+      "table": "2F00A562",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6521"],
+      "cues": [
+        {"start": 2.0, "duration": 3.0, "text": "This is a dangerous place.\n You should not have come back."},
+        {"start": 5.0, "duration": 4.5, "text": "I don't have the...luxury.\n I must see the Empress."},
+        {"start": 11.5, "duration": 1.5, "text": "Impossible."},
+        {"start": 13.0, "duration": 5.0, "text": "My mission... It is VERY urgent.\n I MUST see her."},
+        {"start": 18.0, "duration": 4.0, "text": "You don't understand.\n When the last grain falls\n from this hourglass…"},
+        {"start": 22.0, "duration": 2.0, "text": "...the Empress will create\n the Sands of Time."},
+        {"start": 24.0, "duration": 3.0, "text": "No business of yours could be\n more important than that."},
+        {"start": 28.0, "duration": 3.0, "text": "I have come to STOP the\n Empress from creating the Sands"},
+        {"start": 31.0, "duration": 2.0, "text": "Then yours is a fool's errand."},
+        {"start": 33.0, "duration": 5.0, "text": "The creation of the Sands was\n foretold in the Timeline.\n It cannot be stopped."},
+        {"start": 38.0, "duration": 6.0, "text": "I just saved your life. Twice.\n All I'm asking for is some information."},
+        {"start": 44.0, "duration": 2.5, "text": "Tell me where the Sands will be created."},
+        {"start": 47.0, "duration": 3.5, "text": "In there…\n But the room has been sealed.\n You cannot enter."},
+        {"start": 51.0, "duration": 1.0, "text": "There must be a way."},
+        {"start": 52.0, "duration": 5.5, "text": "Hah!  You'd have to undo the\n very fortifications of the Castle,\n an impossible task."},
+        {"start": 58.0, "duration": 4.0, "text": "When a man is faced with\n his own death,\n he finds the impossible less of a barrier."},
+        {"start": 63.0, "duration": 1.5, "text": "Tell me how."},
+        {"start": 65.5, "duration": 1.0, "text": "Very well."}
+      ]
+    },
+    {
+      "table": "2F00A563",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6531"],
+      "cues": [
+        {"start": 7.0, "duration": 2.0, "text": "Time is running low.  You ready?"},
+        {"start": 12.5, "duration": 4.5, "text": "I've been thinking, Kaileena…\n There is little for you on this Island,"},
+        {"start": 17.0, "duration": 3.0, "text": "and there will be less still\n once I've stood before your Mistress."},
+        {"start": 21.0, "duration": 5.0, "text": "Come with me to Babylon!\n You'll have a chance to begin a new\n life, free from the evils of this place."},
+        {"start": 27.0, "duration": 3.0, "text": "I am sorry Prince,\n but I cannot take you up on your offer."}
+      ]
+    },
+    {
+      "table": "2F00A564",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6532"],
+      "cues": [
+        {"start": 7.0, "duration": 2.0, "text": "Time is running low.  You ready?"},
+        {"start": 12.5, "duration": 4.5, "text": "I've been thinking, Kaileena…\n There is little for you on this Island,"},
+        {"start": 17.0, "duration": 3.0, "text": "and there will be less still\n once I've stood before your Mistress."},
+        {"start": 21.0, "duration": 5.0, "text": "Come with me to Babylon!\n You'll have a chance to begin a new\n life, free from the evils of this place."},
+        {"start": 27.0, "duration": 3.0, "text": "I am sorry Prince,\n but I cannot take you up on your offer."}
+      ]
+    },
+    {
+      "table": "2F00A565",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6541"],
+      "cues": [
+        {"start": 3.0, "duration": 2.0, "text": "Where is The Empress?\n Where are the Sands?"},
+        {"start": 16.0, "duration": 3.0, "text": "What are you doing?\n You've trapped us in here!"},
+        {"start": 22.0, "duration": 3.5, "text": "I am sorry Prince,\n but only one of us can\n cheat Fate today!"},
+        {"start": 32.5, "duration": 3.0, "text": "You…ARE the Empress!"},
+        {"start": 38.0, "duration": 4.5, "text": "I told you to leave.\n And yet, you kept coming back.\n I began to wonder."},
+        {"start": 43.0, "duration": 3.5, "text": "If you could change your Fate,\n perhaps I could change mine!"}
+      ]
+    },
+    {
+      "table": "2F00A566",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6542"],
+      "cues": [
+        {"start": 19.0, "duration": 2.0, "text": "It doesn't have to end this way!"},
+        {"start": 29.0, "duration": 2.5, "text": "Come with me…\n into the Present."},
+        {"start": 32.0, "duration": 3.0, "text": "So you can kill me in your\n own time, instead of mine?"},
+        {"start": 39.0, "duration": 5.0, "text": "I am sorry Prince,\n but only one of us\n can cheat Fate today!"},
+        {"start": 55.0, "duration": 3.0, "text": "Kaileena…Empress…\n listen!"},
+        {"start": 59.0, "duration": 4.0, "text": "No! YOU listen: The Timeline\n has said you will kill me"},
+        {"start": 63.0, "duration": 2.0, "text": "BUT I WILL CHANGE\n THE TIMELINE!"}
+      ]
+    },
+    {
+      "table": "2F00A567",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 655"],
+      "cues": [
+        {"start": 1.0, "duration": 2.0, "text": "I had hoped the Dahaka\n would kill you."},
+        {"start": 3.0, "duration": 3.0, "text": "I had hoped Shahdee would\n keep you from the Island…"},
+        {"start": 6.0, "duration": 2.0, "text": "or that the Towers would\n finish you off..."},
+        {"start": 8.0, "duration": 4.0, "text": "I even cursed the sword I gave you!\n AND YET YOU DID NOT DIE!"},
+        {"start": 18.0, "duration": 2.0, "text": "Why would you do this?"},
+        {"start": 20.0, "duration": 5.0, "text": "I've already told you\n I have foreseen my future.\n To die at your hands…"},
+        {"start": 25.0, "duration": 3.0, "text": "but like you,\n I've decided to change it!"}
+      ]
+    },
+    {
+      "table": "2F00A568",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6561"],
+      "cues": [
+        {"start": 0.1, "duration": 2.9, "text": "I mean you no harm,\n Kaileena..."},
+        {"start": 5.0, "duration": 2.0, "text": "... but I must finish this."},
+        {"start": 9.5, "duration": 5.5, "text": "You are a FOOL, Prince!\n No matter what you do, you still fail."},
+        {"start": 17.0, "duration": 5.0, "text": "Just as I have tried.\n And just as I have failed!"},
+        {"start": 24.0, "duration": 2.0, "text": "I am sorry, Kaileena."}
+      ]
+    },
+    {
+      "table": "2F00A569",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 657"],
+      "cues": [
+        {"start": 0.1, "duration": 6.8, "text": "The Sands of Time…\n After all I've done to be rid of them,\n still they haunt me…"},
+        {"start": 7.0, "duration": 6.0, "text": "Even if I am to find the Mask\n of the Wraith, Fate will find\n a way to reclaim me!"},
+        {"start": 13.0, "duration": 5.0, "text": "I will only be given a\n second chance... to fail!"},
+        {"start": 22.0, "duration": 4.0, "text": "I am overlooking something!\n I must think this through…"},
+        {"start": 27.0, "duration": 4.0, "text": "This wall.\n It looks similar to the ones I saw\n on my way back to the prison."},
+        {"start": 39.0, "duration": 2.0, "text": "It worked earlier..."}
+      ]
+    },
+    {
+      "table": "2F00A56A",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6581"],
+      "cues": [
+        {"start": 9.0, "duration": 1.0, "text": "What if…"}
+      ]
+    },
+    {
+      "table": "2F00A56B",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 701"],
+      "cues": [
+        {"start": 0.1, "duration": 2.9, "text": "Good.\n I seem to be back in the present."},
+        {"start": 3.0, "duration": 5.9, "text": "At least I know\n how these chambers work."}
+      ]
+    },
+    {
+      "table": "2F00A56C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 702"],
+      "cues": [
+        {"start": 3.0, "duration": 2.0, "text": "The Dahaka! It has found me here."}
+      ]
+    },
+    {
+      "table": "2F00A56D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 8511"],
+      "cues": [
+        {"start": 24.0, "duration": 2.0, "text": "You.  Help me!"},
+        {"start": 27.0, "duration": 4.0, "text": "It is as they say:\n \"The enemy of my enemy is my friend.\""},
+        {"start": 35.0, "duration": 4.0, "text": "Leave her alone!\n You and I have unfinished business."}
+      ]
+    },
+    {
+      "table": "2F00A56E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 8512"],
+      "cues": [
+        {"start": 4.0, "duration": 4.0, "text": "I tried my best, Empress…\n He was too strong a fighter."},
+        {"start": 8.0, "duration": 2.0, "text": "He reached the Island?!"},
+        {"start": 12.0, "duration": 5.0, "text": "Worse - he followed me through a portal.\n He is here, now, in our time."},
+        {"start": 17.0, "duration": 6.0, "text": "How dare you stand before me\n and admit failure!\n You should have DIED to protect me."},
+        {"start": 23.0, "duration": 5.0, "text": "I'll not give my life for this foolishness.\n If you want try to\n change the Timeline,"},
+        {"start": 28.0, "duration": 2.0, "text": "you can do it yourself!"},
+        {"start": 30.0, "duration": 5.0, "text": "After…\n everything I've done…\n How dare you…"},
+        {"start": 41.0, "duration": 2.0, "text": "I already know\n how this ends..."}
+      ]
+    },
+    {
+      "table": "2F00A56F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 852"],
+      "cues": [
+        {"start": 21.0, "duration": 3.0, "text": "Wait! Please…\n I must speak with you."},
+        {"start": 24.0, "duration": 2.0, "text": "What do you want from me?"},
+        {"start": 26.0, "duration": 2.0, "text": "I seek an audience\n with the Empress."},
+        {"start": 29.0, "duration": 4.0, "text": "The Empress meets with no one.\n Who do you think you are?"},
+        {"start": 34.0, "duration": 2.0, "text": "I am the Prince of Persia!"},
+        {"start": 36.0, "duration": 5.0, "text": "I see. Today is a very important day…\n She cannot be disturbed."},
+        {"start": 41.0, "duration": 2.0, "text": "I don't think you understand\n how important this is."},
+        {"start": 46.0, "duration": 3.0, "text": "Fool! Don't you know…"},
+        {"start": 51.0, "duration": 2.0, "text": "...you cannot change your fate!"},
+        {"start": 59.0, "duration": 5.0, "text": "''You cannot change your fate''…\n Was she speaking to me?\n How could she know my mission?"},
+        {"start": 78.5, "duration": 1.0, "text": "WATCH OUT!"},
+        {"start": 85.5, "duration": 3.0, "text": "Stay there! I will find my way to you."},
+        {"start": 89.0, "duration": 6.0, "text": "No, Prince! Leave this place\n and never return. The Empress\n has no love for the world of men."},
+        {"start": 95.0, "duration": 3.0, "text": "She will kill you\n if she learns of your presence."}
+      ]
+    },
+    {
+      "table": "2F00A570",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1001"],
+      "cues": [
+        {"start": 0.1, "duration": 4.9, "text": "Hmmm... this balcony seems to lead\n deeper into the gardens."},
+        {"start": 5.0, "duration": 5.0, "text": "I'll have to\n find a way up there eventually,\n but it's no use for now."}
+      ]
+    },
+    {
+      "table": "2F00A571",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1002"],
+      "cues": [
+        {"start": 1.0, "duration": 5.0, "text": "Such terrible screams.\n I hope I am not too late."},
+        {"start": 6.0, "duration": 5.0, "text": "Farzaad, my first mate!\n I thought all had perished at sea..."},
+        {"start": 11.0, "duration": 3.0, "text": "Farzaad,\n what happened to you?"},
+        {"start": 14.0, "duration": 3.0, "text": "The beast... it…"},
+        {"start": 17.0, "duration": 3.0, "text": "...you must…you must…"},
+        {"start": 20.0, "duration": 3.0, "text": "What, my friend?\n What must I do?"},
+        {"start": 23.0, "duration": 3.0, "text": "...RUN!"}
+      ]
+    },
+    {
+      "table": "2F00A572",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1003"],
+      "cues": [
+        {"start": 0.1, "duration": 6.0, "text": "This Island is full of surprises.\n Unpleasant, painful surprises..."}
+      ]
+    },
+    {
+      "table": "2F00A573",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1004"],
+      "cues": [
+        {"start": 0.1, "duration": 2.0, "text": "I must find my way back\n to the throne room."}
+      ]
+    },
+    {
+      "table": "2F00A574",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 10511"],
+      "cues": [
+        {"start": 2.5, "duration": 3.0, "text": "So Babylon is not the only place\n to discover the wonders\n of hanging gardens."},
+        {"start": 5.5, "duration": 4.0, "text": "Ours, however,\n do not provide sanctuary to monsters!"}
+      ]
+    },
+    {
+      "table": "2F00A575",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1101"],
+      "cues": [
+        {"start": 1.0, "duration": 5.0, "text": "Such terrible screams.\n I hope I am not too late."}
+      ]
+    },
+    {
+      "table": "2F00A576",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1102"],
+      "cues": [
+        {"start": 1.0, "duration": 5.0, "text": "Such terrible screams.\n I hope I am not too late."},
+        {"start": 6.0, "duration": 5.0, "text": "Farzaad, my first mate!\n I thought all had perished at sea..."},
+        {"start": 11.0, "duration": 3.0, "text": "Farzaad,\n what happened to you?"},
+        {"start": 14.0, "duration": 3.0, "text": "The beast... it…"},
+        {"start": 17.0, "duration": 3.0, "text": "...you must…you must…"},
+        {"start": 20.0, "duration": 3.0, "text": "What, my friend?\n What must I do?"},
+        {"start": 23.0, "duration": 3.0, "text": "...RUN!"}
+      ]
+    },
+    {
+      "table": "2F00A577",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1151"],
+      "cues": [
+        {"start": 0.1, "duration": 4.9, "text": "Hmmm... this balcony seems to lead\n deeper into the gardens."},
+        {"start": 5.0, "duration": 5.0, "text": "I'll have to\n find a way up there eventually,\n but it's no use for now."}
+      ]
+    },
+    {
+      "table": "2F00A578",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1201"],
+      "cues": [
+        {"start": 2.0, "duration": 3.0, "text": "I've found the right place…\n but at the wrong time."},
+        {"start": 6.0, "duration": 3.5, "text": "I'll need to return to the past\n if I want to activate this tower!"}
+      ]
+    },
+    {
+      "table": "2F00A579",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1252"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "The Dahaka!"},
+        {"start": 4.0, "duration": 3.0, "text": "It's only a tangle of vines!\n This Island must be getting to me…"}
+      ]
+    },
+    {
+      "table": "2F00A57A",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 21511"],
+      "cues": [
+        {"start": 6.5, "duration": 1.5, "text": "What do you want from me?!"}
+      ]
+    },
+    {
+      "table": "2F00A57B",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 21512"],
+      "cues": [
+        {"start": 2.0, "duration": 1.5, "text": "What do you want from me?!"},
+        {"start": 9.5, "duration": 2.5, "text": "My 'other' self still works to\n activate the towers."},
+        {"start": 12.5, "duration": 3.5, "text": "There is ample time to return\n to the Throne Room and await the\n opening of the door!"},
+        {"start": 29.5, "duration": 5.5, "text": "The towers!\n I…HE has activated them.\n Am I too late?"},
+        {"start": 37.5, "duration": 2.5, "text": "I have come too far to fail!"}
+      ]
+    },
+    {
+      "table": "2F00A57C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 2301"],
+      "cues": [
+        {"start": 0.1, "duration": 3.9, "text": "This machine…\n it must activate\n the Mechanical Tower."},
+        {"start": 4.0, "duration": 4.0, "text": "I need to find a portal…\n and hope that whatever disaster befell"},
+        {"start": 8.0, "duration": 2.0, "text": "this place has not yet come to pass!"}
+      ]
+    },
+    {
+      "table": "2F00A57D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 2351"],
+      "cues": [
+        {"start": 4.0, "duration": 5.0, "text": "Excellent. It seems to be in much\n better condition this time around…\n Now how do I get it working?"}
+      ]
+    },
+    {
+      "table": "2F00A57E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 4001"],
+      "cues": [
+        {"start": 2.0, "duration": 4.0, "text": "What is this?!\n I saw the Empress die!\n She never created the Sands!"},
+        {"start": 6.0, "duration": 3.0, "text": "There should be no Dahaka..."},
+        {"start": 26.0, "duration": 4.0, "text": "...and yet it still pursues me!\n What has gone wrong?"}
+      ]
+    },
+    {
+      "table": "2F00A57F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 4251"],
+      "cues": [
+        {"start": 1.0, "duration": 4.0, "text": "Kaileena's library…\n What knowledge must\n be contained within!"},
+        {"start": 5.0, "duration": 5.0, "text": "I suspect there is much\n she could have taught me…\n had things gone another way."},
+        {"start": 10.0, "duration": 9.0, "text": "But there is no time now\n for such daydreams!"}
+      ]
+    },
+    {
+      "table": "2F00A581",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 4253"],
+      "cues": [
+        {"start": 11.0, "duration": 2.0, "text": "Die, you bastard!"}
+      ]
+    },
+    {
+      "table": "2F00A582",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6151"],
+      "cues": [
+        {"start": 0.1, "duration": 5.0, "text": "If I cannot reach the platform…\n perhaps I can bring the platform to ME!"}
+      ]
+    },
+    {
+      "table": "2F00A583",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6152"],
+      "cues": [
+        {"start": 0.1, "duration": 4.0, "text": "Come on…Come on…\n One of these levers should do it...."}
+      ]
+    },
+    {
+      "table": "2F00A584",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 7101"],
+      "cues": [
+        {"start": 0.1, "duration": 9.9, "text": "Up until now I have allowed the Dahaka\n to control me - to fill me with fear.\n Fear of my capture, my destruction…"},
+        {"start": 10.0, "duration": 5.0, "text": "the loss of my family\n and friends. But now the creature fills\n me with RAGE!"},
+        {"start": 15.0, "duration": 5.0, "text": "I will destroy\n Empress Kaileena in the present.\n And I WILL be free."}
+      ]
+    },
+    {
+      "table": "2F00A585",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 71021"],
+      "cues": [
+        {"start": 0.1, "duration": 4.9, "text": "It wasn't trying to kill me…\n but WARN me! Warn me of\n Kaileena's betrayal,"},
+        {"start": 5.0, "duration": 2.0, "text": "of my own role in creating the Sands…"}
+      ]
+    },
+    {
+      "table": "2F00A586",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 71031"],
+      "cues": [
+        {"start": 2.0, "duration": 4.0, "text": "I know what you've seen\n what you think you've seen\n in the Timeline."},
+        {"start": 7.0, "duration": 2.0, "text": "Then you know I have no choice."},
+        {"start": 9.0, "duration": 2.0, "text": "There is always a\n choice, Kaileena"},
+        {"start": 11.0, "duration": 4.0, "text": "Then I choose to live…\n And for you to die!"}
+      ]
+    },
+    {
+      "table": "2F00A587",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 7104"],
+      "cues": [
+        {"start": 5.5, "duration": 4.5, "text": "I'm sorry...If only it didn't\n have to end this way…"},
+        {"start": 12.0, "duration": 10.0, "text": "You've...saved yourself it seems,\n my Prince. But still I become the Sands.\n There will be others like the Maharaja;"},
+        {"start": 22.0, "duration": 4.0, "text": "braggarts and fools who will\n quest for the sands and find them."},
+        {"start": 28.0, "duration": 7.0, "text": "My VENGEANCE will be unleashed\n once more on your world…"},
+        {"start": 35.1, "duration": 0.1, "text": ""}
+      ]
+    },
+    {
+      "table": "2F00A588",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 7105"],
+      "cues": [
+        {"start": 0.1, "duration": 2.9, "text": "STAND DOWN!\n  I DO NOT WANT TO KILL YOU!"},
+        {"start": 3.0, "duration": 5.0, "text": "Even if you don't want to\n kill me, you will…\n The Timeline demands it!"},
+        {"start": 8.0, "duration": 4.0, "text": "No Kaileena…\n You can change your fate.\n I have done so."},
+        {"start": 12.0, "duration": 4.0, "text": "A terrible beast was destined\n to take my life.\n But I have freed myself from..."},
+        {"start": 17.0, "duration": 1.0, "text": "What is that thing?"},
+        {"start": 18.0, "duration": 4.0, "text": "No.  NO!!!  How is this possible?\n I have STOPPED Kaileena\n from dying in the past."},
+        {"start": 22.0, "duration": 2.0, "text": "There are no Sands in the Hourglass!"},
+        {"start": 30.0, "duration": 5.0, "text": "It is Kaileena who does not\n belong in this Timeline.\n The Beast is after her now."},
+        {"start": 36.0, "duration": 3.0, "text": "In bringing her here,\n I have sentenced her to death."},
+        {"start": 40.0, "duration": 2.0, "text": "This is all YOUR fault!"},
+        {"start": 45.0, "duration": 5.0, "text": "Could this be? This sword…\n it seems to protect me from the Dahaka…"},
+        {"start": 50.0, "duration": 3.0, "text": "Perhaps the beast is not so\n invincible after all..."}
+      ]
+    },
+    {
+      "table": "2F00B71C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6522"],
+      "cues": [
+        {"start": 1.0, "duration": 1.0, "text": "You'll need this."},
+        {"start": 4.0, "duration": 2.0, "text": "It's more than just a weapon..."}
+      ]
+    },
+    {
+      "table": "2F00B71D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6523"],
+      "cues": [
+        {"start": 0.1, "duration": 0.0, "text": "What do you mean?"},
+        {"start": 2.0, "duration": 7.0, "text": "Succeed or fail - the outcome is the same.\n You will not stop the Sands\n from being created."},
+        {"start": 7.0, "duration": 2.0, "text": "What is written in the\n Timeline cannot be changed."},
+        {"start": 10.0, "duration": 2.0, "text": "Thanks for the...advice"}
+      ]
+    },
+    {
+      "table": "2F00B73C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 5542"],
+      "cues": [
+        {"start": 0.5, "duration": 1.0, "text": "... You haven't much time."}
+      ]
+    },
+    {
+      "table": "2F00B747",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 10512"],
+      "cues": [
+        {"start": 0.1, "duration": 4.9, "text": "My goal... it's just out of reach.\n I need to find a way up there!"}
+      ]
+    },
+    {
+      "table": "2F00B752",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6562"],
+      "cues": [
+        {"start": 9.0, "duration": 2.0, "text": "I must return to the Present!"}
+      ]
+    },
+    {
+      "table": "2F00B75D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6582"],
+      "cues": [
+        {"start": 0.1, "duration": 3.9, "text": "My goal is clear, then:\n use the Mask to force Kaileena\n into the present"},
+        {"start": 4.0, "duration": 5.0, "text": "where I can kill her.\n It is simple! Or sounds simple…"}
+      ]
+    },
+    {
+      "table": "2F00B768",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 71022"],
+      "cues": [
+        {"start": 0.1, "duration": 3.9, "text": "...and in the end\n it DIED! I DIED!"},
+        {"start": 8.0, "duration": 5.0, "text": "The Mask is part of me now.\n And if the Maharaja's tale is true,"},
+        {"start": 13.0, "duration": 3.0, "text": "it will remain this way\n until my other self perishes."},
+        {"start": 16.0, "duration": 3.0, "text": "Only then can I remove the mask."}
+      ]
+    },
+    {
+      "table": "2F00B773",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 42522"],
+      "cues": [
+        {"start": 2.0, "duration": 2.0, "text": "Just TRY and catch me!"}
+      ]
+    },
+    {
+      "table": "2F00B77E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 71032"],
+      "cues": [
+        {"start": 1.0, "duration": 2.0, "text": "Don't you see?!\n We CAN change our Fate!"},
+        {"start": 4.0, "duration": 2.0, "text": "This isn't what happened\n the first time we fought..."},
+        {"start": 6.0, "duration": 2.0, "text": "The first time...?"},
+        {"start": 8.0, "duration": 4.0, "text": "That's what I've… been trying\n to tell you! If you'd…\n just let me explain!"},
+        {"start": 12.0, "duration": 4.5, "text": "No more WORDS, Prince!\n If you've only things to SAY and"},
+        {"start": 16.5, "duration": 2.5, "text": "nothing to SHOW then\n let us finish this!"},
+        {"start": 19.0, "duration": 1.0, "text": "...I'm sorry…"}
+      ]
+    },
+    {
+      "table": "2F00B77F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 71033"],
+      "cues": [
+        {"start": 1.0, "duration": 2.0, "text": "I WILL KILL YOU!"},
+        {"start": 3.0, "duration": 4.0, "text": "I do not want to hurt you,\n Kaileena... But I cannot allow\n that to happen!"}
+      ]
+    },
+    {
+      "table": "2F00B856",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9003"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "I'd best find that woman…\n she's probably gone for reinforcements!"}
+      ]
+    },
+    {
+      "table": "2F00B85A",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9007"],
+      "cues": [
+        {"start": 0.1, "duration": 5.9, "text": "Excellent. It seems to be in much\n better condition this time around…\n Now how do I get it working?"}
+      ]
+    },
+    {
+      "table": "2F00B85B",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9008"],
+      "cues": [
+        {"start": 10.0, "duration": 3.9, "text": "I fear my time runs short.\n While I rush about activating Towers,"},
+        {"start": 14.0, "duration": 2.0, "text": "no doubt the Empress is\n busy creating the Sands!"}
+      ]
+    },
+    {
+      "table": "2F00B85F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9012"],
+      "cues": [
+        {"start": 10.0, "duration": 3.0, "text": "I fear my time runs short.\n While I rush about activating Towers,"},
+        {"start": 13.5, "duration": 3.5, "text": "no doubt the Empress is\n busy creating the Sands!"}
+      ]
+    },
+    {
+      "table": "2F00B860",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9013"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "The Dahaka! But... so far away.\n Does it have business with\n another on this Island?"}
+      ]
+    },
+    {
+      "table": "2F00B866",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9019"],
+      "cues": [
+        {"start": 0.1, "duration": 3.9, "text": "Kaileena's library…\n What knowledge must\n be contained within!"},
+        {"start": 5.0, "duration": 5.0, "text": "I suspect there is much\n she could have taught me…\n had things gone another way."}
+      ]
+    },
+    {
+      "table": "2F00B872",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9031"],
+      "cues": [
+        {"start": 0.1, "duration": 5.0, "text": "If I cannot reach the platform…\n perhaps I can bring the platform to ME!"}
+      ]
+    },
+    {
+      "table": "2F00B87D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9042"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "A sword… Now how do I reach it?"}
+      ]
+    },
+    {
+      "table": "2F00B87E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9043"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Good, good.\n This should make things easier."}
+      ]
+    },
+    {
+      "table": "2F00B87F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9044"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "I can barely see through this!\n Best I watch my back.\n Who knows what’s lurking in this mist…"}
+      ]
+    },
+    {
+      "table": "2F00B882",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9047"],
+      "cues": [
+        {"start": 4.1, "duration": 3.4, "text": "That door! The switch that opens it\n has to be around here somewhere."},
+        {"start": 7.5, "duration": 1.5, "text": "If only I could see through this fog."}
+      ]
+    },
+    {
+      "movie": "cine0004",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF97"],
+      "cues": [
+        {"start": 7.0, "end": 10.0, "text": "No.  NO!!!\n How is this possible?"},
+        {"start": 15.0, "end": 17.9, "text": "The Sands are here in the present,\n not in the Hourglass!"},
+        {"start": 25.0, "end": 32.0, "text": "It is the Sands that should\n no longer exist in the Timeline.\n  The Dahaka is doing its job!"},
+        {"start": 32.0, "end": 32.1, "text": ""},
+        {"start": 34.0, "end": 39.0, "text": "Not only have I saved myself,\n I have eliminated the Sands of Time!"},
+        {"start": 43.0, "end": 46.0, "text": "What?\n What do you want?"},
+        {"start": 54.0, "end": 55.0, "text": "The Amulet!"},
+        {"start": 57.0, "end": 59.5, "text": "The last relic of the Sands of Time."},
+        {"start": 65.0, "end": 66.5, "text": "Can it be?"},
+        {"start": 68.0, "end": 70.5, "text": "I have changed my fate!"},
+        {"start": 92.0, "end": 93.5, "text": "Soon, I will be home…"},
+        {"start": 96.0, "end": 101.0, "text": "You cannot change your fate.\n No man can."},
+        {"start": 102.0, "end": 103.5, "text": "What have I done?"}
+      ]
+    },
+    {
+      "movie": "cine0005",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF98"],
+      "cues": [
+        {"start": 54.0, "end": 61.9, "text": "Together we built this vessel…\n Together we left the Island…\n And together we return to Babylon!"},
+        {"start": 61.9, "end": 62.0, "text": ""},
+        {"start": 126.0, "end": 129.0, "text": "All that is yours\n is rightfully mine."},
+        {"start": 147.0, "end": 150.0, "text": "And mine, it will be!"},
+        {"start": 152.0, "end": 158.0, "text": "your journey will not end well.\n You cannot change your fate."},
+        {"start": 158.0, "end": 159.5, "text": "No man can."}
+      ]
+    },
+    {
+      "movie": "cine0100",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF99"],
+      "cues": [
+        {"start": 98.0, "end": 100.0, "text": "This storm shows us no mercy!"},
+        {"start": 101.0, "end": 103.0, "text": "We shall respond in kind!"},
+        {"start": 104.5, "end": 106.0, "text": "Reef the mainsail!"},
+        {"start": 107.0, "end": 108.5, "text": "Bring us closer to the wind."},
+        {"start": 129.0, "end": 131.0, "text": "Ready your weapons!"},
+        {"start": 197.0, "end": 198.0, "text": "Kill him."}
+      ]
+    },
+    {
+      "movie": "cine0102",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF9A"],
+      "cues": [
+        {"start": 2.0, "end": 3.0, "text": "The ISLAND OF TIME…"},
+        {"start": 6.0, "end": 13.0, "text": "The Place where the Sands were\n created. The place from which\n the Maharajah STOLE the hourglass."},
+        {"start": 14.0, "end": 16.0, "text": "And what if I could reach this island?"},
+        {"start": 17.5, "end": 22.0, "text": "They say the Maharaja found Portals\n there, where one could pass\n backwards through time."},
+        {"start": 24.0, "end": 25.0, "text": "Back through time..."},
+        {"start": 26.0, "end": 28.0, "text": "to the birthplace of the Sands..."},
+        {"start": 30.0, "end": 35.0, "text": "Something terrible happened when\n our army traveled to the\n Maharaja’s palace."},
+        {"start": 36.0, "end": 38.0, "text": "You found the Sands of Time…"},
+        {"start": 39.0, "end": 42.0, "text": "Worse! I opened them."},
+        {"start": 45.0, "text": "Whosoever shall open\n the Sands must die…"},
+        {"start": 50.0, "end": 54.0, "text": "I was forced to kill those \n I fought beside, those I had loved."},
+        {"start": 54.0, "end": 57.0, "text": "But now an unstoppable\n beast chases you…"},
+        {"start": 60.0, "end": 64.0, "text": "For the first time in my life, I am afraid."},
+        {"start": 64.5, "end": 67.0, "text": "And you will die."},
+        {"start": 68.0, "end": 73.0, "text": "I used the sands themselves to\n reverse time, making it as if the\n Hourglass was never opened."},
+        {"start": 73.0, "end": 73.1, "text": ""},
+        {"start": 75.0, "end": 79.0, "text": "The Beast, the Dahaka is\n the Guardian of the Timeline."},
+        {"start": 80.0, "end": 84.0, "text": "You were supposed to die,\n so it will catch you"},
+        {"start": 84.0, "end": 87.0, "text": "and see to it that you meet your fate."},
+        {"start": 89.0, "end": 92.0, "text": "It is better to try than to wait\n here for death."},
+        {"start": 92.0, "end": 99.9, "text": "Madness! Even if you manage\n to reach the Island, you'll still have\n to face the Empress of Time!"},
+        {"start": 99.9, "end": 100.0, "text": ""},
+        {"start": 100.0, "end": 105.0, "text": "I will travel back in time,\n and prevent the Sands from\n ever being made."},
+        {"start": 105.0, "end": 109.0, "text": "If there are no Sands,\n the Dahaka will\n have no quarrel with me!"},
+        {"start": 111.0, "end": 113.0, "text": "Go then, my Prince."},
+        {"start": 113.0, "end": 121.0, "text": "But know this: your journey will\n not end well. You cannot\n change your fate…"},
+        {"start": 122.0, "end": 124.0, "text": "…No man can."}
+      ]
+    },
+    {
+      "movie": "cine0400",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF9B"],
+      "cues": [
+        {"start": 9.5, "end": 11.5, "text": "Madness! What magic is this!?"}
+      ]
+    },
+    {
+      "movie": "cine0550",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00BC13"],
+      "cues": [
+        {"start": 0.1, "end": 4.0, "text": "...It also serves to activate a\n system of bridges which will grant\n you access to the other towers."},
+        {"start": 5.5, "end": 7.5, "text": "It won't make a difference, though..."}
+      ]
+    },
+    {
+      "movie": "cine0650",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00BC14"],
+      "cues": [
+        {"start": 1.0, "end": 6.0, "text": "The gate is controlled by an\n elaborate clockwork system located\n inside the Mechanical Tower."},
+        {"start": 6.9, "end": 7.0, "text": ""},
+        {"start": 7.0, "end": 12.0, "text": "Even assuming you can\n reach the device and activate it,\n the machine still needs power."},
+        {"start": 12.0, "end": 16.0, "text": "As water passes through the moat,\n the machine will receive power."},
+        {"start": 17.0, "end": 20.0, "text": "But first, you'll have to fill\n the moat from the supply\n in the Garden Tower."},
+        {"start": 21.0, "end": 25.0, "text": "Activate both towers and\n the door will open..."}
+      ]
+    },
+    {
+      "movie": "cine0651",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00BC15"],
+      "cues": [
+        {"start": 0.1, "end": 10.1, "text": "...The hourglass is more\n than half empty..."}
+      ]
+    },
+    {
+      "movie": "cine0654",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00BC16"],
+      "cues": [
+        {"start": 0.1, "end": 3.0, "text": "What if Kaileena didn't die in\n the past, but in the present?"},
+        {"start": 3.0, "end": 7.0, "text": "The Sands would be created…\n but the Maharaja would fail to find them."},
+        {"start": 8.0, "end": 11.0, "text": "They'd never be brought to his palace\n AND I would never release them."},
+        {"start": 11.0, "end": 14.0, "text": "The Dahaka will have\n no business with me!"}
+      ]
+    },
+    {
+      "movie": "cine4000",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF9C"],
+      "cues": [
+        {"start": 8.0, "end": 13.0, "text": "I am… The architect of\n my own destruction…"},
+        {"start": 24.0, "end": 25.5, "text": "So this is it."},
+        {"start": 27.0, "end": 32.0, "text": "What is written in the\n Timeline cannot be changed…"},
+        {"start": 39.0, "end": 41.0, "text": "Come for me, then!"},
+        {"start": 50.0, "end": 56.0, "text": "In my quest to destroy\n the Sands of Time, I have\n been the one to CREATE them!"},
+        {"start": 68.0, "end": 72.0, "text": "Let all who read this know\n the courage and valor of those"},
+        {"start": 72.0, "end": 76.0, "text": "who fought and\n fell for the Maharaja."},
+        {"start": 78.0, "end": 86.0, "text": "We sought the power of the\n Sands of Time…Most found\n only death...Myself among them…"},
+        {"start": 92.0, "end": 96.0, "text": "But the MASK OF THE WRAITH\n gave me a SECOND CHANCE."},
+        {"start": 97.0, "end": 100.0, "text": "to travel back through time\n and CHANGE my fate…"},
+        {"start": 103.0, "end": 106.0, "text": "This mural shows the impossible..."},
+        {"start": 110.0, "end": 113.0, "text": "But the MASK OF THE WRAITH\n gave me a SECOND CHANCE."},
+        {"start": 115.0, "end": 117.0, "text": "There may still be hope."},
+        {"start": 121.0, "end": 125.0, "text": "You had your chance to take me!\n You won't get another."}
+      ]
+    },
+    {
+      "movie": "cine7100",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF9D"],
+      "cues": [
+        {"start": 55.0, "end": 58.0, "text": "I…I have become that THING!"}
+      ]
     }
   ]
 }

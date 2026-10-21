@@ -1,0 +1,1472 @@
+{
+  "game": "ww",
+  "lines": [
+    {
+      "table": "2F008F11",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 101"],
+      "cues": [
+        {"start": 5.0, "duration": 3.0, "text": "Je bereikt onze kust nooit levend!"},
+        {"start": 8.0, "duration": 3.0, "text": "Voor je eigen bestwil,\n is dat ook maar beter van niet."}
+      ]
+    },
+    {
+      "table": "2F008F14",
+      "type": "cutscene",
+      "trigger": [],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Het lijkt erop dat de Keizerin\n je overschat heeft!"},
+        {"start": 4.0, "duration": 1.0, "text": "De keizerin?"}
+      ]
+    },
+    {
+      "table": "2F008F17",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 103"],
+      "cues": [
+        {"start": 2.5, "duration": 1.0, "text": "STOMME TRUT!"}
+      ]
+    },
+    {
+      "table": "2F00A53D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1"],
+      "cues": [
+        {"start": 1.0, "duration": 10.0, "text": "Ik moet de Keizerin snel hiermee\n confronteren. Hopelijk is ze\n nog niet klaar!"}
+      ]
+    },
+    {
+      "table": "2F00A552",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 201"],
+      "cues": [
+        {"start": 21.5, "duration": 2.5, "text": "Mijn zwaarden,\n ze zijn verdwenen."}
+      ]
+    },
+    {
+      "table": "2F00A553",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 202"],
+      "cues": [
+        {"start": 5.0, "duration": 4.0, "text": "Ondanks alle\n waarschuwingen heb ik de\n Keizerin verslagen."},
+        {"start": 9.0, "duration": 2.0, "text": "en de schepping van het\n Zand des Tijds voorkomen."},
+        {"start": 11.5, "duration": 2.5, "text": "Ik versloeg de Dahaka,\n en het Lot."},
+        {"start": 18.5, "duration": 3.0, "text": "Nu moet ik hier\n weg zien te komen."},
+        {"start": 26.5, "duration": 2.0, "text": "Nee! Nee nee nee!"}
+      ]
+    },
+    {
+      "table": "2F00A554",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 401"],
+      "cues": [
+        {"start": 8.5, "duration": 3.5, "text": "Kom op,\n ik weet dat je er bent."},
+        {"start": 13.0, "duration": 2.0, "text": "Kom tevoorschijn!"},
+        {"start": 16.0, "duration": 2.0, "text": "Waar ik vandaan kom kijken\n we onze tegenstander aan!"},
+        {"start": 21.0, "duration": 3.0, "text": "En als de\n vijand ongewapend is,\n krijgt-ie een zwaard."},
+        {"start": 30.0, "duration": 1.5, "text": "DOOD HEM!"}
+      ]
+    },
+    {
+      "table": "2F00A555",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 402"],
+      "cues": [
+        {"start": 7.5, "duration": 4.5, "text": "Wat nu dan?\n Hiermee kan je geen water oversteken.\n Dat is handig om te weten."}
+      ]
+    },
+    {
+      "table": "2F00A556",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 452"],
+      "cues": [
+        {"start": 0.1, "duration": 3.0, "text": "Het lijkt erop dat ik zo'n\n \"tijdreis kamer\" gevonden heb\n waar die oude man het over had."}
+      ]
+    },
+    {
+      "table": "2F00A557",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 453"],
+      "cues": [
+        {"start": 0.1, "duration": 2.9, "text": "Ik ben de Dahaka\n kwijtgeraakt, voorlopig dan."},
+        {"start": 3.0, "duration": 5.0, "text": "Kan maar beter alert blijven.\n Hij komt terug, zoals altijd."}
+      ]
+    },
+    {
+      "table": "2F00A558",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 4541"],
+      "cues": [
+        {"start": 8.5, "duration": 2.0, "text": "Wat is dit voor monster?"}
+      ]
+    },
+    {
+      "table": "2F00A559",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 4542"],
+      "cues": [
+        {"start": 13.5, "duration": 4.0, "text": "Ik heb mijn eigen leven gered.\n Zonder dat ik het wist!"}
+      ]
+    },
+    {
+      "table": "2F00A55A",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 455"],
+      "cues": [
+        {"start": 0.1, "duration": 3.4, "text": "Het lijkt wel of het Kasteel\n rouwt om zijn Meesteres."},
+        {"start": 3.5, "duration": 5.0, "text": "Huil maar! Ik ben gauw van\n deze vervloekte plek weg."}
+      ]
+    },
+    {
+      "table": "2F00A55B",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 551"],
+      "cues": [
+        {"start": 0.1, "duration": 3.0, "text": "Ik kan maar het beste\n die vrouw zoeken,\n ze haalt vast versterkingen!"}
+      ]
+    },
+    {
+      "table": "2F00A55C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 552"],
+      "cues": [
+        {"start": 0.1, "duration": 0.0, "text": "Wacht!"}
+      ]
+    },
+    {
+      "table": "2F00A55D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 5541"],
+      "cues": [
+        {"start": 1.5, "duration": 1.5, "text": "Oh, jij bent het."},
+        {"start": 5.0, "duration": 2.0, "text": "Je lijkt verrast me te zien."},
+        {"start": 8.0, "duration": 3.5, "text": "Alleen verrast omdat je\n het onvermijdelijke uitstelt."},
+        {"start": 11.5, "duration": 1.5, "text": "Waarom hielp je me?"},
+        {"start": 13.5, "duration": 4.5, "text": "Dat weet ik niet. Ik denk\n deels omdat je iets hebt van\n de Keizerin,"},
+        {"start": 18.0, "duration": 2.0, "text": "of zoals ze zou\n moeten zijn…"},
+        {"start": 20.5, "duration": 1.5, "text": "Hoe bedoel je?"},
+        {"start": 22.0, "duration": 4.0, "text": "Net als jij kent ze haar lot.\n Dat ziet ze in de tijdslijn."},
+        {"start": 26.0, "duration": 5.0, "text": "Maar terwijl jij er tegen vecht,\n legt zij zich erbij neer.\n Ze aanvaardt het."},
+        {"start": 31.0, "duration": 4.0, "text": "Kennis is macht zeggen ze,\n maar ik vind het vergif."},
+        {"start": 35.0, "duration": 3.0, "text": "De wetenschap wanneer en\n hoe ze zal sterven verscheurt haar."},
+        {"start": 39.0, "duration": 3.0, "text": "Hoe dichterbij het komt,\n des te erger haar pijn…"},
+        {"start": 42.0, "duration": 3.0, "text": "En zou je willen dat ze,\n net als ik, zich tegen haar lot verzet?"},
+        {"start": 45.0, "duration": 3.0, "text": "Het zou haar misschien iets\n geven om voor te leven."},
+        {"start": 48.0, "duration": 5.0, "text": "Het was deels de reden, zei je.\n Wat is de andere reden?"},
+        {"start": 54.0, "duration": 4.0, "text": "Ik weet al mijn hele leven dat\n wat in de Tijdslijn geschreven staat\n niet veranderd kan worden."},
+        {"start": 59.0, "duration": 2.0, "text": "Toch wil ik ergens dat je slaagt."},
+        {"start": 61.0, "duration": 1.0, "text": "En verwacht je dat?"},
+        {"start": 63.0, "duration": 3.0, "text": "Nee, maar ik bewonder je poging."},
+        {"start": 67.0, "duration": 7.0, "text": "Dank je. Hoe heet je?\n Ik heb niet eens je naam gevraagd.\n Ik was zo…"},
+        {"start": 74.0, "duration": 5.0, "text": "Ik heet Kaileena.\n Ga nu…"}
+      ]
+    },
+    {
+      "table": "2F00A55E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 5551"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "De Dahaka!\n Hij heeft geleerd me in\n het verleden te vinden!"},
+        {"start": 6.5, "duration": 1.5, "text": "Ik heb hier geen tijd voor!!"}
+      ]
+    },
+    {
+      "table": "2F00A55F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 5552"],
+      "cues": [
+        {"start": 1.5, "duration": 1.5, "text": "Zeg me dat ik niet te laat ben."},
+        {"start": 4.0, "duration": 2.0, "text": "Alles gebeurt weer als tevoren."},
+        {"start": 7.0, "duration": 2.0, "text": "NEE! Ik mag hem niet langs laten!"},
+        {"start": 15.0, "duration": 1.0, "text": "Het spijt me…"},
+        {"start": 19.0, "duration": 2.0, "text": "Het Masker! Het laat los!"}
+      ]
+    },
+    {
+      "table": "2F00A560",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 556"],
+      "cues": [
+        {"start": 18.0, "duration": 1.0, "text": "… te snel…"},
+        {"start": 26.5, "duration": 3.5, "text": "Zijn schip komt eraan,\n zoals geschreven stond."},
+        {"start": 30.5, "duration": 1.5, "text": "Het spijt me, Keizerin."},
+        {"start": 32.5, "duration": 1.5, "text": "Heb je gedaan wat ik je\n opgedragen heb?"},
+        {"start": 34.0, "duration": 2.0, "text": "De bemanning is paraat\n en het schip is klaar."},
+        {"start": 37.0, "duration": 5.0, "text": "Ga dan.\n Ik heb de Poorten geactiveerd."},
+        {"start": 42.0, "duration": 4.0, "text": "Je reist naar zijn tijd.\n Val hem op zee aan \n en dood hem. Dood ze allemaal!"},
+        {"start": 47.0, "duration": 1.0, "text": "Zoals u wenst."},
+        {"start": 48.0, "duration": 2.0, "text": "Je toon staat me niet aan."},
+        {"start": 50.0, "duration": 2.0, "text": "Je weet dat je de Tijdlijn\n niet kunt veranderen."},
+        {"start": 52.0, "duration": 3.0, "text": "Je kunt je lot niet ontlopen."},
+        {"start": 55.0, "duration": 2.0, "text": "Toch stuur je me op\n deze fatale missie…"},
+        {"start": 57.0, "duration": 6.0, "text": "Mocht je falen en bereikt\n hij het eiland, dan sterf je\n door mijn hand!"},
+        {"start": 63.0, "duration": 1.5, "text": "GA nu!"},
+        {"start": 66.0, "duration": 4.0, "text": "Gek hoor…Kaileena en ik,\n we lijken veel op elkaar."},
+        {"start": 70.0, "duration": 3.0, "text": "Elk hopen we ons\n lot te veranderen."},
+        {"start": 73.0, "duration": 3.0, "text": "Jammer dat één\n van ons moet sterven."}
+      ]
+    },
+    {
+      "table": "2F00A561",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 651"],
+      "cues": [
+        {"start": 1.0, "duration": 1.0, "text": "Zou dat kunnen?"},
+        {"start": 5.0, "duration": 3.0, "text": "Nooit gedacht dat ik deze \nzandloper nog eens zou zien…"},
+        {"start": 9.5, "duration": 7.5, "text": "Maar dit is niet het Zand der Tijd.\n Het is wat ik hoopte! Ik ben teruggereisd naar de tijd\n voor het Zand geschapen werd."},
+        {"start": 18.5, "duration": 3.5, "text": "Deze zandloper was net vol.\n Waarom loopt hij nu leeg?"}
+      ]
+    },
+    {
+      "table": "2F00A562",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6521"],
+      "cues": [
+        {"start": 2.0, "duration": 3.0, "text": "Het is hier gevaarlijk.\n Je had niet terug moeten komen."},
+        {"start": 5.0, "duration": 4.5, "text": "Hier heb ik de tijd niet voor.\n Ik moet de Keizerin spreken."},
+        {"start": 11.5, "duration": 1.5, "text": "Onmogelijk."},
+        {"start": 13.0, "duration": 5.0, "text": "Mijn missie is erg dringend.\n Ik moet haar spreken."},
+        {"start": 18.0, "duration": 4.0, "text": "Je snapt het niet. Als de laatste\n korrel in de zandloper valt…"},
+        {"start": 22.0, "duration": 2.0, "text": "… schept de Keizerin het\n Zand des Tijds."},
+        {"start": 24.0, "duration": 3.0, "text": "Niets is belangrijker dan dat."},
+        {"start": 28.0, "duration": 3.0, "text": "Ik ben hier om te voorkomen\n dat ze het Zand maakt."},
+        {"start": 31.0, "duration": 2.0, "text": "Dat is een dwaze opdracht."},
+        {"start": 33.0, "duration": 5.0, "text": "De schepping van het Zand is\n voorspeld. Het kan niet\n tegengehouden worden."},
+        {"start": 38.0, "duration": 4.0, "text": "Ik heb je leven gered.\n Tweemaal.\n Ik wil alleen wat informatie."},
+        {"start": 42.0, "duration": 4.0, "text": "Zeg me waar het Zand\n gemaakt wordt."},
+        {"start": 47.0, "duration": 3.5, "text": "Hier.\n Maar de kamer is verzegeld.\n Je kunt er niet in."},
+        {"start": 51.0, "duration": 1.0, "text": "Er moet een manier zijn."},
+        {"start": 52.0, "duration": 5.5, "text": "Ha! Dan moet je de\n versterkingen van het fort\n ongedaan maken. Onmogelijk."},
+        {"start": 58.0, "duration": 4.0, "text": "Als iemand zijn dood onder ogen\n ziet, is het onmogelijke amper\n een grens."},
+        {"start": 63.0, "duration": 1.5, "text": "Zeg me hoe je dat doet."},
+        {"start": 65.5, "duration": 1.0, "text": "Goed."}
+      ]
+    },
+    {
+      "table": "2F00A563",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6531"],
+      "cues": [
+        {"start": 7.0, "duration": 2.0, "text": "We hebben geen tijd meer.\n Ben je zover?"},
+        {"start": 12.5, "duration": 4.5, "text": "Ik heb eens nagedacht, Kaileena.\n Dit eiland heeft je niet\n veel te bieden,"},
+        {"start": 17.0, "duration": 3.0, "text": "en nog minder als ik je\n Meesteres verslagen heb."},
+        {"start": 21.0, "duration": 5.0, "text": "Ga met me mee naar Babylon!\n Daar kun je overnieuw beginnen,\n zonder alle kwaad van hier."},
+        {"start": 27.0, "duration": 3.0, "text": "Sorry Prins,\n maar ik kan je aanbod\n niet aannemen."}
+      ]
+    },
+    {
+      "table": "2F00A564",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6532"],
+      "cues": [
+        {"start": 7.0, "duration": 2.0, "text": "We hebben geen tijd meer.\n Ben je zover?"},
+        {"start": 12.5, "duration": 4.5, "text": "Ik heb eens nagedacht, Kaileena.\n Dit eiland heeft je niet\n veel te bieden,"},
+        {"start": 17.0, "duration": 3.0, "text": "en nog minder als ik je\n Meesteres verslagen heb."},
+        {"start": 21.0, "duration": 5.0, "text": "Ga met me mee naar Babylon!\n Daar kun je overnieuw beginnen,\n zonder alle kwaad van hier."},
+        {"start": 27.0, "duration": 3.0, "text": "Sorry Prins,\n maar ik kan je aanbod\n niet aannemen."}
+      ]
+    },
+    {
+      "table": "2F00A565",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6541"],
+      "cues": [
+        {"start": 3.0, "duration": 2.0, "text": "Waar is de keizerin?\n Waar is het Zand?\n Dit lijkt wel een gevangenis."},
+        {"start": 16.0, "duration": 3.0, "text": "Waar ben je mee bezig?\n Je hebt ons hier opgesloten!"},
+        {"start": 22.0, "duration": 3.5, "text": "Sorry Prins, maar slechts\n één van ons kan het lot verslaan."},
+        {"start": 32.5, "duration": 3.0, "text": "JIJ… bent de Keizerin!"},
+        {"start": 38.0, "duration": 4.5, "text": "Ik zei je weg te gaan.\n En toch kwam je terug.\n Ik vroeg me af"},
+        {"start": 43.0, "duration": 3.5, "text": "Als jij jouw lot kon veranderen,\n misschien ik dan het mijne!"}
+      ]
+    },
+    {
+      "table": "2F00A566",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6542"],
+      "cues": [
+        {"start": 19.0, "duration": 2.0, "text": "Het hoeft niet zo af te lopen!"},
+        {"start": 29.0, "duration": 2.5, "text": "Ga met me mee,\n naar het heden."},
+        {"start": 32.0, "duration": 3.0, "text": "Zodat je me in jouw tijd doodt,\n in plaats van de mijne?"},
+        {"start": 39.0, "duration": 5.0, "text": "Sorry Prins, maar slechts één\n van ons kan het lot bedriegen."},
+        {"start": 55.0, "duration": 3.0, "text": "Kaileena…Keizerin…\n luister!"},
+        {"start": 59.0, "duration": 4.0, "text": "Nee! Jij moet luisteren:\n de Tijdslijn zegt dat je me doodt,"},
+        {"start": 63.0, "duration": 2.0, "text": "maar ik verander de Tijdslijn!"}
+      ]
+    },
+    {
+      "table": "2F00A567",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 655"],
+      "cues": [
+        {"start": 1.0, "duration": 2.0, "text": "Ik hoopte dat de Dahaka je zou doden."},
+        {"start": 3.0, "duration": 3.0, "text": "Dat Shahdee je hier vandaan kon houden…"},
+        {"start": 6.0, "duration": 2.0, "text": "of dat de Torens met je\n af zouden rekenen."},
+        {"start": 8.0, "duration": 4.0, "text": "Ik had het zwaard zelfs vervloekt!\n EN TOCH GING JE NIET DOOD!"},
+        {"start": 18.0, "duration": 2.0, "text": "Waarom doe je dit?"},
+        {"start": 20.0, "duration": 5.0, "text": "Dat heb ik al verteld,\n ik heb mijn toekomst gezien.\n Ik sterf door jouw hand…"},
+        {"start": 25.0, "duration": 3.0, "text": "Maar ik wilde dat veranderen."}
+      ]
+    },
+    {
+      "table": "2F00A568",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6561"],
+      "cues": [
+        {"start": 0.1, "duration": 2.9, "text": "Ik wens je geen kwaad toe,\n Kaileena…"},
+        {"start": 5.0, "duration": 2.0, "text": "… maar ik moet dit afmaken."},
+        {"start": 9.5, "duration": 5.5, "text": "Je bent een DWAAS Prins!\n Wat je ook doet, je faalt."},
+        {"start": 17.0, "duration": 5.0, "text": "Ik heb het ook geprobeerd,\n en heb gefaald."},
+        {"start": 24.0, "duration": 2.0, "text": "Het spijt me, Kaileena."}
+      ]
+    },
+    {
+      "table": "2F00A569",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 657"],
+      "cues": [
+        {"start": 0.1, "duration": 6.8, "text": "Het Zand des Tijds. Na alles wat ik\n gedaan heb om er vanaf\n te komen, kwelt het me nog…"},
+        {"start": 7.0, "duration": 6.0, "text": "Zelfs als ik het\n Schimmenmasker vind,\n dan eist het Lot me nog op!"},
+        {"start": 13.0, "duration": 5.0, "text": "Ik krijg alleen een tweede\n kans om te falen!"},
+        {"start": 22.0, "duration": 4.0, "text": "Ik zie iets over het hoofd!\n Denk na…"},
+        {"start": 27.0, "duration": 4.0, "text": "Deze muur. Hij lijkt op\n de muur die ik op weg naar\n de gevangenis zag."},
+        {"start": 39.0, "duration": 2.0, "text": "Dat werkte eerder…"}
+      ]
+    },
+    {
+      "table": "2F00A56A",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6581"],
+      "cues": [
+        {"start": 9.0, "duration": 1.0, "text": "Wat als…"}
+      ]
+    },
+    {
+      "table": "2F00A56B",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 701"],
+      "cues": [
+        {"start": 0.1, "duration": 2.9, "text": "Ok. Ik ben terug in het heden."},
+        {"start": 3.0, "duration": 5.9, "text": "Ik weet nu tenminste hoe\n deze poorten werken."}
+      ]
+    },
+    {
+      "table": "2F00A56C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 702"],
+      "cues": [
+        {"start": 3.0, "duration": 2.0, "text": "De Dahaka! Het heeft me gevonden."}
+      ]
+    },
+    {
+      "table": "2F00A56D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 8511"],
+      "cues": [
+        {"start": 24.0, "duration": 2.0, "text": "Jij daar. Help me!"},
+        {"start": 27.0, "duration": 4.0, "text": "Ze hebben gelijk:\n \"De vijand van mijn\n vijand is een vriend.\""},
+        {"start": 35.0, "duration": 4.0, "text": "Laat haar met rust!\n Jij en ik hebben nog\n wat af te maken."}
+      ]
+    },
+    {
+      "table": "2F00A56E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 8512"],
+      "cues": [
+        {"start": 4.0, "duration": 4.0, "text": "Ik heb mijn best gedaan, Keizerin.\n Hij was te sterk voor me."},
+        {"start": 8.0, "duration": 2.0, "text": "Heeft hij het Eiland bereikt?"},
+        {"start": 12.0, "duration": 5.0, "text": "Erger nog,\n hij is me door een poort gevolgd.\n Hij is hier nu, in onze tijd."},
+        {"start": 17.0, "duration": 6.0, "text": "Hoe durf je voor me te staan\n en je falen toe te geven! Je had je\n leven moeten geven om me te beschermen."},
+        {"start": 23.0, "duration": 5.0, "text": "Ik geef mijn leven niet op voor\n deze dwaasheid. Als u de\n Tijdslijn wilt veranderen,"},
+        {"start": 28.0, "duration": 2.0, "text": "doe het dan zelf!"},
+        {"start": 30.0, "duration": 5.0, "text": "Na alles wat ik gedaan heb.\n Hoe kun je…"},
+        {"start": 41.0, "duration": 2.0, "text": "Ik weet al hoe dit afloopt…"}
+      ]
+    },
+    {
+      "table": "2F00A56F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 852"],
+      "cues": [
+        {"start": 21.0, "duration": 3.0, "text": "Wacht! Alsjeblieft…\n Ik moet met je praten."},
+        {"start": 24.0, "duration": 2.0, "text": "Wat wil je van me?"},
+        {"start": 26.0, "duration": 2.0, "text": "Ik wil een audiëntie\n met de Keizerin."},
+        {"start": 29.0, "duration": 4.0, "text": "De Keizerin ontvangt niemand.\n Wie denk je wel dat je bent?"},
+        {"start": 34.0, "duration": 5.0, "text": "Ik ben de Perzische Prins!"},
+        {"start": 36.0, "duration": 5.0, "text": "Ah zo.\n Vandaag is een belangrijke dag.\n Ze mag niet gestoord worden."},
+        {"start": 41.0, "duration": 2.0, "text": "Ik denk dat je het\n niet begrijpt hoe belangrijk dit is."},
+        {"start": 46.0, "duration": 3.0, "text": "Dwaas! Weet je niet…"},
+        {"start": 51.0, "duration": 2.0, "text": "…dat je je lot\n niet kunt veranderen!"},
+        {"start": 59.0, "duration": 5.0, "text": "\"Je kunt je lot niet veranderen\"\n Had ze het tegen mij?\n Hoe weet ze wat ik moet doen?"},
+        {"start": 78.5, "duration": 1.0, "text": "KIJK UIT!"},
+        {"start": 85.5, "duration": 3.0, "text": "Blijf daar!\n Ik kom naar je toe."},
+        {"start": 89.0, "duration": 6.0, "text": "Nee, Prins! Ga weg van hier\n en keer niet weer. De Keizerin voelt\n geen liefde voor mensen."},
+        {"start": 95.0, "duration": 3.0, "text": "Ze doodt je als ze je hier ontdekt."}
+      ]
+    },
+    {
+      "table": "2F00A570",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1001"],
+      "cues": [
+        {"start": 0.1, "duration": 4.9, "text": "Hmm…\n dit balkon voert verder de tuin in."},
+        {"start": 5.0, "duration": 5.0, "text": "Ik moet uiteindelijk een weg\n naar boven zien te vinden, maar nu\n heb ik er nog niets aan."}
+      ]
+    },
+    {
+      "table": "2F00A571",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1002"],
+      "cues": [
+        {"start": 1.0, "duration": 5.0, "text": "Wat een geschreeuw.\n Ik hoop dat ik niet te laat kom."},
+        {"start": 6.0, "duration": 5.0, "text": "Farzaad, de eerste stuur!\n Ik dacht jullie verzopen waren..."},
+        {"start": 11.0, "duration": 3.0, "text": "Farzaad,\n wat is er met je gebeurd?"},
+        {"start": 14.0, "duration": 3.0, "text": "Het beest… het…"},
+        {"start": 17.0, "duration": 3.0, "text": "… je moet…\n je moet…"},
+        {"start": 20.0, "duration": 3.0, "text": "Wat, m'n vrind?\n Wat moet ik doen?"},
+        {"start": 23.0, "duration": 3.0, "text": "…VLUCHT!"}
+      ]
+    },
+    {
+      "table": "2F00A572",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1003"],
+      "cues": [
+        {"start": 0.1, "duration": 6.0, "text": "Dit Eiland zit vol verrassingen.\n Pijnlijke,\n onaangename verrassingen…"}
+      ]
+    },
+    {
+      "table": "2F00A573",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1004"],
+      "cues": [
+        {"start": 0.1, "duration": 2.0, "text": "Ich muss meinen Weg\n zurück in den Thronsaal finden."}
+      ]
+    },
+    {
+      "table": "2F00A574",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 10511"],
+      "cues": [
+        {"start": 2.5, "duration": 3.0, "text": "Dus Babylon is niet de enige\n plaats met hangende tuinen."},
+        {"start": 5.5, "duration": 4.0, "text": "Dit is echter geen\n vluchthaven voor monsters!"}
+      ]
+    },
+    {
+      "table": "2F00A575",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1101"],
+      "cues": [
+        {"start": 1.0, "duration": 5.0, "text": "Wat een geschreeuw.\n Ik hoop dat ik niet te laat kom."}
+      ]
+    },
+    {
+      "table": "2F00A576",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1102"],
+      "cues": [
+        {"start": 1.0, "duration": 5.0, "text": "Wat een geschreeuw.\n Ik hoop dat ik niet te laat kom."},
+        {"start": 6.0, "duration": 5.0, "text": "Farzaad, de eerste stuur!\n Ik dacht jullie verzopen waren..."},
+        {"start": 11.0, "duration": 3.0, "text": "Farzaad,\n wat is er met je gebeurd?"},
+        {"start": 14.0, "duration": 3.0, "text": "Het beest… het…"},
+        {"start": 17.0, "duration": 3.0, "text": "… je moet…\n je moet…"},
+        {"start": 20.0, "duration": 3.0, "text": "Wat, m'n vrind?\n Wat moet ik doen?"},
+        {"start": 23.0, "duration": 3.0, "text": "…VLUCHT!"}
+      ]
+    },
+    {
+      "table": "2F00A577",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1151"],
+      "cues": [
+        {"start": 0.1, "duration": 4.9, "text": "Hmm…\n dit balkon voert verder de tuin in."},
+        {"start": 5.0, "duration": 5.0, "text": "Ik moet uiteindelijk een weg\n naar boven zien te vinden, maar nu\n heb ik er nog niets aan."}
+      ]
+    },
+    {
+      "table": "2F00A578",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1201"],
+      "cues": [
+        {"start": 2.0, "duration": 3.0, "text": "Ik ben op de goeie plek…\n maar in de verkeerde tijd."},
+        {"start": 6.0, "duration": 3.5, "text": "Ik moet naar het verleden\n om deze toren te activeren."}
+      ]
+    },
+    {
+      "table": "2F00A579",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 1252"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "De Dahaka!"},
+        {"start": 4.0, "duration": 3.0, "text": "Het is een kluwen van ranken.\n Dit Eiland werkt me op mijn zenuwen…"}
+      ]
+    },
+    {
+      "table": "2F00A57A",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 21511"],
+      "cues": [
+        {"start": 6.5, "duration": 1.5, "text": "Wat wil je van me?"}
+      ]
+    },
+    {
+      "table": "2F00A57B",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 21512"],
+      "cues": [
+        {"start": 2.0, "duration": 1.5, "text": "Wat wil je van me?"},
+        {"start": 9.5, "duration": 2.5, "text": "Mijn andere ik is bezig de\n torens te activeren."},
+        {"start": 12.5, "duration": 3.5, "text": "Er is amper tijd om naar de Troonzaal\n te gaan en te wachten tot de\n deur open gaat!"},
+        {"start": 29.5, "duration": 5.5, "text": "De torens! Ik… Hij heeft ze geactiveerd. Ben ik te laat?"},
+        {"start": 37.5, "duration": 2.5, "text": "Ik ben te ver gekomen\n om nog te falen!"}
+      ]
+    },
+    {
+      "table": "2F00A57C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 2301"],
+      "cues": [
+        {"start": 0.1, "duration": 3.9, "text": "Deze machine activeert\n de Mechanische Toren."},
+        {"start": 4.0, "duration": 4.0, "text": "Ik moet een poort vinden,\n en hopen dat de ramp die deze"},
+        {"start": 8.0, "duration": 2.0, "text": "plaats gaat treffen\n nog niet gebeurd is!"}
+      ]
+    },
+    {
+      "table": "2F00A57D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 2351"],
+      "cues": [
+        {"start": 4.0, "duration": 5.0, "text": "Geweldig. Het is in een veel\n betere staat dan de vorige keer…\n Hoe krijg ik het nu aan de praat?"}
+      ]
+    },
+    {
+      "table": "2F00A57E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 4001"],
+      "cues": [
+        {"start": 2.0, "duration": 4.0, "text": "Hoe kan dit?\n Ik zag de Keizerin\n sterven.\n Ze heeft het Zand niet geschapen."},
+        {"start": 6.0, "duration": 3.0, "text": "Er kan geen Dahaka zijn..."},
+        {"start": 26.0, "duration": 4.0, "text": "… en toch achtervolgt hij me nog!\n Wat ging er fout?"}
+      ]
+    },
+    {
+      "table": "2F00A57F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 4251"],
+      "cues": [
+        {"start": 1.0, "duration": 5.0, "text": "Empress Kaileena's bibliotheek…\n Wat zal hier veel kennis bewaard worden."},
+        {"start": 5.0, "duration": 5.0, "text": "Ze had me zoveel\n kunnen leren denk ik…\n als alles anders was gelopen."},
+        {"start": 10.0, "duration": 9.0, "text": "Geen tijd\n voor dagdromen!"}
+      ]
+    },
+    {
+      "table": "2F00A581",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 4253"],
+      "cues": [
+        {"start": 11.0, "duration": 2.0, "text": "Val dood, klootzak!"}
+      ]
+    },
+    {
+      "table": "2F00A582",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6151"],
+      "cues": [
+        {"start": 0.1, "duration": 5.0, "text": "Ik kan niet bij het platform.\n Misschien kan ik het naar mij\n toe brengen!"}
+      ]
+    },
+    {
+      "table": "2F00A583",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6152"],
+      "cues": [
+        {"start": 0.1, "duration": 4.0, "text": "Kom op, één van\n die hendels moet werken…"}
+      ]
+    },
+    {
+      "table": "2F00A584",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 7101"],
+      "cues": [
+        {"start": 0.1, "duration": 5.0, "text": "Tot nu liet ik de Dahaka\n me sturen, me bang maken."},
+        {"start": 10.0, "duration": 5.0, "text": "Voor mijn gevangenneming,\n mijn dood, het verlies van familie\n en vrienden. Maar nu ben ik woedend."},
+        {"start": 15.0, "duration": 5.0, "text": "Ik ga Empress Kaileena in\n het heden doden.En ik zal vrij zijn."}
+      ]
+    },
+    {
+      "table": "2F00A585",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 71021"],
+      "cues": [
+        {"start": 0.1, "duration": 4.9, "text": "Het wilde me niet doden,\n maar me waarschuwen! Voor\n Kaileena's verraad,"},
+        {"start": 5.0, "duration": 2.0, "text": "voor mijn rol bij het\n scheppen van het Zand."}
+      ]
+    },
+    {
+      "table": "2F00A586",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 71031"],
+      "cues": [
+        {"start": 2.0, "duration": 4.0, "text": "Ik weet wat je gezien hebt,\n wat je denkt gezien te hebben\n op de Tijdslijn."},
+        {"start": 7.0, "duration": 2.0, "text": "Dan weet je ook dat\n ik geen keuze heb."},
+        {"start": 9.0, "duration": 2.0, "text": "Er is altijd een keuze,\n Kaileena"},
+        {"start": 11.0, "duration": 4.0, "text": "Dan kies ik het leven,\n en dat jij sterft!"}
+      ]
+    },
+    {
+      "table": "2F00A587",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 7104"],
+      "cues": [
+        {"start": 5.5, "duration": 4.5, "text": "Als het maar niet op\n deze manier hoefde…"},
+        {"start": 12.0, "duration": 6.0, "text": "Je hebt blijkbaar jezelf gered.\n Maar ik word nog steeds het Zand."},
+        {"start": 18.0, "duration": 4.0, "text": "Dan komen\n er anderen zoals de Maharadja."},
+        {"start": 22.0, "duration": 6.0, "text": "pochers en gekken op\n jacht naar 't Zand."},
+        {"start": 28.0, "duration": 7.0, "text": "En wederom teistert mijn\n wraak jouw wereld!"}
+      ]
+    },
+    {
+      "table": "2F00A588",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 7105"],
+      "cues": [
+        {"start": 0.1, "duration": 2.9, "text": "OPHOUDEN!!\n IK WIL JE NIET DODEN!"},
+        {"start": 3.0, "duration": 5.0, "text": "Zelfs al wil je me niet doden,\n je gaat het toch doen.\n De Tijdslijn eist het!"},
+        {"start": 8.0, "duration": 4.0, "text": "Nee Kaileena.\n Je kunt je lot veranderen.\n Dat heb ik al gedaan."},
+        {"start": 12.0, "duration": 4.0, "text": "Een verschrikkelijk monster\n zou mijn leven nemen.\n Maar ik heb mezelf bevrijd van…"},
+        {"start": 17.0, "duration": 1.0, "text": "Wat is dat voor ding?"},
+        {"start": 18.0, "duration": 4.0, "text": "Nee. NEE!! Hoe kan dit? Ik\n voorkwam dat Kaileena\n stierf in het verleden."},
+        {"start": 22.0, "duration": 2.0, "text": "De Zandloper is leeg!"},
+        {"start": 30.0, "duration": 5.0, "text": "Kaileena hoort niet thuis in\n deze Tijdslijn. Het Beest jaagt\n nu op haar."},
+        {"start": 36.0, "duration": 3.0, "text": "Door haar hier te brengen heb\n ik haar tot sterven veroordeeld.\n Ik moet haar redden!"},
+        {"start": 40.0, "duration": 2.0, "text": "Dit is allemaal JOUW schuld!"},
+        {"start": 45.0, "duration": 5.0, "text": "Nou zeg?! Dit zwaard, het\n beschermt me tegen de Dahaka."},
+        {"start": 50.0, "duration": 3.0, "text": "Misschien is het beest\n toch niet onkwetsbaar."}
+      ]
+    },
+    {
+      "table": "2F00B71C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6522"],
+      "cues": [
+        {"start": 1.0, "duration": 1.0, "text": "Dit heb je nodig."},
+        {"start": 4.0, "duration": 2.0, "text": "Het is meer dan alleen\n maar een wapen."}
+      ]
+    },
+    {
+      "table": "2F00B71D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6523"],
+      "cues": [
+        {"start": 0.1, "duration": 0.0, "text": "Hoe bedoel je?"},
+        {"start": 2.0, "duration": 7.0, "text": "Slagen of mislukken de afloop\n komt op hetzelfde neer. Je kunt niet voorkomen\n dat het Zand geschapen wordt."},
+        {"start": 7.0, "duration": 2.0, "text": "Wat in de Tijdslijn staat\n kan niet veranderd worden."},
+        {"start": 10.0, "duration": 2.0, "text": "Bedankt voor de raad."}
+      ]
+    },
+    {
+      "table": "2F00B73C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 5542"],
+      "cues": [
+        {"start": 0.5, "duration": 1.0, "text": "Je hebt niet veel tijd meer."}
+      ]
+    },
+    {
+      "table": "2F00B747",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 10512"],
+      "cues": [
+        {"start": 0.1, "duration": 0.0, "text": "Mijn doel, net buiten bereik.\n Ik moet er naartoe."}
+      ]
+    },
+    {
+      "table": "2F00B752",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6562"],
+      "cues": [
+        {"start": 9.0, "duration": 2.0, "text": "Ik moet terug naar het heden!"}
+      ]
+    },
+    {
+      "table": "2F00B75D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 6582"],
+      "cues": [
+        {"start": 0.1, "duration": 3.9, "text": "Het is duidelijk: gebruik het\n Masker om Kaileena\n naar het heden te dwingen"},
+        {"start": 4.0, "duration": 5.0, "text": "zodat ik haar daar kan doden.\n Makkelijk. Althans..."}
+      ]
+    },
+    {
+      "table": "2F00B768",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 71022"],
+      "cues": [
+        {"start": 0.1, "duration": 3.9, "text": "… en toen\n STIERF het! Ik STIERF!"},
+        {"start": 8.0, "duration": 5.0, "text": "Het Masker is een deel van me.\n En als de Maharadja de\n waarheid sprak,"},
+        {"start": 13.0, "duration": 3.0, "text": "blijft dat zo totdat\n mijn andere ik sterft."},
+        {"start": 16.0, "duration": 3.0, "text": "Alleen dan kan ik\n het masker afzetten."}
+      ]
+    },
+    {
+      "table": "2F00B773",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 42522"],
+      "cues": [
+        {"start": 2.0, "duration": 2.0, "text": "Probeer me maar te vangen!"}
+      ]
+    },
+    {
+      "table": "2F00B77E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 71032"],
+      "cues": [
+        {"start": 1.0, "duration": 2.0, "text": "Zie je wel?!\n We KUNNEN ons lot wel veranderen!"},
+        {"start": 4.0, "duration": 2.0, "text": "De eerste keer dat we\n vochten gebeurde dit niet."},
+        {"start": 6.0, "duration": 2.0, "text": "De eerste keer?"},
+        {"start": 8.0, "duration": 4.0, "text": "Dat probeer ik je de hele\n tijd al te vertellen! Als je me\n het nou gewoon laat uitleggen!"},
+        {"start": 12.0, "duration": 5.5, "text": "Bek dicht, Prins! Als je alleen\n maar PRAAT en niks laat ZIEN,"},
+        {"start": 17.5, "duration": 1.5, "text": "laten we het dan afmaken!"},
+        {"start": 19.0, "duration": 1.0, "text": "Het spijt me."}
+      ]
+    },
+    {
+      "table": "2F00B77F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 71033"],
+      "cues": [
+        {"start": 1.0, "duration": 2.0, "text": "IK VERMOORD JE!"},
+        {"start": 3.0, "duration": 4.0, "text": "Ik wil je geen pijn doen,\n Kaileena. Maar dat kan ik\n niet toestaan!"}
+      ]
+    },
+    {
+      "table": "2F00B854",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9001"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Mijn bemanning, allemaal dood.\n Ik krijg degene die dit gedaan\n heeft wel, en ze zal ervoor boeten..."}
+      ]
+    },
+    {
+      "table": "2F00B855",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9002"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Het lijkt erop dat ik zo'n\n \"tijdreis kamer\" gevonden heb\n waar die oude man het over had."}
+      ]
+    },
+    {
+      "table": "2F00B856",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9003"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Ik kan het beste\n die vrouw maar zoeken,\n ze haalt vast versterkingen!"}
+      ]
+    },
+    {
+      "table": "2F00B857",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9004"],
+      "cues": [
+        {"start": 0.1, "duration": 2.4, "text": "Ok. Ik ben terug in het heden."},
+        {"start": 3.0, "duration": 5.9, "text": "Ik weet nu tenminste hoe\n deze poorten werken."}
+      ]
+    },
+    {
+      "table": "2F00B858",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9005"],
+      "cues": [
+        {"start": 0.1, "duration": 2.9, "text": "Ik ben de Dahaka\n kwijtgeraakt, voorlopig."},
+        {"start": 4.0, "duration": 4.0, "text": "Kan maar beter alert blijven.\n Hij komt terug, zoals altijd."}
+      ]
+    },
+    {
+      "table": "2F00B859",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9006"],
+      "cues": [
+        {"start": 0.1, "duration": 2.9, "text": "Wat als…"}
+      ]
+    },
+    {
+      "table": "2F00B85A",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9007"],
+      "cues": [
+        {"start": 0.1, "duration": 5.9, "text": "Geweldig. Het is in een veel\n betere staat dan de vorige keer…\n Hoe krijg ik het nu aan de praat?"}
+      ]
+    },
+    {
+      "table": "2F00B85B",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9008"],
+      "cues": [
+        {"start": 10.0, "duration": 3.9, "text": "Ik ben bang dat ik niet veel tijd meer heb.\n Terwijl ik de Torens activeer,"},
+        {"start": 14.0, "duration": 2.0, "text": "creëert de Keizerin\n ongetwijfeld het Zand!"}
+      ]
+    },
+    {
+      "table": "2F00B85C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9009"],
+      "cues": [
+        {"start": 0.1, "duration": 4.9, "text": "De deur blijft gesloten…"}
+      ]
+    },
+    {
+      "table": "2F00B85D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9010"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Tijd is een luxe,\n beste Prins,\n die je nu even niet hebt."}
+      ]
+    },
+    {
+      "table": "2F00B85E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9011"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Als je de volgende toren afmaakt,\n dan ben ik hier… en ik wacht op je."}
+      ]
+    },
+    {
+      "table": "2F00B85F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9012"],
+      "cues": [
+        {"start": 10.0, "duration": 3.0, "text": "Ik heb niet veel tijd meer.\n Terwijl ik de Torens activeer,"},
+        {"start": 13.5, "duration": 3.5, "text": "maakt de Keizerin\n ongetwijfeld het Zand."}
+      ]
+    },
+    {
+      "table": "2F00B860",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9013"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "De Dahaka! Maar hij is zo ver weg.\n Komt hij voor iemand\n anders op het eiland?"}
+      ]
+    },
+    {
+      "table": "2F00B861",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9014"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "De vegetatie heeft deze toren echt\n te grazen genomen…\n hij is helemaal overwoekerd!"}
+      ]
+    },
+    {
+      "table": "2F00B862",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9015"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Subtitles not yet available"}
+      ]
+    },
+    {
+      "table": "2F00B863",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9016"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Ik moet de Keizerin snel hiermee\n confronteren. Hopelijk is ze\n nog niet klaar!"}
+      ]
+    },
+    {
+      "table": "2F00B864",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9017"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Subtitles not yet available"}
+      ]
+    },
+    {
+      "table": "2F00B865",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9018"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Muren met de grond gelijk maken…\n Dit is echt een machtig zwaard."}
+      ]
+    },
+    {
+      "table": "2F00B866",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9019"],
+      "cues": [
+        {"start": 1.0, "duration": 3.9, "text": "Empress Kaileena's bibliotheek…\n Wat zal hier veel kennis bewaard worden."},
+        {"start": 5.0, "duration": 5.0, "text": "Ze had me zoveel\n kunnen leren denk ik…\n als alles anders was gelopen."}
+      ]
+    },
+    {
+      "table": "2F00B867",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9020"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Subtitles not yet available"}
+      ]
+    },
+    {
+      "table": "2F00B868",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9021"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Dit kost me alleen maar tijd.\n Ik kan het beste maar snel naar\n de Troonzaal… en het Masker gaan!"}
+      ]
+    },
+    {
+      "table": "2F00B869",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9022"],
+      "cues": [
+        {"start": 0.1, "duration": 6.9, "text": "Tot nu liet ik de Dahaka\n me sturen, me bang maken."},
+        {"start": 7.0, "duration": 5.0, "text": "Voor mijn gevangenneming,\n mijn dood, het verlies van familie\n en vrienden. Maar nu ben ik woedend."},
+        {"start": 12.0, "duration": 4.0, "text": "Ik ga Empress Kaileena in\n het heden doden.En ik zal vrij zijn."}
+      ]
+    },
+    {
+      "table": "2F00B86A",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9023"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Subtitles not yet available"}
+      ]
+    },
+    {
+      "table": "2F00B86B",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9024"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Subtitles not yet available"}
+      ]
+    },
+    {
+      "table": "2F00B86C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9025"],
+      "cues": [
+        {"start": 0.1, "duration": 9.9, "text": "De Poort doet het niet meer!\n Er is iets aan de hand..."}
+      ]
+    },
+    {
+      "table": "2F00B86D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9026"],
+      "cues": [
+        {"start": 0.1, "duration": 3.9, "text": "Nu ik het Masker heb,\n hoef ik alleen maar terug te gaan naar\n de Troonzaal en het"},
+        {"start": 4.0, "duration": 6.0, "text": "op te nemen tegen de Keizerin. Maar net zoals\n alles op dit eiland is dat\n gemakkelijker gezegd dan gedaan, ben ik bang…"}
+      ]
+    },
+    {
+      "table": "2F00B86E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9027"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Subtitles not yet available"}
+      ]
+    },
+    {
+      "table": "2F00B86F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9028"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Subtitles not yet available"}
+      ]
+    },
+    {
+      "table": "2F00B870",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9029"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Shahdee moet de stenen\n brug hebben laten instorten."}
+      ]
+    },
+    {
+      "table": "2F00B871",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9030"],
+      "cues": [
+        {"start": 0.1, "duration": 9.9, "text": "De Troonzaal is vlakbij!\n Maar van hieruit kan ik er niet komen.\n Ik moet een andere manier zien te vinden!"}
+      ]
+    },
+    {
+      "table": "2F00B872",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9031"],
+      "cues": [
+        {"start": 0.1, "duration": 5.0, "text": "Ik kan niet bij het platform.\n Misschien kan ik het naar mij\n toe brengen!"}
+      ]
+    },
+    {
+      "table": "2F00B873",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9032"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Kom op, één van\n die hendels moet werken…"}
+      ]
+    },
+    {
+      "table": "2F00B874",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9033"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Shit! Niet nu!"}
+      ]
+    },
+    {
+      "table": "2F00B875",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9034"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Subtitles not yet available"}
+      ]
+    },
+    {
+      "table": "2F00B876",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9035"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Subtitles not yet available"}
+      ]
+    },
+    {
+      "table": "2F00B877",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9036"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Subtitles not yet available"}
+      ]
+    },
+    {
+      "table": "2F00B878",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9037"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Subtitles not yet available"}
+      ]
+    },
+    {
+      "table": "2F00B879",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9038"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Subtitles not yet available"}
+      ]
+    },
+    {
+      "table": "2F00B87A",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9039"],
+      "cues": [
+        {"start": 1.0, "duration": 3.0, "text": "Subtitles not yet available"}
+      ]
+    },
+    {
+      "table": "2F00B87B",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9040"],
+      "cues": [
+        {"start": 0.1, "duration": 3.3, "text": "Ik heb nog nooit zo´n groot\n uurwerk gezien…"},
+        {"start": 3.4, "duration": 3.3, "text": "Het lijkt wel alsof de hele toren\n één grote machine is."},
+        {"start": 6.7, "duration": 3.3, "text": "Maar waar dient het voor,\n vraag ik me af?"}
+      ]
+    },
+    {
+      "table": "2F00B87C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9041"],
+      "cues": [
+        {"start": 0.1, "duration": 4.9, "text": "Een compleet overdekt woud!\n Ongetwijfeld een haard\n van allerlei kwaad…"},
+        {"start": 5.0, "duration": 2.0, "text": "Ik mag wel uitkijken."}
+      ]
+    },
+    {
+      "table": "2F00B87D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9042"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Een zwaard…\n maar hoe kan ik het pakken?"}
+      ]
+    },
+    {
+      "table": "2F00B87E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9043"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Ok, ok.\n Dit maakt het een stuk gemakkelijker."}
+      ]
+    },
+    {
+      "table": "2F00B87F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9044"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Ik zie geen hand voor ogen!\n Kan beter maar opletten. Wie weet\n wat er zich in deze mist verschuilt…"}
+      ]
+    },
+    {
+      "table": "2F00B880",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9045"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Ik zie helemaal niks!\n Ik moet uitkijken waar ik loop."}
+      ]
+    },
+    {
+      "table": "2F00B881",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9046"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Voorzichtig…voorzichtig…"}
+      ]
+    },
+    {
+      "table": "2F00B882",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9047"],
+      "cues": [
+        {"start": 4.1, "duration": 3.4, "text": "Die deur! De hendel die de\n deur opent moet hier ergens zijn."},
+        {"start": 7.5, "duration": 1.5, "text": "Kon ik maar iets zien in deze mist."}
+      ]
+    },
+    {
+      "table": "2F00B883",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9048"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Dit is de goede weg."}
+      ]
+    },
+    {
+      "table": "2F00B884",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9049"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Nee, nee, nee.\n Dit is niet de goede weg."}
+      ]
+    },
+    {
+      "table": "2F00B885",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9050"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Dit brengt me waarschijnlijk\n waar ik heen wil."}
+      ]
+    },
+    {
+      "table": "2F00B886",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9051"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Ik herken dit niet, dit is\n niet het juiste pad…"}
+      ]
+    },
+    {
+      "table": "2F00B887",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9052"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Volgens MIJ is dit het juiste pad"}
+      ]
+    },
+    {
+      "table": "2F00B888",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9053"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Dit kan handig zijn."}
+      ]
+    },
+    {
+      "table": "2F00B889",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9054"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Zo te zien kan dat van pas komen."}
+      ]
+    },
+    {
+      "table": "2F00B88A",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9055"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Dit moet toch ergens\n goed voor zijn!"}
+      ]
+    },
+    {
+      "table": "2F00B88B",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9056"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Dat is hier met opzet!"}
+      ]
+    },
+    {
+      "table": "2F00B88C",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9057"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Ik moet opschieten!"}
+      ]
+    },
+    {
+      "table": "2F00B88D",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9058"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Ik heb hier geen tijd voor!!"}
+      ]
+    },
+    {
+      "table": "2F00B88E",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9059"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Ik hoop dat ik niet te laat kom."}
+      ]
+    },
+    {
+      "table": "2F00B88F",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9060"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Verdomme!\n Er is geen tijd meer!"}
+      ]
+    },
+    {
+      "table": "2F00B890",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9061"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Ik moet sneller zijn."}
+      ]
+    },
+    {
+      "table": "2F00B891",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9062"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Tijd is van wezenlijk belang…"}
+      ]
+    },
+    {
+      "table": "2F00B892",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9063"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Dwaas! Ik ben de Keizerin van de Tijd.\n Ik weet wat je gaat doen\n vóór je het zelf weet!"}
+      ]
+    },
+    {
+      "table": "2F00B893",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9064"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Ik ben je altijd\n een stap voor, Prins!\n Je kunt me niks maken!"}
+      ]
+    },
+    {
+      "table": "2F00B894",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9065"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Je verspilt je tijd!\n Ik kan de toekomst zien."}
+      ]
+    },
+    {
+      "table": "2F00B895",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9066"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Er is meer voor nodig dan\n een simpele houw met een zwaard\n om mij te treffen!"}
+      ]
+    },
+    {
+      "table": "2F00B896",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9067"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Onmogelijk!\n Waarom heb ik dit niet zien aankomen?"}
+      ]
+    },
+    {
+      "table": "2F00B897",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9068"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Dit klopt niet!\n Hoe heb je de Tijdslijn\n weten te trotseren?"}
+      ]
+    },
+    {
+      "table": "2F00B898",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9069"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Ik kan de toekomst zien…\n Waarom zag ik dit dan niet?"}
+      ]
+    },
+    {
+      "table": "2F00B899",
+      "type": "cutscene",
+      "trigger": ["WW subtitle context 9070"],
+      "cues": [
+        {"start": 0.1, "duration": 10.0, "text": "Jouw krachten…\n ze zijn groter dan de mijne!"}
+      ]
+    },
+    {
+      "movie": "cine0004",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF97"],
+      "cues": [
+        {"start": 7.0, "end": 10.0, "text": "Nee. NEE!!\n Hoe is het mogelijk?"},
+        {"start": 15.0, "end": 17.9, "text": "Het Zand is hier in het nu,\n niet in\n de Zandloper!"},
+        {"start": 25.0, "end": 32.0, "text": "Het is het Zand dat niet langer\n in de Tijdslijn zou moeten bestaan.\n De Dahaka doet zijn werk!"},
+        {"start": 32.0, "end": 32.1, "text": ""},
+        {"start": 34.0, "end": 39.0, "text": "Ik heb niet alleen mezelf\n gered, ik heb het Zand\n des Tijds ook geëlimineerd!"},
+        {"start": 43.0, "end": 46.0, "text": "Wat? Wat wil je?"},
+        {"start": 54.0, "end": 55.0, "text": "De Amulet !"},
+        {"start": 57.0, "end": 59.5, "text": "De laatste resten\n van het Zand des Tijds."},
+        {"start": 65.0, "end": 66.5, "text": "Kan het waar zijn?"},
+        {"start": 68.0, "end": 70.5, "text": "Ik heb mijn lot veranderd!"},
+        {"start": 92.0, "end": 93.5, "text": "Ik zal snel weer thuis zijn."},
+        {"start": 96.0, "end": 101.0, "text": "Je kunt je lot niet ontlopen.\n Dat kan niemand."},
+        {"start": 102.0, "end": 103.5, "text": "Wat heb ik gedaan?"}
+      ]
+    },
+    {
+      "movie": "cine0005",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF98"],
+      "cues": [
+        {"start": 54.0, "end": 62.0, "text": "We hebben deze boot samen gebouwd.\n we verlieten samen het Eiland.\n en samen keren we terug naar Babylon."},
+        {"start": 61.9, "end": 62.0, "text": ""},
+        {"start": 126.0, "end": 129.0, "text": "Alles wat van jou is,\n behoort mij toe."},
+        {"start": 147.0, "end": 150.0, "text": "Het is van mij!"},
+        {"start": 152.0, "end": 158.0, "text": "je reis loopt niet goed\n af.Je kunt je lot niet ontlopen"},
+        {"start": 158.0, "end": 159.5, "text": "Dat kan niemand."}
+      ]
+    },
+    {
+      "movie": "cine0100",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF99"],
+      "cues": [
+        {"start": 98.0, "end": 100.0, "text": "Deze storm toont ons geen genade."},
+        {"start": 101.0, "end": 103.0, "text": "Dat betalen we hem terug!"},
+        {"start": 104.5, "end": 106.0, "text": "Reef het grootzeil."},
+        {"start": 107.0, "end": 108.5, "text": "Draai naar de wind!"},
+        {"start": 129.0, "end": 131.0, "text": "Trek je wapens!"},
+        {"start": 197.0, "end": 198.0, "text": "Maak hem af!"}
+      ]
+    },
+    {
+      "movie": "cine0102",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF9A"],
+      "cues": [
+        {"start": 2.0, "end": 3.0, "text": "Eiland der Tijd zou bereiken…"},
+        {"start": 6.0, "end": 13.0, "text": "De plek waar het Zand geschapen\n is. De plek waar de Maharadja\n de zandloper gestolen heeft."},
+        {"start": 14.0, "end": 16.0, "text": "En als ik nou eens op dat\n eiland kon komen?"},
+        {"start": 17.5, "end": 22.0, "text": "Ze zeggen dat de Maharadja\n poorten gevonden heeft waardoor\n je terug in de tijd kunt gaan."},
+        {"start": 24.0, "end": 25.0, "text": "Terug in de tijd…"},
+        {"start": 26.0, "end": 28.0, "text": "naar de oorsprong van het zand…"},
+        {"start": 30.0, "end": 35.0, "text": "Er is iets ergs gebeurd toen\n ons leger naar het paleis van\n de Maharadja ging."},
+        {"start": 36.0, "end": 38.0, "text": "Je hebt het\n Zand der Tijd gevonden…"},
+        {"start": 39.0, "end": 42.0, "text": "Erger nog!\n Ik heb het vrijgelaten."},
+        {"start": 45.0, "text": "Wie het Zand vrijlaat,\n moet sterven."},
+        {"start": 50.0, "end": 54.0, "text": "Ik moest mijn makkers\n en zij die mij dierbaar zijn doden.\n Ik had zelf moeten sterven."},
+        {"start": 54.0, "end": 57.0, "text": "Maar nu zit een niet te\n stoppen beest achter je aan…\n en je gaat sterven."},
+        {"start": 60.0, "end": 64.0, "text": "…en zo komt het dus dat\n voor het eerst in mijn\n leven ik doodsbang ben."},
+        {"start": 64.5, "end": 67.0, "text": "en je zult sterven."},
+        {"start": 68.0, "end": 71.5, "text": "Ik heb dit weten te\n voorkomen! Ik heb het Zand gebruikt\n om de tijd terug te draaien."},
+        {"start": 71.5, "end": 73.0, "text": "Zodat de Zandloper nooit geopend werd."},
+        {"start": 75.0, "end": 79.0, "text": "Dat beest, de \"Dahaka\",\n is de Hoeder van de Tijdslijn."},
+        {"start": 80.0, "end": 84.0, "text": "Nu je niet langer in onze tijd\n mag bestaan, zal het je vinden"},
+        {"start": 84.0, "end": 87.0, "text": "en ervoor zorgen dat je\n je lot niet ontloopt."},
+        {"start": 89.0, "end": 92.0, "text": "het is beter dan hier op\n mijn dood te wachten."},
+        {"start": 92.0, "end": 99.9, "text": "Waanzin! Zelfs als je het Eiland bereikt,\n loop je nog \nsteeds tegen de Keizerin der Tijd aan…"},
+        {"start": 99.9, "end": 100.0, "text": ""},
+        {"start": 100.0, "end": 105.0, "text": "Dan reis ik terug in de tijd en\n voorkom dat het Zand ooit\n gecreëerd wordt."},
+        {"start": 105.0, "end": 109.0, "text": "Als er geen Zand is, heeft de\n Dahaka geen problemen met me!"},
+        {"start": 111.0, "end": 113.0, "text": "Ga dan, mijn Prins."},
+        {"start": 113.0, "end": 121.0, "text": "Maar denk eraan: je reis loopt\n niet goed af. Je kunt je\n lotsbestemming niet veranderen."},
+        {"start": 122.0, "end": 124.0, "text": "Dat kan niemand."}
+      ]
+    },
+    {
+      "movie": "cine0400",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF9B"],
+      "cues": [
+        {"start": 9.5, "end": 11.5, "text": "Waanzin!\n Wat is dit voor toverij?"}
+      ]
+    },
+    {
+      "movie": "cine0550",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00BC13"],
+      "cues": [
+        {"start": 0.1, "end": 4.0, "text": "Het activeert ook een systeem\n met bruggen die je\ntoegang\n geven tot de andere torens."},
+        {"start": 5.5, "end": 7.5, "text": "Het maakt alleen niets uit…"}
+      ]
+    },
+    {
+      "movie": "cine0650",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00BC14"],
+      "cues": [
+        {"start": 1.0, "end": 6.0, "text": "Het hek wordt bediend door\n een uurwerk in de\n Mechanische Toren."},
+        {"start": 6.9, "end": 7.0, "text": ""},
+        {"start": 7.0, "end": 12.0, "text": "Zelfs al zou je dat kunnen\n bereiken en activeren, dan heeft de\n machine nog steeds stroom nodig."},
+        {"start": 12.0, "end": 16.0, "text": "Als het water door\n de slotgracht gaat,\n krijgt de machine stroom."},
+        {"start": 17.0, "end": 20.0, "text": "Maar eerst moet je de\n slotgracht met het water uit\n de Tuin Toren vullen."},
+        {"start": 21.0, "end": 25.0, "text": "Activeer beide torens en\n de deur gaat open…"}
+      ]
+    },
+    {
+      "movie": "cine0651",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00BC15"],
+      "cues": [
+        {"start": 0.1, "end": 10.1, "text": "…de zandloper is voor\n meer dan de helft leeg…"}
+      ]
+    },
+    {
+      "movie": "cine0654",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00BC16"],
+      "cues": [
+        {"start": 0.1, "end": 3.0, "text": "Wat als Empress Kaileena\n niet in het verleden stierf\n maar in het heden?"},
+        {"start": 3.0, "end": 7.0, "text": "Dan wordt het Zand gemaakt..\n Maar dan vindt de Maharadja"},
+        {"start": 8.0, "end": 11.0, "text": "het niet Dan wordt het hier\n niet naartoe gebracht EN laat\n ik het nooit vrij."},
+        {"start": 11.0, "end": 14.0, "text": "Dan heeft de Dahaka\n niks met me te doen!"}
+      ]
+    },
+    {
+      "movie": "cine4000",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF9C"],
+      "cues": [
+        {"start": 8.0, "end": 13.0, "text": "Ik sta zelf aan de\n wieg van mijn eigen ondergang."},
+        {"start": 24.0, "end": 25.5, "text": "Dus dit is het dan."},
+        {"start": 27.0, "end": 32.0, "text": "Wat in de Tijdslijn\n geschreven staat kan\n echt niet veranderd worden…"},
+        {"start": 39.0, "end": 41.0, "text": "Pak me dan!"},
+        {"start": 50.0, "end": 56.0, "text": "Door het Zand des Tijds\n te willen vernietigen, heb ik\n het juist GESCHAPEN!"},
+        {"start": 68.0, "end": 72.0, "text": "Laat een ieder kennis\n nemen van de moed en eer"},
+        {"start": 72.0, "end": 76.0, "text": "van zij die voor de\n Maharadja vochten en vielen."},
+        {"start": 78.0, "end": 82.0, "text": "We waren op zoek naar de\n macht van het Zand des Tijds."},
+        {"start": 82.0, "end": 86.0, "text": "De meesten vonden alleen\n de dood,waaronder ikzelf…"},
+        {"start": 97.0, "end": 100.0, "text": "om terug in de tijd te gaan\n en mijn lot te veranderen"},
+        {"start": 103.0, "end": 106.0, "text": "Deze fries laat het onmogelijke zien."},
+        {"start": 110.0, "end": 113.0, "text": "Doch die MASKE DES TODES\n verschaffte mir die Macht"},
+        {"start": 115.0, "end": 117.0, "text": "Er is nog steeds hoop…"},
+        {"start": 121.0, "end": 125.0, "text": "Jij hebt je kans gehad.\n Meer zit er niet in voor je."}
+      ]
+    },
+    {
+      "movie": "cine7100",
+      "type": "cutscene",
+      "trigger": ["Retail WW subtitle table 2F00AF9D"],
+      "cues": [
+        {"start": 55.0, "end": 58.0, "text": "Ik…ik ben dat DING geworden!"}
+      ]
+    }
+  ]
+}
