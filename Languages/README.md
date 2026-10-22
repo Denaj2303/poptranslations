@@ -79,30 +79,42 @@ subtitles. Other languages need a subtitle file in the folder
 named after the language, in its own name or in English, such as
 `Languages/Polski/Subtitles/sot.json`.
 
-To add English, or any other language, install that edition as a pack. For
-example, put the English edition's `POPData.bf` and archive into
-`Languages/English/`, next to its `Subtitles/` folder.
+UI translations are available from the shipped `UI/<game>.json` catalogs.
+To also replace the edition's game resources, install that edition as a pack.
+For example, put the English edition's `POPData.bf` and archive into
+`Languages/English/`, next to its `UI/` and `Subtitles/` folders.
 
 ## Retail languages
 
-The Text Language row lists the languages the game's own files hold
-completely: menus as well as in-game text.
+The Text Language row lists the installed edition, every language with a
+`Languages/<Name>/UI/<game>.json` catalog, and optional packs of translated
+game resources. `<game>` is `sot`, `ww` or `t2t`. A catalog for another game,
+`common.json` alone, or subtitles alone do not add a text language.
+
+UI translations come from JSON. A catalog needs no `POPData.bf`, `Menu/`,
+MGM/MGB files or font files to appear in the list. Without matching resources,
+it keeps the installed edition's script-text slot, fonts and images. Its
+catalog does not duplicate the default entry when both name the same language.
 
 **SoT and WW**
 
 - SoT has five language slots: English, French, Spanish, Italian and German.
   WW adds Dutch.
-- Only the language of your `POPData.bf` is listed.
-- `prince.bf` often holds the in-game text of the other languages too. Their
-  menus, however, come only with their own edition's `POPData.bf`. To add one
-  of them, install that `POPData.bf` as a pack. See
+- `POPData.bf` identifies the installed edition's default resource language.
+- `prince.bf` often holds the in-game text of the other languages too.
+  An edition's `POPData.bf` identifies its language and supplies SoT's menu
+  fonts and images. Install it as a pack with the matching UI catalogs. See
   [Another Retail language](#another-retail-language-sot-ww).
 
 **T2T**
 
-- A language is listed when it has a `Menu/<LANGUAGE>/` folder that holds
-  `.mgb` files and `Fonts/POP3_54.MFT`.
-- The folder names are `ENGLISH`, `FRENCH`, `SPANISH`, `ITALIAN` and `GERMAN`.
+- Optional game resources still use `Menu/<LANGUAGE>/`: script text in
+  `.mgb` files and the font in `Fonts/POP3_54.MFT`. Their presence does not
+  determine which UI catalogs are listed.
+- A resource pack's folder name selects its script-text slot: `ENGLISH`,
+  `FRENCH`, `SPANISH`, `ITALIAN` or `GERMAN`.
+- When a catalog matches one of these languages and its font is already
+  installed in the game's `Menu/`, it uses that resource slot and font.
 
 **Voices**
 
@@ -127,9 +139,9 @@ To install one, copy the edition's files into `Languages/<Name>/` beside
 openjade.exe
 Languages/
   Polski/
-    POPData.bf           menu text (SoT: also menu fonts and images)
+    POPData.bf           edition identity (SoT: also menu fonts and images)
     prince.bf            in-game text and fonts (T2T: pop3.bf)
-    Menu/                WW: *.MGM menu files; T2T: <LANGUAGE>/ folders
+    Menu/                T2T: script string packages and fonts
     UI/
       common.json        shared engine menu text
       sot.json           game-specific engine menu text
@@ -148,7 +160,7 @@ Languages/
 Every file is optional: copy what the edition translates.
 
 - **`POPData.bf`**
-  - Holds the menu text. In SoT it also holds the menu fonts and images.
+  - Supplies SoT's menu fonts and images. Its menu strings are not loaded.
   - Declares the edition's language (`Language=` under `[General]`).
 - **`prince.bf` / `pop3.bf`**
   - The game compares this archive with yours and uses only what it
@@ -166,8 +178,8 @@ Every file is optional: copy what the edition translates.
     menu image that the pack also holds, the pack's version is used while the
     pack is selected.
 - **`Menu/`**
-  - WW reads its `.MGM` menu files from here.
-  - T2T reads its `<LANGUAGE>/` folders from here, which hold menus and a font.
+  - T2T reads script string packages and fonts from its `<LANGUAGE>/` folders.
+  - Legacy `.MGM` menus and `.MGB` UI pages are not loaded.
 - **`UI/`**
   - `common.json` and `<game>.json` hold the engine's own menu entries. See
     [Menu text](#menu-text). These JSON files do not require subtitles.
@@ -191,6 +203,7 @@ Where a pack is listed depends on what it holds:
 
 | The pack holds | Text Language | Voice Language |
 | --- | --- | --- |
+| `UI/<game>.json` | Listed; uses installed resources unless the pack replaces them | |
 | `POPData.bf`, `prince.bf` / `pop3.bf`, or `Menu/` | Listed | |
 | `Sound/` | | Listed |
 | `Subtitles/<game>.json` | Not listed: shown with the folder's text language | |
@@ -234,9 +247,12 @@ This covers text, voices and movies.
 
 | Game | Copy into `Languages/<Name>/` |
 | --- | --- |
-| SoT | `POPData.bf`, `prince.bf`, `Sound/`, `Video/` |
-| WW | `POPData.bf`, `prince.bf`, `Menu/`, `Video/`, and `Sound/` if the edition is dubbed |
-| T2T | `POPData.bf`, `pop3.bf`, `Menu/`, `Sound/`, `Video/` |
+| SoT | `POPData.bf`, `prince.bf`, `UI/`, `Sound/`, `Video/` |
+| WW | `POPData.bf`, `prince.bf`, `UI/`, `Video/`, and `Sound/` if the edition is dubbed |
+| T2T | `POPData.bf`, `pop3.bf`, `Menu/`, `UI/`, `Sound/`, `Video/` |
+
+Use the shipped `UI/` catalogs or translate them as described under
+[Menu text](#menu-text); original game editions do not contain these JSON files.
 
 Then choose the pack as the Text Language. Its voices, its movies, and its
 `Subtitles/` follow automatically.
@@ -246,17 +262,18 @@ only and has no `Sound/`.
 
 #### Text only
 
-Use this for a subtitled edition or a fan translation. Copy `POPData.bf` and
-the archive. For WW and T2T, also copy `Menu/`. Your voices stay as they are.
+Use this for a subtitled edition or a fan translation. Copy `POPData.bf`,
+the archive and the matching `UI/` catalogs. For T2T, also copy `Menu/`.
+Your voices stay as they are.
 
 #### Another Retail language (SoT, WW)
 
 Use this when your `prince.bf` already holds the language's in-game text, as
 multi-language editions do.
 
-Copy only that edition's `POPData.bf`, and for WW its `Menu/`. For example:
-`Languages/Français/POPData.bf`. The pack brings the menus and uses the
-in-game text your archive already holds.
+Copy that edition's `POPData.bf`, for example `Languages/Français/POPData.bf`,
+beside its `UI/` catalogs. The pack selects the in-game text your archive
+already holds; SoT also uses its menu fonts and images.
 
 #### Another T2T language
 
@@ -495,11 +512,16 @@ source at runtime.
 
 ### Menu text
 
-The engine's own menu entries live in `Languages/<Name>/UI/`, independently
-of subtitles. `common.json` holds shared phrases; `sot.json`, `ww.json` and
-`t2t.json` hold entries for each game. The English files are the source text,
-including the fallback for incomplete translations; no English dictionary is
-compiled into the executable.
+The host UI's text lives in `Languages/<Name>/UI/`, independently of subtitles.
+`common.json` holds shared phrases; `sot.json`, `ww.json` and `t2t.json` hold
+entries for each game, including the Retail labels requested by the host UI.
+Both use the same `Localization::Get` facade. No English dictionary is compiled
+into the executable.
+
+Resource keys use `Section.Element`, for example `P_ControlsMenu.TitleKeyboard`.
+Repeated elements append `[1]`, `[2]`, etc.; identifier-only MGB elements use
+`0x` followed by eight hexadecimal digits. Only keys requested by the host are
+published. See [UI catalog validation](https://github.com/dekamaru/ww-recomp/blob/master/tools/localization/README.md).
 
 To translate them, copy the relevant JSON files from `Languages/English/UI/`
 to your language's `UI/` folder and edit the values. For example,
@@ -512,20 +534,22 @@ to your language's `UI/` folder and edit the values. For example,
 }
 ```
 
-- Entries load in this order: English `common.json`, English `<game>.json`,
-  the selected language's `common.json`, then its `<game>.json`. Later values
-  replace earlier ones. An omitted entry keeps its earlier value; an empty
-  string intentionally hides the text.
+- Loading merges English and selected-language `common.json` and `<game>.json`
+  into one dictionary. Translated values replace English, and game-specific
+  values replace common ones. UI lookups read only this dictionary; POPData,
+  MGM and MGB are never consulted for missing UI entries. An empty string
+  intentionally hides the text. A key absent from JSON returns `!MISSING!`.
 - English `common.json` and the current game's English file are required.
   Translation files are optional. Invalid translation files are reported
   and skipped.
 - Codes in braces, such as `{B6}`, are controller buttons. Keep them.
 - Keep placeholders such as `{button}` unchanged too.
+- Use `\n` for a line break and `\n\n` for a blank line.
 - The menus draw this text in the language's menu font using its automatic
   [text encoding](#text-encodings). Letters the encoding or font lacks show as `?`.
 - A folder containing only these JSON files does not add a selectable text
   language: the game's own translated text still comes from its Retail files.
-- `openjade.log` names any entry the game does not know.
+- A translation may contain a requested key absent from the English edition.
 
 ### Lines
 

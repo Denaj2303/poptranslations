@@ -1,0 +1,17 @@
+{
+  "Actions.Action_0": "Skok",
+  "Actions.Action_1": "Cofnij",
+  "Actions.Action_3": "Użyj sztyletu",
+  "Actions.Action_37": "Lewo",
+  "Actions.Action_38": "Prawo",
+  "Actions.Action_6": "Przewijanie",
+  "Actions.Action_7": "Specjalna czynność",
+  "ConfirmProfileDelete.Text": "Czy na pewno chcesz usunąć\nprofil o nazwie '{0}' i\nzachowane w nim gry?",
+  "ConfirmQuit.Text": "Na pewno chcesz wyjść z gry\nPrince of Persia: Piaski Czasu?",
+  "P_ControlsMenu.FLInverted": "Odwrotnie",
+  "P_ControlsMenu.TitleGamepad": "Sterowanie",
+  "P_ControlsMenu.TitleKeyboard": "Sterowanie",
+  "P_ProfileMenu.CreateNew": "Nowy Profil",
+  "P_SaveConfirmation.Title": "Czy chcesz zapisać?",
+  "P_SoundsMenu.Virtualization": "Wirtualizacja dźwięku"
+}

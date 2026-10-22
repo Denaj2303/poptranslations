@@ -1,0 +1,9 @@
+{
+  "Actions.Action_0": "Прыжок",
+  "Actions.Action_1": "Отмена",
+  "Actions.Action_3": "Исп. кинжал",
+  "Actions.Action_6": "Прокрутка назад",
+  "Actions.Action_7": "Особое действие",
+  "ConfirmProfileDelete.Text": "Вы уверены, что хотите удалить\nпрофиль '{0}' и\nвсе его сохранения?",
+  "ConfirmQuit.Text": "Вы уверены, что хотите выйти\nиз Принца Персии?"
+}

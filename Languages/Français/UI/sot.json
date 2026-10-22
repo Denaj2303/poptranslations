@@ -1,0 +1,13 @@
+{
+  "Actions.Action_0": "Sauter",
+  "Actions.Action_1": "Annuler",
+  "Actions.Action_10": "Ramener caméra",
+  "Actions.Action_3": "Utiliser la dague",
+  "Actions.Action_6": "Retour en arrière",
+  "Actions.Action_7": "Action spéciale",
+  "BindReplaceConfirm.Text": "{0} est déjà attribué à {1}\nêtes-vous sûr(e) de vouloir\nchanger pour {2}?",
+  "ConfirmProfileDelete.Text": "Voulez-vous vraiment effacer\nle profil appelé '{0}' et toutes\nles sauvegardes associées ?",
+  "ConfirmQuit.Text": "Voulez-vous vraiment quitter\nPrince of Persia Les Sables du Temps ?",
+  "ProfileAlreadyExists.Text": "Un profil portant le nom de '{0}'\nexiste déjà. Veuillez indiquer un autre nom\nou effacer le profil existant.",
+  "ProfileReservedName.Text": "Impossible de créer un profil\navec le nom  '{0}'."
+}

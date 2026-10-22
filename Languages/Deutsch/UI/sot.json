@@ -1,0 +1,22 @@
+{
+  "Actions.Action_0": "Springen",
+  "Actions.Action_1": "Abbruch",
+  "Actions.Action_10": "Kamera zurücks.",
+  "Actions.Action_3": "Dolch verwenden",
+  "Actions.Action_37": "Nach links",
+  "Actions.Action_38": "Nach rechts",
+  "Actions.Action_39": "Nach vorne",
+  "Actions.Action_40": "Nach hinten",
+  "Actions.Action_41": "Kamera links",
+  "Actions.Action_42": "Kamera rechts",
+  "Actions.Action_43": "Kamera vorne",
+  "Actions.Action_44": "Kamera hinten",
+  "Actions.Action_45": "Gang ändern",
+  "Actions.Action_6": "Zurückspulen",
+  "Actions.Action_7": "Spezial-Aktion:",
+  "BindReplaceConfirm.Text": "{0} ist derzeit in Aktion\n{1} zugewiesen. Möchten\nSie die Taste der Aktion\n{2} zuweisen?",
+  "ConfirmProfileDelete.Text": "Seid Ihr sicher, dass Ihr das Profil\n'{0}' und alle seine gespeicherten\nSpiele löschen wollt?",
+  "ConfirmQuit.Text": "Seid Ihr sicher, dass Ihr\nPrince of Persia The Sands of Time beenden wollt?",
+  "ProfileAlreadyExists.Text": "Es existiert bereits ein Profil\nmit dem Namen '{0}'. Gebt bitte einen\nanderen Namen ein oder löscht den vorhandenen.",
+  "ProfileReservedName.Text": "Ein Profil mit dem Namen '{0}'\nkann nicht angelegt werden."
+}

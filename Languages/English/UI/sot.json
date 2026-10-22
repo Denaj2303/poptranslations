@@ -1,12 +1,15 @@
 {
   "Controls.Select": "Select",
-  "Controls.Start": "Start",
-  "Controls.MenuUp": "Menu Up",
-  "Controls.MenuDown": "Menu Down",
-  "Controls.MenuLeft": "Menu Left",
-  "Controls.MenuRight": "Menu Right",
   "Game.PrinceCombatEndCutscene": "Prince combat end cutscene",
   "Video.Letterboxing": "Letterboxing",
-  "Video.Brightness": "Brightness",
-  "Video.Contrast": "Contrast"
+  "Actions.Action_0": "Jump",
+  "Actions.Action_1": "Cancel",
+  "Actions.Action_3": "Use Dagger",
+  "Actions.Action_6": "Rewind",
+  "Actions.Action_7": "Special Action",
+  "BindReplaceConfirm.Text": "{0} has already been allocated\nto {1}. Do you really want\nto change it to {2}?",
+  "ConfirmProfileDelete.Text": "Are you sure you want to delete\nthe profile named '{0}' and\nall it's saved games?",
+  "ConfirmQuit.Text": "Are you sure you want to quit\nPrince of Persia The Sands of Time?",
+  "ProfileAlreadyExists.Text": "There is already a profile\nwith the name '{0}'.\nPlease enter another name or\ndelete the existing one.",
+  "ProfileReservedName.Text": "Unable to create a profile\nwith the name '{0}'."
 }
