@@ -108,10 +108,10 @@ catalog does not duplicate the default entry when both name the same language.
 
 **T2T**
 
-- Optional game resources still use `Menu/<LANGUAGE>/`: script text in
-  `.mgb` files and the font in `Fonts/POP3_54.MFT`. Their presence does not
+- Optional game resources still use `Menu/<LANGUAGE>/` for the font in
+  `Fonts/POP3_54.MFT`. MGB files are no longer read. Font presence does not
   determine which UI catalogs are listed.
-- A resource pack's folder name selects its script-text slot: `ENGLISH`,
+- A resource pack's folder name selects its resource-language slot: `ENGLISH`,
   `FRENCH`, `SPANISH`, `ITALIAN` or `GERMAN`.
 - When a catalog matches one of these languages and its font is already
   installed in the game's `Menu/`, it uses that resource slot and font.
@@ -178,8 +178,8 @@ Every file is optional: copy what the edition translates.
     menu image that the pack also holds, the pack's version is used while the
     pack is selected.
 - **`Menu/`**
-  - T2T reads script string packages and fonts from its `<LANGUAGE>/` folders.
-  - Legacy `.MGM` menus and `.MGB` UI pages are not loaded.
+  - T2T reads fonts from its `<LANGUAGE>/` folders.
+  - Legacy `.MGM` menus and all `.MGB` packages are not loaded.
 - **`UI/`**
   - `common.json` and `<game>.json` hold the engine's own menu entries. See
     [Menu text](#menu-text). These JSON files do not require subtitles.
@@ -352,14 +352,33 @@ names the language.
 
 ### Fonts
 
-Each language can name its own fonts in `settings.ini`, in a section you add
-by hand. The game preserves the font choices when saving settings.
+The configuration initializes Russian and Polish with the bundled fonts below
+and writes all six path/size settings into `settings.ini` on the first save.
+The paths are relative to the game folder.
+
+| Game | Menu, tutorial and subtitle font | Menu size | Tutorial size | Subtitle size |
+| --- | --- | --- | --- | --- |
+| Sands of Time | `Fonts/AtlantisMF.ttf` | `1.12` | `1.0` | `1.0` |
+| Warrior Within | `Fonts/Cinzel-Regular.ttf` | `1.4` | `1.0` | `1.0` |
+
+These presets apply only to Russian and Polish, including their language-pack
+folders. The Two Thrones and all other languages keep their existing fonts.
+The complete `assets/Fonts` directory is copied into runtime folders and the
+release ZIP as `Fonts`, including `Cinzel-OFL.txt`.
+
+Edit the generated `[fonts.Russian]` and `[fonts.Polski]` sections to change these
+choices, or add a `[fonts.<language>]` section for another language. Existing
+sections keep their names and values; saving fills in missing defaults. Font
+selection reads this loaded configuration without a separate game/language preset.
 
 ```ini
 [fonts.Polski]
 menu = Lato-Regular.ttf
+menu_size = 1.0
 tutorial = Lato-Regular.ttf
+tutorial_size = 1.2
 subtitles = Lato-Regular.ttf
+subtitles_size = 1.1
 ```
 
 - **The section name** is the language's folder name (`Polski`, `English`),
@@ -368,14 +387,26 @@ subtitles = Lato-Regular.ttf
 - **`menu`, `tutorial`, `subtitles`** name TrueType or OpenType files. The game
   looks for each file in `Languages/<Name>/`, then the game folder, then the
   system's fonts (on Windows, macOS, Linux and Android). A full path works
-  too. A key left out keeps the default font.
+  too. A key left out keeps the default font; an explicitly empty file name
+  disables that custom font and uses the game's usual font selection.
 - **`menu`** draws all menu text: pages, buttons, saved games and prompts.
 - **`tutorial`** draws tutorial hints. In SoT and WW, it redraws the hints the
   game shows in the scene, where the game puts them, with their colour,
   button icons and the Text Size. In T2T, it draws the hint panel.
 - **`subtitles`** draws all JSON subtitles, including original WW captions
   imported for cutscenes, movies and level lines.
-- **Defaults:** menus and tutorial hints use the game's or the language
+- **`menu_size`, `tutorial_size`, `subtitles_size`** independently multiply
+  the size of the corresponding custom font: `1.0`
+  keeps their current size, `1.2` makes them 20% larger, and `0.8` makes them
+  20% smaller. Each scales glyphs, inline icons, line spacing and text measurements
+  together, preserving the relative sizes of headings and ordinary text.
+  These multipliers do not change the distance between glyphs and their shadows.
+  Tutorials and subtitles also retain the game's Text Size adjustment.
+  Each defaults to `1.0`, except for the menu presets above; positive values
+  are limited to `0.25` through `4.0`. Invalid or nonpositive values keep the
+  default for that role. Roles without a custom font keep
+  their original size.
+- **Other defaults:** menus and tutorial hints use the game's or the language
   pack's own fonts. Subtitles use Arial, or Liberation Sans, Roboto or
   DejaVu Sans where Arial is not installed.
   - In WW and T2T, subtitles use the game's own font instead (WW's cutscene
@@ -394,8 +425,8 @@ subtitles = Lato-Regular.ttf
 
 ### Text encodings
 
-The engine and [`extract_ww.py`](https://github.com/dekamaru/ww-recomp/blob/master/tools/subtitles/README.md#original-ww-subtitles)
-share the fixed [language dictionary](https://github.com/dekamaru/ww-recomp/blob/master/src/TextLanguages/Encodings.inc).
+The engine and [`extract_ww.py`](../../tools/subtitles/README.md#original-ww-subtitles)
+share the fixed [language dictionary](../../src/TextLanguages/Encodings.inc).
 Native and English language names are accepted, regardless of case.
 
 | Language / folder | Code page | WW byte overrides |
@@ -504,7 +535,8 @@ source at runtime.
 **Fonts**
 
 - Text can use any Unicode script.
-- The default font is Arial; the system's fonts fill in CJK, Hangul and
+- Russian and Polish in SoT and WW use the bundled [font presets](#fonts).
+- Otherwise the default font is Arial; the system's fonts fill in CJK, Hangul and
   Indic scripts. In WW the default is the game's cutscene font, and in T2T
   the game's menu font, when it can draw every letter of the file.
 - To choose another font, set `subtitles` in the language's `[fonts.<Name>]`
@@ -521,7 +553,7 @@ into the executable.
 Resource keys use `Section.Element`, for example `P_ControlsMenu.TitleKeyboard`.
 Repeated elements append `[1]`, `[2]`, etc.; identifier-only MGB elements use
 `0x` followed by eight hexadecimal digits. Only keys requested by the host are
-published. See [UI catalog validation](https://github.com/dekamaru/ww-recomp/blob/master/tools/localization/README.md).
+published. See [UI catalog validation](../../tools/localization/README.md).
 
 To translate them, copy the relevant JSON files from `Languages/English/UI/`
 to your language's `UI/` folder and edit the values. For example,
@@ -608,14 +640,51 @@ Missing pages end the sequence. These captions show in Full and Cutscenes Only
 modes. WW movies use the usual `movie` format, for example `"cine0100"`.
 
 To import the original localized text, see
-[`tools/subtitles/README.md`](https://github.com/dekamaru/ww-recomp/blob/master/tools/subtitles/README.md#original-ww-subtitles).
+[`tools/subtitles/README.md`](../../tools/subtitles/README.md#original-ww-subtitles).
+
+## Saved-game names
+
+The current save caption and the save/load lists use only `UI/<game>.json`.
+`SaveNames.Checkpoint.<index>` contains the checkpoint names for that game;
+WW additionally uses `SaveNames.Chapter.<index>` for the first line of each
+saved-game caption. These entries belong in `sot.json`, `ww.json` or `t2t.json`,
+never in `common.json`.
+
+Keep the numeric suffixes: existing save files and scripts select those indices.
+Edit Unicode text and use `\n` for line breaks. Names follow Text Language with
+English fallback, independently of the installed game's BF/MGB resources.
+An explicit empty entry stays empty; an unknown index produces no caption.
+
+Extraction is documented in
+[tools/localization](../../tools/localization/README.md#saved-game-names).
+
+## WW reward-video text
+
+`UI/ww.json` groups reward captions under `VideoOverlay.PowerUp.<name>` and
+`VideoOverlay.Weapon.<name>`, for example `VideoOverlay.Weapon.WaterSword`.
+Each has `Header`, `Title` and `Description` strings. `VideoOverlay.Continue`
+is the shared continue prompt.
+
+Use `\n` between description lines. Leading and internal blank lines preserve
+vertical gaps; spaces are retained. Trailing empty lines can be omitted.
+The game displays the first **ten lines**, counting blank lines, in the original
+positions and ignores any additional lines. Text is not automatically wrapped
+or resized. Each field falls back to English when missing; an explicit empty
+`Description` hides the entire description.
+
+## T2T video-overlay text
+
+`UI/t2t.json` supplies `VideoOverlay.SavePrompt` and `VideoOverlay.QuitWarning`
+to the game's video-overlay scripts. The gallery's Back instruction shares
+`Common.Back`. These labels and the script-visible tutorial tables come from
+JSON; the game no longer opens MGB packages.
 
 ## Tutorial hints
 
 Tutorials use only `Languages/<Name>/Tutorials/<game>.json`, where `<game>` is
 `sot`, `ww` or `t2t`. They follow Text Language and need no translated game archive
 or MGB package. English fills missing translations; an unknown entry or an explicit
-empty string clears the hint. Other game-script text keeps its existing sources.
+empty string clears the hint.
 
 Shipped hints cover English, French, German, Polish and Russian in all three
 games, Spanish and Italian in SoT and WW, and Dutch in WW. Each file contains
@@ -627,4 +696,4 @@ Write line breaks as `\n`. Preserve WW/T2T action tokens such as `{BB}` and SoT
 substitutions such as `\\p5\\A` and `\\d2\\`; the game substitutes current
 bindings when displaying the hint. T2T's dictionary phrases are already expanded
 in the catalog. Extraction and validation are documented in
-[tools/localization](https://github.com/dekamaru/ww-recomp/blob/master/tools/localization/README.md#tutorial-catalogs).
+[tools/localization](../../tools/localization/README.md#tutorial-catalogs).
