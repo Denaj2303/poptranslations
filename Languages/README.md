@@ -87,7 +87,7 @@ For example, put the English edition's `POPData.bf` and archive into
 ## Retail languages
 
 The Text Language row lists the installed edition, every language with a
-`Languages/<Name>/UI/<game>.json` catalog, and optional packs of translated
+`Languages/<Name>/UI/<game>.json` or `Tutorials/<game>.json` catalog, and optional packs of translated
 game resources. `<game>` is `sot`, `ww` or `t2t`. A catalog for another game,
 `common.json` alone, or subtitles alone do not add a text language.
 
@@ -609,3 +609,22 @@ modes. WW movies use the usual `movie` format, for example `"cine0100"`.
 
 To import the original localized text, see
 [`tools/subtitles/README.md`](https://github.com/dekamaru/ww-recomp/blob/master/tools/subtitles/README.md#original-ww-subtitles).
+
+## Tutorial hints
+
+Tutorials use only `Languages/<Name>/Tutorials/<game>.json`, where `<game>` is
+`sot`, `ww` or `t2t`. They follow Text Language and need no translated game archive
+or MGB package. English fills missing translations; an unknown entry or an explicit
+empty string clears the hint. Other game-script text keeps its existing sources.
+
+Shipped hints cover English, French, German, Polish and Russian in all three
+games, Spanish and Italian in SoT and WW, and Dutch in WW. Each file contains
+only that game's tutorial tables; SoT also includes the dictionary labels its
+binding substitutions use.
+
+Edit the Unicode JSON values while keeping the keys, for example `5000FBA2.29`.
+Write line breaks as `\n`. Preserve WW/T2T action tokens such as `{BB}` and SoT
+substitutions such as `\\p5\\A` and `\\d2\\`; the game substitutes current
+bindings when displaying the hint. T2T's dictionary phrases are already expanded
+in the catalog. Extraction and validation are documented in
+[tools/localization](https://github.com/dekamaru/ww-recomp/blob/master/tools/localization/README.md#tutorial-catalogs).
