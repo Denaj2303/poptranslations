@@ -1,11 +1,17 @@
 {
+  "Controls.Select": "Выбор",
+  "Game.PrinceCombatEndCutscene": "Ролик в конце боя",
+  "Video.Letterboxing": "Черные полосы",
   "Actions.Action_0": "Прыжок",
   "Actions.Action_1": "Отмена",
   "Actions.Action_3": "Исп. кинжал",
   "Actions.Action_6": "Прокрутка назад",
   "Actions.Action_7": "Особое действие",
+  "BindReplaceConfirm.Text": "Действие {0} уже привязано к клавише\n{1}. Вы действительно хотите\nизменить его на {2}?",
   "ConfirmProfileDelete.Text": "Вы уверены, что хотите удалить\nпрофиль '{0}' и\nвсе его сохранения?",
   "ConfirmQuit.Text": "Вы уверены, что хотите выйти\nиз Принца Персии?",
+  "ProfileAlreadyExists.Text": "Уже есть профиль\nс именем '{0}'.\nПожалуйста, выберите другое имя или\nудалите существующий профиль.",
+  "ProfileReservedName.Text": "Невозможно создать профиль\nс именем '{0}'.",
   "SaveNames.Checkpoint.0": "Пусто",
   "SaveNames.Checkpoint.1": "Сокровищница магараджи",
   "SaveNames.Checkpoint.2": "Повреждено",
@@ -47,6 +53,6 @@
   "SaveNames.Checkpoint.38": "Склеп",
   "SaveNames.Checkpoint.39": "\"Фара, вернись!\"",
   "SaveNames.Checkpoint.40": "Вверх, на башню Восхода",
-  "SaveNames.Checkpoint.41": "Восходящее солнце",
+  "SaveNames.Checkpoint.41": "Заходящее солнце",
   "SaveNames.Checkpoint.42": "Честь и слава"
 }
