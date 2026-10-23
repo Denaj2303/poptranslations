@@ -21,6 +21,8 @@
   "Controls.GamepadSensitivity": "Sensibilit\u007f de la manette",
   "Video.Brightness": "Luminosité",
   "Video.Contrast": "Contraste",
+  "Video.AmbientOcclusion": "Occlusion ambiante",
+  "Video.AnisotropicFiltering": "Filtrage anisotrope",
   "Gallery.Artwork": "Galerie d'Images",
   "Gallery.Videos": "Galerie de Films",
   "Actions.Action_9": "Débuter / Pause",

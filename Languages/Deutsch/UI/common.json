@@ -21,6 +21,8 @@
   "Controls.GamepadSensitivity": "Gamepad-Empfindlichkeit",
   "Video.Brightness": "Helligkeit",
   "Video.Contrast": "Kontrast",
+  "Video.AmbientOcclusion": "Umgebungsverdeckung",
+  "Video.AnisotropicFiltering": "Anisotrope Filterung",
   "Gallery.Artwork": "Artwork-Galerie",
   "Gallery.Videos": "Video-Galerie",
   "Actions.Action_9": "Start-Taste",

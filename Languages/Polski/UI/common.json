@@ -21,6 +21,8 @@
   "Controls.GamepadSensitivity": "Czułość pada",
   "Video.Brightness": "Jasność",
   "Video.Contrast": "Kontrast",
+  "Video.AmbientOcclusion": "Okluzja otoczenia",
+  "Video.AnisotropicFiltering": "Filtrowanie anizotropowe",
   "Gallery.Artwork": "Galeria grafik",
   "Gallery.Videos": "Galeria filmów",
   "Actions.Action_9": "Start",

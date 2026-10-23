@@ -21,6 +21,8 @@
   "Controls.GamepadSensitivity": "Чувств. геймпада",
   "Video.Brightness": "Яркость",
   "Video.Contrast": "Контраст",
+  "Video.AmbientOcclusion": "Фоновое затенение",
+  "Video.AnisotropicFiltering": "Анизотропная фильтрация",
   "Gallery.Artwork": "Галерея графики",
   "Gallery.Videos": "Галерея видео",
   "Actions.Action_9": "Старт",
