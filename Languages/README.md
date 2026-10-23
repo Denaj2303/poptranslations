@@ -352,7 +352,7 @@ names the language.
 
 ### Fonts
 
-The configuration initializes Russian and Polish with the bundled fonts below
+The configuration initializes Polish with the bundled fonts below
 and writes all six path/size settings into `settings.ini` on the first save.
 The paths are relative to the game folder.
 
@@ -360,14 +360,20 @@ The paths are relative to the game folder.
 | --- | --- | --- | --- | --- |
 | Sands of Time | `Fonts/AtlantisMF.ttf` | `1.12` | `1.0` | `1.0` |
 | Warrior Within | `Fonts/Cinzel-Regular.ttf` | `1.4` | `1.0` | `1.0` |
+| The Two Thrones | `Fonts/Cinzel-Regular.ttf` | `1.4` | `1.0` | `1.0` |
 
-These presets apply only to Russian and Polish, including their language-pack
-folders. The Two Thrones and all other languages keep their existing fonts.
+These presets apply only to Polish, including its language-pack folder.
+All other languages use their existing fonts when available. If a game's
+bitmap font or atlas cannot load, missing menu and tutorial faces fall back
+to the bundled font above. Subtitles also use it before system fallback.
+This recovery does not change the selected language or save font overrides;
+switching languages tries that language's own font again. Usable custom
+fonts keep their configured files and sizes.
 The complete `assets/Fonts` directory is copied into runtime folders and the
 release ZIP as `Fonts`, including `Cinzel-OFL.txt`.
 
-Edit the generated `[fonts.Russian]` and `[fonts.Polski]` sections to change these
-choices, or add a `[fonts.<language>]` section for another language. Existing
+Edit the generated `[fonts.Polski]` section to change these choices, or add a
+`[fonts.<language>]` section for another language. Existing
 sections keep their names and values; saving fills in missing defaults. Font
 selection reads this loaded configuration without a separate game/language preset.
 
