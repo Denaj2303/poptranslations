@@ -1,3 +1,11 @@
+[fonts.bosanski]
+menu = Fonts.BosanskiFont.ttf
+menu_size = 1.12
+tutorial = Fonts/BosanskiFont.ttf
+tutorial_size = 1
+subtitles = Fonts.BosanskiFont.ttf
+subtitles_size =1
+
 {
   "game": "sot",
   "translator": "Denaj Sijerčić",
